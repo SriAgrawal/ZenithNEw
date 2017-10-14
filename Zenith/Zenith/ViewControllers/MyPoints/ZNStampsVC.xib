@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Itc kabel Std-Demi.otf">
+            <string>ITCKabelStd-Demi</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZNStampsVC" customModule="Zenith" customModuleProvider="target">
+            <connections>
+                <outlet property="emptyTableLabel" destination="ONx-TV-9Tp" id="Oaw-rl-Oe0"/>
+                <outlet property="footerView" destination="ohZ-Eh-ZsI" id="eyS-He-3K4"/>
+                <outlet property="tableViewStamps" destination="szB-WZ-lqS" id="ey7-d0-fxb"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="default" rowHeight="163" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="szB-WZ-lqS">
+                    <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <inset key="separatorInset" minX="113" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="vZc-eL-3bi"/>
+                        <outlet property="delegate" destination="-1" id="SgX-mj-Uaa"/>
+                    </connections>
+                </tableView>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No stamps available." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ONx-TV-9Tp">
+                    <rect key="frame" x="98" y="323" width="180" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="9cb-9w-3bE"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="Au8-gS-Okb"/>
+                        <constraint firstAttribute="width" constant="180" id="Y9t-XO-Fxs"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="ITCKabelStd-Demi" family="ITC Kabel Std" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="szB-WZ-lqS" secondAttribute="trailing" id="AaR-tN-izh"/>
+                <constraint firstItem="szB-WZ-lqS" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="BXx-BS-NeU"/>
+                <constraint firstItem="ONx-TV-9Tp" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ND8-gj-8C6"/>
+                <constraint firstItem="szB-WZ-lqS" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Um4-gW-8eB"/>
+                <constraint firstAttribute="bottom" secondItem="szB-WZ-lqS" secondAttribute="bottom" id="Ygo-yw-SNy"/>
+                <constraint firstItem="ONx-TV-9Tp" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="qOT-Nz-unX"/>
+            </constraints>
+            <point key="canvasLocation" x="26.5" y="52.5"/>
+        </view>
+        <view contentMode="scaleToFill" id="ohZ-Eh-ZsI">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="1"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="448" y="70"/>
+        </view>
+    </objects>
+</document>

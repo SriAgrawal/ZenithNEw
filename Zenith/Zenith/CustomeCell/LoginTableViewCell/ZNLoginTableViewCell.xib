@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="62" id="KGk-i7-Jjw" customClass="ZNLoginTableViewCell" customModule="Zenith" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="72"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="71.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QI3-Ff-ByR">
+                        <rect key="frame" x="43" y="10" width="289" height="52"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ROF-Xa-r9S" customClass="BTCustomTextfield" customModule="Zenith" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="289" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="CYX-2Y-agi"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
+                                <connections>
+                                    <outlet property="delegate" destination="-1" id="KQD-qa-4nN"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jbY-Ej-IAg">
+                                <rect key="frame" x="0.0" y="0.0" width="289" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="xJn-zA-GEK"/>
+                                </constraints>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="14e-Qa-REy">
+                                <rect key="frame" x="8" y="6" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="R1B-JQ-l7g"/>
+                                    <constraint firstAttribute="width" constant="40" id="cpv-mM-O4b"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="14e-Qa-REy" firstAttribute="top" secondItem="QI3-Ff-ByR" secondAttribute="top" constant="6" id="0pY-ji-bCL"/>
+                            <constraint firstAttribute="bottom" secondItem="jbY-Ej-IAg" secondAttribute="bottom" id="5iY-5l-VEV"/>
+                            <constraint firstItem="jbY-Ej-IAg" firstAttribute="top" secondItem="QI3-Ff-ByR" secondAttribute="top" id="9Mu-JQ-79M"/>
+                            <constraint firstItem="14e-Qa-REy" firstAttribute="leading" secondItem="QI3-Ff-ByR" secondAttribute="leading" constant="8" id="BeD-hw-zcU"/>
+                            <constraint firstAttribute="trailing" secondItem="ROF-Xa-r9S" secondAttribute="trailing" id="IwB-oP-alX"/>
+                            <constraint firstItem="jbY-Ej-IAg" firstAttribute="leading" secondItem="QI3-Ff-ByR" secondAttribute="leading" id="JZP-Oe-kDu"/>
+                            <constraint firstItem="ROF-Xa-r9S" firstAttribute="leading" secondItem="QI3-Ff-ByR" secondAttribute="leading" id="TEo-eO-28t"/>
+                            <constraint firstAttribute="height" constant="52" id="U27-bx-PLO"/>
+                            <constraint firstAttribute="trailing" secondItem="jbY-Ej-IAg" secondAttribute="trailing" id="kFl-dw-c0X"/>
+                            <constraint firstItem="ROF-Xa-r9S" firstAttribute="top" secondItem="QI3-Ff-ByR" secondAttribute="top" id="qkz-jA-PT1"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="26"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="QI3-Ff-ByR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="43" id="Akk-ku-agC"/>
+                    <constraint firstAttribute="trailing" secondItem="QI3-Ff-ByR" secondAttribute="trailing" constant="43" id="HSi-oV-eIW"/>
+                    <constraint firstItem="QI3-Ff-ByR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="ujF-n8-1Ph"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="dateBookinBtn" destination="jbY-Ej-IAg" id="izd-rz-2e5"/>
+                <outlet property="leadingConstraintOutlet" destination="Akk-ku-agC" id="LDT-2D-y6l"/>
+                <outlet property="loginImageView" destination="14e-Qa-REy" id="hDJ-r4-slx"/>
+                <outlet property="loginTextField" destination="ROF-Xa-r9S" id="fix-ts-ZLa"/>
+                <outlet property="trailingConstraintOutlet" destination="HSi-oV-eIW" id="q3o-zn-UtJ"/>
+            </connections>
+            <point key="canvasLocation" x="12" y="5"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Itc kabel Std-Book.otf">
+            <string>ITCKabelStd-Book</string>
+        </array>
+        <array key="Itc kabel Std-Medium.otf">
+            <string>ITCKabelStd-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="280" id="KGk-i7-Jjw" customClass="ZNHomeTableViewCell" customModule="Zenith" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="388" height="280"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="388" height="279.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XgE-JL-fxb">
+                        <rect key="frame" x="1" y="1" width="386" height="273.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vmart" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="faS-ty-48a">
+                        <rect key="frame" x="92" y="209" width="188" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="188" id="Gh0-Do-dxH"/>
+                            <constraint firstAttribute="height" constant="21" id="kDc-Wm-cFb"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="ITCKabelStd-Medium" family="ITC Kabel Std" pointSize="23"/>
+                        <color key="textColor" red="0.1764705882352941" green="0.1764705882352941" blue="0.1764705882352941" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="myReward_Vmart" translatesAutoresizingMaskIntoConstraints="NO" id="970-jj-OnQ">
+                        <rect key="frame" x="0.0" y="0.0" width="388" height="200"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="200" id="Voa-TB-r4s"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vmart" translatesAutoresizingMaskIntoConstraints="NO" id="Gkz-cW-zHj">
+                        <rect key="frame" x="20" y="194" width="60" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="9tf-9w-BPy"/>
+                            <constraint firstAttribute="height" constant="60" id="aaL-41-B9U"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.5 m" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pWF-V6-4fZ">
+                        <rect key="frame" x="320" y="229" width="60" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="GLI-nf-7o7"/>
+                            <constraint firstAttribute="width" constant="60" id="yQI-pw-f2q"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="ITCKabelStd-Book" family="ITC Kabel Std" pointSize="12"/>
+                        <color key="textColor" red="0.49411764705882355" green="0.49411764705882355" blue="0.49411764705882355" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shopping" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oaQ-HF-qmo">
+                        <rect key="frame" x="92" y="229" width="226" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="Eyz-Pp-VfQ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="ITCKabelStd-Medium" family="ITC Kabel Std" pointSize="13"/>
+                        <color key="textColor" red="0.15686274509803921" green="0.15686274509803921" blue="0.15686274509803921" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="XgE-JL-fxb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="1" id="2Ly-vl-D2E"/>
+                    <constraint firstAttribute="bottom" secondItem="Gkz-cW-zHj" secondAttribute="bottom" constant="25.5" id="2SL-Ld-nCm"/>
+                    <constraint firstItem="oaQ-HF-qmo" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="92" id="QCV-pn-Hy1"/>
+                    <constraint firstAttribute="bottom" secondItem="XgE-JL-fxb" secondAttribute="bottom" constant="5" id="WD3-ru-QYo"/>
+                    <constraint firstItem="970-jj-OnQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Z8b-sQ-aFq"/>
+                    <constraint firstItem="Gkz-cW-zHj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="a64-uC-IsR"/>
+                    <constraint firstAttribute="trailing" secondItem="oaQ-HF-qmo" secondAttribute="trailing" constant="70" id="acQ-0x-f1F"/>
+                    <constraint firstItem="oaQ-HF-qmo" firstAttribute="top" secondItem="pWF-V6-4fZ" secondAttribute="bottom" constant="-21" id="cS3-VI-Psd"/>
+                    <constraint firstItem="faS-ty-48a" firstAttribute="leading" secondItem="Gkz-cW-zHj" secondAttribute="trailing" constant="12" id="e1w-i7-uEe"/>
+                    <constraint firstItem="faS-ty-48a" firstAttribute="top" secondItem="970-jj-OnQ" secondAttribute="bottom" constant="9" id="kFK-Of-Wgd"/>
+                    <constraint firstItem="XgE-JL-fxb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="1" id="mKb-rr-7iT"/>
+                    <constraint firstItem="pWF-V6-4fZ" firstAttribute="top" secondItem="970-jj-OnQ" secondAttribute="bottom" constant="29" id="sB7-g0-vG5"/>
+                    <constraint firstItem="970-jj-OnQ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="tkV-wq-mxy"/>
+                    <constraint firstAttribute="trailing" secondItem="XgE-JL-fxb" secondAttribute="trailing" constant="1" id="ubu-j0-aNe"/>
+                    <constraint firstAttribute="trailing" secondItem="970-jj-OnQ" secondAttribute="trailing" id="xPa-Ms-s4I"/>
+                    <constraint firstAttribute="trailing" secondItem="pWF-V6-4fZ" secondAttribute="trailing" constant="8" id="ycR-MR-s2x"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.92156862745098034" green="0.91764705882352937" blue="0.9137254901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <inset key="separatorInset" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
+            <connections>
+                <outlet property="outerView" destination="XgE-JL-fxb" id="ydj-0n-jgI"/>
+                <outlet property="profileCoverImageView" destination="970-jj-OnQ" id="Kjh-X6-HZ4"/>
+                <outlet property="profileImageView" destination="Gkz-cW-zHj" id="Zdr-NE-CvB"/>
+                <outlet property="profileNameLbl" destination="faS-ty-48a" id="qTX-tg-wvv"/>
+                <outlet property="profileWorkLbl" destination="oaQ-HF-qmo" id="eWY-gj-jLI"/>
+                <outlet property="timeLbl" destination="pWF-V6-4fZ" id="MoI-IT-1Gm"/>
+            </connections>
+            <point key="canvasLocation" x="38" y="92"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="myReward_Vmart" width="306" height="154"/>
+        <image name="vmart" width="60" height="58"/>
+    </resources>
+</document>

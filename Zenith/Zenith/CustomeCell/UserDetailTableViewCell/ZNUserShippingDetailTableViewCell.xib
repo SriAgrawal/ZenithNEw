@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="ZNUserShippingDetailTableViewCell" customModule="Zenith" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="69.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QDb-nF-9ww">
+                        <rect key="frame" x="23" y="0.0" width="330" height="69"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BzH-1D-TGI" customClass="BTCustomTextfield" customModule="Zenith" customModuleProvider="target">
+                                <rect key="frame" x="20" y="9" width="290" height="51"/>
+                                <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="Uua-7N-pKd"/>
+                                    <constraint firstAttribute="width" constant="290" id="qGm-M9-j3p"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="BzH-1D-TGI" firstAttribute="centerX" secondItem="QDb-nF-9ww" secondAttribute="centerX" constant="0.5" id="GP9-S0-8pf"/>
+                            <constraint firstItem="BzH-1D-TGI" firstAttribute="leading" secondItem="QDb-nF-9ww" secondAttribute="leading" constant="20" id="W60-sH-uCW"/>
+                            <constraint firstItem="BzH-1D-TGI" firstAttribute="top" secondItem="QDb-nF-9ww" secondAttribute="top" constant="9" id="jIj-Gn-tgu"/>
+                        </constraints>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OZd-8z-EeP">
+                        <rect key="frame" x="48" y="13" width="42" height="42"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="42" id="e8F-0u-PLc"/>
+                            <constraint firstAttribute="height" constant="42" id="pFQ-XJ-jxD"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="QDb-nF-9ww" secondAttribute="trailing" constant="22" id="0Km-ZT-fm4"/>
+                    <constraint firstItem="OZd-8z-EeP" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="13" id="KLh-Sk-Dyl"/>
+                    <constraint firstItem="QDb-nF-9ww" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="23" id="Roq-zP-17V"/>
+                    <constraint firstItem="QDb-nF-9ww" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Rxz-bF-f6i"/>
+                    <constraint firstItem="QDb-nF-9ww" firstAttribute="leading" secondItem="OZd-8z-EeP" secondAttribute="trailing" constant="-67" id="bGJ-9o-8ZH"/>
+                    <constraint firstAttribute="bottom" secondItem="QDb-nF-9ww" secondAttribute="bottom" constant="0.5" id="xLZ-XF-G6G"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="leadingConstraint" destination="Roq-zP-17V" id="Fad-Ow-xMc"/>
+                <outlet property="trailingConstraint" destination="0Km-ZT-fm4" id="uRt-of-rJF"/>
+                <outlet property="userDetailImageView" destination="OZd-8z-EeP" id="Tgi-Af-2Oz"/>
+                <outlet property="userDetailTextField" destination="BzH-1D-TGI" id="IbB-qj-Xka"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Itc kabel Std-Medium.otf">
+            <string>ITCKabelStd-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZNSettingVC" customModule="Zenith" customModuleProvider="target">
+            <connections>
+                <outlet property="settingTableView" destination="qXe-o5-2yH" id="uPZ-dK-Fto"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xrO-fU-QTx">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="178"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Settings" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cC6-g8-fwP">
+                            <rect key="frame" x="139" y="35" width="97" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="lCU-6a-YdB"/>
+                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="97" id="ymf-9U-pNH"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="ITCKabelStd-Medium" family="ITC Kabel Std" pointSize="20"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                            <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n5W-Ox-03G">
+                            <rect key="frame" x="15" y="20" width="60" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="60" id="GqD-19-dEe"/>
+                                <constraint firstAttribute="height" constant="44" id="sTl-1g-IS6"/>
+                            </constraints>
+                            <state key="normal" image="menu"/>
+                            <connections>
+                                <action selector="backButtonAction:" destination="-1" eventType="touchUpInside" id="P7j-co-pu6"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.70980392156862748" blue="0.98431372549019602" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="cC6-g8-fwP" firstAttribute="centerX" secondItem="xrO-fU-QTx" secondAttribute="centerX" id="KFo-ez-U2T"/>
+                        <constraint firstItem="n5W-Ox-03G" firstAttribute="leading" secondItem="xrO-fU-QTx" secondAttribute="leading" constant="15" id="gcm-qf-xg5"/>
+                        <constraint firstAttribute="height" constant="178" id="pap-3f-pDN"/>
+                        <constraint firstItem="n5W-Ox-03G" firstAttribute="top" secondItem="xrO-fU-QTx" secondAttribute="top" constant="20" id="rzy-39-1wO"/>
+                        <constraint firstItem="cC6-g8-fwP" firstAttribute="top" secondItem="xrO-fU-QTx" secondAttribute="top" constant="35" id="tKi-sD-hOx"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="qXe-o5-2yH">
+                    <rect key="frame" x="13" y="80" width="349" height="564"/>
+                    <color key="backgroundColor" red="0.9137254901960784" green="0.91764705882352937" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <inset key="separatorInset" minX="56" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="wCW-xM-8HY"/>
+                        <outlet property="delegate" destination="-1" id="I4l-Pa-AlS"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="0.9137254901960784" green="0.91764705882352937" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="qXe-o5-2yH" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="13" id="KxE-LX-hLX"/>
+                <constraint firstItem="qXe-o5-2yH" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="80" id="OZz-pe-MAb"/>
+                <constraint firstItem="xrO-fU-QTx" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="ZfP-xH-Hud"/>
+                <constraint firstAttribute="bottom" secondItem="qXe-o5-2yH" secondAttribute="bottom" constant="23" id="iRQ-pq-Sq8"/>
+                <constraint firstItem="xrO-fU-QTx" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="kde-go-YyI"/>
+                <constraint firstItem="qXe-o5-2yH" firstAttribute="top" secondItem="xrO-fU-QTx" secondAttribute="bottom" constant="-54" id="lbx-h5-umV"/>
+                <constraint firstAttribute="trailing" secondItem="xrO-fU-QTx" secondAttribute="trailing" id="qw4-Kw-pEm"/>
+                <constraint firstAttribute="trailing" secondItem="qXe-o5-2yH" secondAttribute="trailing" constant="13" id="wQU-hU-8Gc"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="lbx-h5-umV"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="26.5" y="52.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="menu" width="25" height="25"/>
+    </resources>
+</document>

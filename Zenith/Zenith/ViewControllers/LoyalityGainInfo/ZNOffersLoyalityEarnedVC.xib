@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Itc kabel Std-Book.otf">
+            <string>ITCKabelStd-Book</string>
+        </array>
+        <array key="Itc kabel Std-Demi.otf">
+            <string>ITCKabelStd-Demi</string>
+        </array>
+        <array key="Itc kabel Std-Medium.otf">
+            <string>ITCKabelStd-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZNOffersLoyalityEarnedVC" customModule="Zenith" customModuleProvider="target">
+            <connections>
+                <outlet property="backBtn" destination="bv0-33-uvK" id="0cv-rl-UCM"/>
+                <outlet property="earnedPointLabel" destination="hK5-CK-Agy" id="cPj-Wu-cyw"/>
+                <outlet property="emptyLabel" destination="Kts-7H-8Kh" id="O2G-Q4-ObS"/>
+                <outlet property="loyalPointView" destination="vCa-db-pxL" id="JAj-Lw-U22"/>
+                <outlet property="offerUpperConstraint" destination="gzC-qP-rCm" id="TjW-fK-azZ"/>
+                <outlet property="offersTableView" destination="gqS-jG-10x" id="dTj-ld-0ic"/>
+                <outlet property="view" destination="Opf-ln-PO0" id="cyj-dE-wlT"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="Opf-ln-PO0">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HJ1-vK-NnB">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bv0-33-uvK">
+                            <rect key="frame" x="15" y="20" width="60" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="PNS-cC-g5b"/>
+                                <constraint firstAttribute="width" constant="60" id="YrY-tQ-FpX"/>
+                            </constraints>
+                            <connections>
+                                <action selector="menuButtonAction:" destination="-1" eventType="touchUpInside" id="VwG-55-uLa"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Offers" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nig-be-hbl">
+                            <rect key="frame" x="119" y="35" width="137" height="22"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="22" id="fVQ-Vq-H2C"/>
+                                <constraint firstAttribute="width" constant="137" id="hHj-6n-LZl"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="ITCKabelStd-Medium" family="ITC Kabel Std" pointSize="20"/>
+                            <color key="textColor" red="0.98431372549999996" green="0.99607843139999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.71372549019999998" blue="0.98431372549999996" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="06u-ze-2qO"/>
+                        <constraint firstItem="nig-be-hbl" firstAttribute="top" secondItem="HJ1-vK-NnB" secondAttribute="top" constant="35" id="5HX-Lk-DZ9"/>
+                        <constraint firstItem="nig-be-hbl" firstAttribute="centerX" secondItem="HJ1-vK-NnB" secondAttribute="centerX" id="9fm-Yu-zgh"/>
+                        <constraint firstItem="bv0-33-uvK" firstAttribute="top" secondItem="HJ1-vK-NnB" secondAttribute="top" constant="20" id="WML-7c-Ucc"/>
+                        <constraint firstItem="bv0-33-uvK" firstAttribute="leading" secondItem="HJ1-vK-NnB" secondAttribute="leading" constant="15" id="gM5-6D-yzk"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vCa-db-pxL">
+                    <rect key="frame" x="13" y="80" width="349" height="66"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Loyalty Earned : " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2dk-Go-Jnf">
+                            <rect key="frame" x="18" y="30" width="176" height="19"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="176" id="8TU-LY-AWS"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="ITCKabelStd-Medium" family="ITC Kabel Std" pointSize="19"/>
+                            <color key="textColor" red="0.30196078431372547" green="0.30196078431372547" blue="0.30196078431372547" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kb6-0Q-S5C">
+                            <rect key="frame" x="0.0" y="65.5" width="349" height="1"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="0.5" id="KAv-8h-GpB"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hK5-CK-Agy">
+                            <rect key="frame" x="333" y="30" width="0.0" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="X42-ic-7tq"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="ITCKabelStd-Book" family="ITC Kabel Std" pointSize="21"/>
+                            <color key="textColor" red="0.30196078431372547" green="0.30196078431372547" blue="0.30196078431372547" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <rect key="contentStretch" x="0.0" y="1" width="1" height="1"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="66" id="8eR-Wa-jb2"/>
+                        <constraint firstItem="2dk-Go-Jnf" firstAttribute="top" secondItem="vCa-db-pxL" secondAttribute="top" constant="30" id="E03-31-CaJ"/>
+                        <constraint firstItem="hK5-CK-Agy" firstAttribute="top" secondItem="vCa-db-pxL" secondAttribute="top" constant="30" id="K7t-KY-dBf"/>
+                        <constraint firstItem="Kb6-0Q-S5C" firstAttribute="leading" secondItem="vCa-db-pxL" secondAttribute="leading" id="VR7-Vd-iuX"/>
+                        <constraint firstAttribute="trailing" secondItem="Kb6-0Q-S5C" secondAttribute="trailing" id="fdx-fE-B45"/>
+                        <constraint firstAttribute="trailing" secondItem="hK5-CK-Agy" secondAttribute="trailing" constant="16" id="ks6-QB-Bgs"/>
+                        <constraint firstAttribute="bottom" secondItem="Kb6-0Q-S5C" secondAttribute="bottom" id="uUS-Ak-vnd"/>
+                        <constraint firstItem="2dk-Go-Jnf" firstAttribute="leading" secondItem="vCa-db-pxL" secondAttribute="leading" constant="18" id="y4w-h5-12G"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="gqS-jG-10x">
+                    <rect key="frame" x="13" y="80" width="349" height="587"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <inset key="separatorInset" minX="112" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="dCW-jG-gEy"/>
+                        <outlet property="delegate" destination="-1" id="iBs-Aq-wMb"/>
+                    </connections>
+                </tableView>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No offers available." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kts-7H-8Kh">
+                    <rect key="frame" x="120" y="323" width="136" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="pmP-33-XBi"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="ITCKabelStd-Demi" family="ITC Kabel Std" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.8862745098" green="0.89411764709999997" blue="0.89411764709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="HJ1-vK-NnB" secondAttribute="trailing" id="ACR-y5-h1Q"/>
+                <constraint firstItem="HJ1-vK-NnB" firstAttribute="top" secondItem="Opf-ln-PO0" secondAttribute="top" id="Fqo-UT-rfa"/>
+                <constraint firstItem="vCa-db-pxL" firstAttribute="leading" secondItem="Opf-ln-PO0" secondAttribute="leading" constant="13" id="MAP-qg-AYH"/>
+                <constraint firstItem="Kts-7H-8Kh" firstAttribute="centerX" secondItem="Opf-ln-PO0" secondAttribute="centerX" id="NED-Uv-6ml"/>
+                <constraint firstItem="gqS-jG-10x" firstAttribute="leading" secondItem="Opf-ln-PO0" secondAttribute="leading" constant="13" id="PRj-0e-icD"/>
+                <constraint firstItem="gqS-jG-10x" firstAttribute="top" secondItem="Opf-ln-PO0" secondAttribute="top" constant="80" id="SuD-4o-q12"/>
+                <constraint firstItem="HJ1-vK-NnB" firstAttribute="leading" secondItem="Opf-ln-PO0" secondAttribute="leading" id="WKw-4P-qm4"/>
+                <constraint firstAttribute="trailing" secondItem="gqS-jG-10x" secondAttribute="trailing" constant="13" id="dXf-O6-8U6"/>
+                <constraint firstAttribute="bottom" secondItem="gqS-jG-10x" secondAttribute="bottom" id="fW6-i7-mB6"/>
+                <constraint firstItem="Kts-7H-8Kh" firstAttribute="centerY" secondItem="Opf-ln-PO0" secondAttribute="centerY" id="g8I-Mk-r3e"/>
+                <constraint firstItem="vCa-db-pxL" firstAttribute="top" secondItem="Opf-ln-PO0" secondAttribute="top" constant="80" id="gzC-qP-rCm"/>
+                <constraint firstAttribute="trailing" secondItem="vCa-db-pxL" secondAttribute="trailing" constant="13" id="xqX-c2-frQ"/>
+            </constraints>
+            <point key="canvasLocation" x="26.5" y="52.5"/>
+        </view>
+    </objects>
+</document>

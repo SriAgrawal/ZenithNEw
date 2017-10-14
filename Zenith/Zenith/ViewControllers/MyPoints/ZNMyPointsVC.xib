@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Itc kabel Std-Medium.otf">
+            <string>ITCKabelStd-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZNMyPointsVC" customModule="Zenith" customModuleProvider="target">
+            <connections>
+                <outlet property="containerView" destination="W1f-Mb-p1x" id="cRS-hB-wAp"/>
+                <outlet property="earnedPointsLabel" destination="9b9-RO-cqb" id="x6x-Zn-Ssd"/>
+                <outlet property="navigationTitleLabel" destination="4iK-B0-SXK" id="8bH-Oo-0d3"/>
+                <outlet property="pointsButton" destination="37N-P5-lBv" id="pMG-oy-Dr6"/>
+                <outlet property="stampAndPointView" destination="T0C-UP-WSu" id="m9y-j5-1kn"/>
+                <outlet property="stampsButton" destination="PZm-7B-6Rx" id="8U1-Lo-A0H"/>
+                <outlet property="view" destination="c7s-DV-hd1" id="JjX-tH-NuU"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="c7s-DV-hd1">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oof-oG-PNo">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="178"/>
+                    <subviews>
+                        <button opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pVX-Ul-IUc">
+                            <rect key="frame" x="15" y="30" width="34" height="24"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="24" id="Aun-EJ-7QV"/>
+                                <constraint firstAttribute="width" constant="34" id="GVK-3W-Rsw"/>
+                            </constraints>
+                            <state key="normal" image="menu"/>
+                            <connections>
+                                <action selector="commonButtonAction:" destination="-1" eventType="touchUpInside" id="w7a-dM-93G"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Earned Points: 125" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9b9-RO-cqb">
+                            <rect key="frame" x="248.5" y="22" width="119.5" height="41"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="41" id="GNL-Gw-8rr"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="ITCKabelStd-Medium" family="ITC Kabel Std" pointSize="14"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Points" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4iK-B0-SXK">
+                            <rect key="frame" x="144.5" y="30" width="86.5" height="24"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="24" id="HDE-nl-dUM"/>
+                                <constraint firstAttribute="width" constant="120" id="hVg-ae-Bpm"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="ITCKabelStd-Medium" family="ITC Kabel Std" pointSize="21"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="hVg-ae-Bpm"/>
+                                </mask>
+                            </variation>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.70980392160000005" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="178" id="0hK-il-1Uk"/>
+                        <constraint firstItem="pVX-Ul-IUc" firstAttribute="top" secondItem="oof-oG-PNo" secondAttribute="top" constant="30" id="5zo-PK-kfz"/>
+                        <constraint firstAttribute="trailing" secondItem="9b9-RO-cqb" secondAttribute="trailing" constant="7" id="7hI-9j-CZB"/>
+                        <constraint firstItem="pVX-Ul-IUc" firstAttribute="leading" secondItem="oof-oG-PNo" secondAttribute="leading" constant="15" id="KbW-tQ-mxX"/>
+                        <constraint firstItem="4iK-B0-SXK" firstAttribute="centerX" secondItem="oof-oG-PNo" secondAttribute="centerX" id="bBV-Jw-4cf"/>
+                        <constraint firstItem="4iK-B0-SXK" firstAttribute="top" secondItem="oof-oG-PNo" secondAttribute="top" constant="30" id="chl-kM-dEz"/>
+                        <constraint firstItem="9b9-RO-cqb" firstAttribute="top" secondItem="oof-oG-PNo" secondAttribute="top" constant="22" id="pVa-l3-t0m"/>
+                        <constraint firstItem="9b9-RO-cqb" firstAttribute="leading" secondItem="4iK-B0-SXK" secondAttribute="trailing" constant="17.5" id="rOV-km-sDC"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W1f-Mb-p1x">
+                    <rect key="frame" x="10" y="99" width="355" height="568"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T0C-UP-WSu">
+                    <rect key="frame" x="30" y="77" width="315" height="45"/>
+                    <subviews>
+                        <button opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PZm-7B-6Rx">
+                            <rect key="frame" x="0.0" y="0.0" width="157" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="XSY-3y-PvZ"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="ITCKabelStd-Medium" family="ITC Kabel Std" pointSize="20"/>
+                            <inset key="titleEdgeInsets" minX="0.0" minY="11" maxX="0.0" maxY="0.0"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="5" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title=" Stamps" image="stamp_Mypoints">
+                                <color key="titleColor" red="0.70108264590000002" green="0.70108264590000002" blue="0.70108264590000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="selected" title=" Stamps" image="stampColor">
+                                <color key="titleColor" red="0.0" green="0.70980392160000005" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="commonButtonAction:" destination="-1" eventType="touchUpInside" id="aCw-YM-Qeh"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="37N-P5-lBv">
+                            <rect key="frame" x="158" y="0.0" width="157" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="19Y-YA-wxS"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="ITCKabelStd-Medium" family="ITC Kabel Std" pointSize="20"/>
+                            <inset key="titleEdgeInsets" minX="0.0" minY="10" maxX="0.0" maxY="0.0"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="5" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title=" Points" image="points">
+                                <color key="titleColor" red="0.70108264590000002" green="0.70108264590000002" blue="0.70108264590000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="selected" title=" Points" image="pointsColor">
+                                <color key="titleColor" red="0.0" green="0.70980392160000005" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="commonButtonAction:" destination="-1" eventType="touchUpInside" id="SBG-bV-VLR"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Id0-63-rTX">
+                            <rect key="frame" x="157" y="7" width="1" height="30"/>
+                            <color key="backgroundColor" red="0.83756345180000003" green="0.83756345180000003" blue="0.83756345180000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="cDo-Ls-Pbr"/>
+                                <constraint firstAttribute="width" constant="1" id="n5S-d8-oF3"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.30196078430000001" green="0.30196078430000001" blue="0.3803921569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="37N-P5-lBv" secondAttribute="trailing" id="0AY-b8-Fmp"/>
+                        <constraint firstItem="37N-P5-lBv" firstAttribute="leading" secondItem="Id0-63-rTX" secondAttribute="trailing" id="2Lm-tS-d94"/>
+                        <constraint firstItem="Id0-63-rTX" firstAttribute="leading" secondItem="PZm-7B-6Rx" secondAttribute="trailing" id="Uy3-di-hTJ"/>
+                        <constraint firstItem="Id0-63-rTX" firstAttribute="top" secondItem="T0C-UP-WSu" secondAttribute="top" constant="7" id="YxS-DG-VV2"/>
+                        <constraint firstAttribute="height" constant="45" id="aMf-Wl-hvS"/>
+                        <constraint firstItem="PZm-7B-6Rx" firstAttribute="top" secondItem="T0C-UP-WSu" secondAttribute="top" id="eWa-S9-Jve"/>
+                        <constraint firstItem="PZm-7B-6Rx" firstAttribute="leading" secondItem="T0C-UP-WSu" secondAttribute="leading" id="nhI-fD-95w"/>
+                        <constraint firstItem="37N-P5-lBv" firstAttribute="top" secondItem="T0C-UP-WSu" secondAttribute="top" id="qsc-tb-TY0"/>
+                        <constraint firstItem="37N-P5-lBv" firstAttribute="width" secondItem="PZm-7B-6Rx" secondAttribute="width" id="vrQ-sR-8ga"/>
+                        <constraint firstItem="Id0-63-rTX" firstAttribute="centerX" secondItem="T0C-UP-WSu" secondAttribute="centerX" id="wbK-h7-cIx"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.76078431372549016" green="0.76078431372549016" blue="0.76470588235294112" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="T0C-UP-WSu" secondAttribute="trailing" constant="30" id="0kD-om-UMU"/>
+                <constraint firstItem="T0C-UP-WSu" firstAttribute="top" secondItem="c7s-DV-hd1" secondAttribute="top" constant="77" id="4bB-HN-VcK"/>
+                <constraint firstItem="T0C-UP-WSu" firstAttribute="leading" secondItem="c7s-DV-hd1" secondAttribute="leading" constant="30" id="NMA-hx-8Qi"/>
+                <constraint firstItem="W1f-Mb-p1x" firstAttribute="top" secondItem="c7s-DV-hd1" secondAttribute="top" constant="99" id="TkA-EZ-E3o"/>
+                <constraint firstItem="oof-oG-PNo" firstAttribute="leading" secondItem="c7s-DV-hd1" secondAttribute="leading" id="UDV-H8-gZp"/>
+                <constraint firstItem="W1f-Mb-p1x" firstAttribute="leading" secondItem="c7s-DV-hd1" secondAttribute="leading" constant="10" id="aDY-qE-FV3"/>
+                <constraint firstAttribute="trailing" secondItem="W1f-Mb-p1x" secondAttribute="trailing" constant="10" id="bGZ-Mf-grx"/>
+                <constraint firstItem="oof-oG-PNo" firstAttribute="top" secondItem="c7s-DV-hd1" secondAttribute="top" id="bsk-Cn-csB"/>
+                <constraint firstAttribute="trailing" secondItem="oof-oG-PNo" secondAttribute="trailing" id="sJP-E4-zXB"/>
+                <constraint firstAttribute="bottom" secondItem="W1f-Mb-p1x" secondAttribute="bottom" id="xnA-4D-3E4"/>
+            </constraints>
+            <point key="canvasLocation" x="216.5" y="62.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="menu" width="25" height="25"/>
+        <image name="points" width="19" height="19"/>
+        <image name="pointsColor" width="19" height="19"/>
+        <image name="stampColor" width="19" height="19"/>
+        <image name="stamp_Mypoints" width="19" height="19"/>
+    </resources>
+</document>

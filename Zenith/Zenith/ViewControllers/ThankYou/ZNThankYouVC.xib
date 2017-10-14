@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Itc kabel Std-Book.otf">
+            <string>ITCKabelStd-Book</string>
+        </array>
+        <array key="Itc kabel Std-Medium.otf">
+            <string>ITCKabelStd-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZNThankYouVC" customModule="Zenith" customModuleProvider="target">
+            <connections>
+                <outlet property="footerView" destination="sUk-wj-b5b" id="GhV-pY-XfH"/>
+                <outlet property="headerView" destination="DDw-is-qq2" id="3ap-s7-0jI"/>
+                <outlet property="helpLabel" destination="COf-eG-kRP" id="YXs-x1-n5E"/>
+                <outlet property="tableView" destination="f0y-uS-lV9" id="aWu-Hm-Fhr"/>
+                <outlet property="thanksMessageLabel" destination="WMH-RB-Fge" id="AOL-Ct-ifh"/>
+                <outlet property="view" destination="kqU-bb-MED" id="tMe-pC-fds"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="kqU-bb-MED">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3cA-ft-Pfj">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="160"/>
+                    <subviews>
+                        <button opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FmU-zq-sAc">
+                            <rect key="frame" x="15" y="34" width="34" height="24"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="34" id="9dO-RK-Yx0"/>
+                                <constraint firstAttribute="height" constant="24" id="CKg-O7-rAh"/>
+                            </constraints>
+                            <state key="normal" image="backIcon"/>
+                            <connections>
+                                <action selector="backButtonAction:" destination="-1" eventType="touchUpInside" id="gKg-q7-8mk"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thank You" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9kZ-ka-F9j">
+                            <rect key="frame" x="134" y="34" width="108" height="24"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="108" id="4Pa-EU-0xZ"/>
+                                <constraint firstAttribute="height" constant="24" id="S4F-Rw-YvE"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="ITCKabelStd-Medium" family="ITC Kabel Std" pointSize="21"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.70980392160000005" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="160" id="6La-HQ-bsN"/>
+                        <constraint firstItem="FmU-zq-sAc" firstAttribute="leading" secondItem="3cA-ft-Pfj" secondAttribute="leading" constant="15" id="AMy-QM-yeR"/>
+                        <constraint firstItem="9kZ-ka-F9j" firstAttribute="top" secondItem="3cA-ft-Pfj" secondAttribute="top" constant="34" id="Tzh-a4-FSD"/>
+                        <constraint firstItem="9kZ-ka-F9j" firstAttribute="centerX" secondItem="3cA-ft-Pfj" secondAttribute="centerX" id="hKn-Ev-dlB"/>
+                        <constraint firstItem="FmU-zq-sAc" firstAttribute="top" secondItem="3cA-ft-Pfj" secondAttribute="top" constant="34" id="oEw-VN-Bhy"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="none" rowHeight="35" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="f0y-uS-lV9">
+                    <rect key="frame" x="10" y="80" width="355" height="587"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <view key="tableHeaderView" contentMode="scaleToFill" id="DDw-is-qq2">
+                        <rect key="frame" x="0.0" y="0.0" width="355" height="294"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1CF-u6-zVU">
+                                <rect key="frame" x="132" y="56" width="91" height="92"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="92" id="VNU-iW-cvt"/>
+                                    <constraint firstAttribute="width" constant="91" id="gC2-7v-08s"/>
+                                </constraints>
+                                <state key="normal" image="tick"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thanks for book a table!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WMH-RB-Fge">
+                                <rect key="frame" x="7" y="189" width="340" height="23"/>
+                                <fontDescription key="fontDescription" name="ITCKabelStd-Medium" family="ITC Kabel Std" pointSize="23"/>
+                                <color key="textColor" red="0.15686274510000001" green="0.15686274510000001" blue="0.15686274510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please find the below details" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MGM-lV-wgC">
+                                <rect key="frame" x="8" y="256" width="340" height="23"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="23" id="E9Z-3s-7MA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ITCKabelStd-Book" family="ITC Kabel Std" pointSize="22"/>
+                                <color key="textColor" red="0.15686274510000001" green="0.15686274510000001" blue="0.15686274510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="WMH-RB-Fge" secondAttribute="bottom" constant="82" id="1mz-jb-AaN"/>
+                            <constraint firstItem="WMH-RB-Fge" firstAttribute="top" secondItem="1CF-u6-zVU" secondAttribute="bottom" constant="41" id="B4b-eB-VUO"/>
+                            <constraint firstItem="1CF-u6-zVU" firstAttribute="centerX" secondItem="DDw-is-qq2" secondAttribute="centerX" id="EqR-m6-66s"/>
+                            <constraint firstAttribute="bottom" secondItem="MGM-lV-wgC" secondAttribute="bottom" constant="15" id="Gb7-Uv-RNX"/>
+                            <constraint firstAttribute="trailing" secondItem="MGM-lV-wgC" secondAttribute="trailing" constant="7" id="IoZ-nH-Hw3"/>
+                            <constraint firstAttribute="trailing" secondItem="WMH-RB-Fge" secondAttribute="trailing" constant="8" id="N5f-gS-VHx"/>
+                            <constraint firstItem="WMH-RB-Fge" firstAttribute="leading" secondItem="DDw-is-qq2" secondAttribute="leading" constant="7" id="cKM-bY-neH"/>
+                            <constraint firstItem="MGM-lV-wgC" firstAttribute="leading" secondItem="DDw-is-qq2" secondAttribute="leading" constant="8" id="p8Q-0G-Np4"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="AH7-WN-zBV"/>
+                        <outlet property="delegate" destination="-1" id="GBn-Q5-q8c"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="0.89353605359999999" green="0.89353605359999999" blue="0.89353605359999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="3cA-ft-Pfj" secondAttribute="trailing" id="07y-BK-ACC"/>
+                <constraint firstItem="f0y-uS-lV9" firstAttribute="leading" secondItem="kqU-bb-MED" secondAttribute="leading" constant="10" id="DRj-BD-sTF"/>
+                <constraint firstItem="3cA-ft-Pfj" firstAttribute="leading" secondItem="kqU-bb-MED" secondAttribute="leading" id="MK8-9k-GbC"/>
+                <constraint firstItem="f0y-uS-lV9" firstAttribute="top" secondItem="kqU-bb-MED" secondAttribute="top" constant="80" id="aQs-Bz-5L7"/>
+                <constraint firstAttribute="trailing" secondItem="f0y-uS-lV9" secondAttribute="trailing" constant="10" id="blE-cO-kGX"/>
+                <constraint firstAttribute="bottom" secondItem="f0y-uS-lV9" secondAttribute="bottom" id="nkg-fk-ga8"/>
+                <constraint firstItem="3cA-ft-Pfj" firstAttribute="top" secondItem="kqU-bb-MED" secondAttribute="top" id="zlB-8w-eZa"/>
+            </constraints>
+            <point key="canvasLocation" x="224" y="67"/>
+        </view>
+        <view contentMode="scaleToFill" id="sUk-wj-b5b">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="145"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="For any help :   +152345678" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="COf-eG-kRP">
+                    <rect key="frame" x="0.0" y="40" width="375" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="xpM-1R-Yx3"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="ITCKabelStd-Book" family="ITC Kabel Std" pointSize="20"/>
+                    <color key="textColor" red="0.15686274510000001" green="0.15686274510000001" blue="0.15686274510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e3H-fZ-4S9" customClass="ZNGradientButton" customModule="Zenith" customModuleProvider="target">
+                    <rect key="frame" x="37" y="96" width="301" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="N2M-E6-FYH"/>
+                    </constraints>
+                    <state key="normal" title="Ok"/>
+                    <connections>
+                        <action selector="okButtonAction:" destination="-1" eventType="touchUpInside" id="jXY-nA-GHR"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="e3H-fZ-4S9" secondAttribute="trailing" constant="37" id="13C-65-9yr"/>
+                <constraint firstAttribute="trailing" secondItem="COf-eG-kRP" secondAttribute="trailing" id="Ecg-2m-03q"/>
+                <constraint firstItem="COf-eG-kRP" firstAttribute="leading" secondItem="sUk-wj-b5b" secondAttribute="leading" id="M4d-x4-dWU"/>
+                <constraint firstItem="e3H-fZ-4S9" firstAttribute="leading" secondItem="sUk-wj-b5b" secondAttribute="leading" constant="37" id="RDx-W3-hVr"/>
+                <constraint firstItem="e3H-fZ-4S9" firstAttribute="top" secondItem="COf-eG-kRP" secondAttribute="bottom" constant="35" id="kqo-Qg-xkQ"/>
+                <constraint firstItem="COf-eG-kRP" firstAttribute="top" secondItem="sUk-wj-b5b" secondAttribute="top" constant="40" id="z8b-xj-JXa"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="1120" y="-103"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="backIcon" width="25" height="25"/>
+        <image name="tick" width="91" height="92"/>
+    </resources>
+</document>

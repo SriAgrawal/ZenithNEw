@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Itc kabel Std-Book.otf">
+            <string>ITCKabelStd-Book</string>
+        </array>
+        <array key="Itc kabel Std-Medium.otf">
+            <string>ITCKabelStd-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="84" id="KGk-i7-Jjw" customClass="ZNProductDetailDescTableViewCell" customModule="Zenith" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="63.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3gz-5W-e93">
+                        <rect key="frame" x="22" y="4" width="94" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="94" id="m6f-QA-VZh"/>
+                            <constraint firstAttribute="height" constant="21" id="s37-Bu-2JJ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="ITCKabelStd-Medium" family="ITC Kabel Std" pointSize="19"/>
+                        <color key="textColor" red="0.1764705882352941" green="0.1764705882352941" blue="0.1764705882352941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FAm-zv-fES">
+                        <rect key="frame" x="22" y="30" width="280" height="34"/>
+                        <fontDescription key="fontDescription" name="ITCKabelStd-Book" family="ITC Kabel Std" pointSize="18"/>
+                        <color key="textColor" red="0.1764705882352941" green="0.1764705882352941" blue="0.1764705882352941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="3gz-5W-e93" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="22" id="5ti-nP-VZC"/>
+                    <constraint firstAttribute="trailing" secondItem="FAm-zv-fES" secondAttribute="trailing" constant="18" id="8n1-i3-ZIv"/>
+                    <constraint firstItem="FAm-zv-fES" firstAttribute="top" secondItem="3gz-5W-e93" secondAttribute="bottom" constant="5" id="Uiw-ep-5BL"/>
+                    <constraint firstAttribute="bottom" secondItem="FAm-zv-fES" secondAttribute="bottom" constant="-0.5" id="cpa-HB-mVl"/>
+                    <constraint firstItem="3gz-5W-e93" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="puX-G9-aS6"/>
+                    <constraint firstItem="FAm-zv-fES" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="22" id="v8H-ye-4aJ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="productDescriptionLabel" destination="FAm-zv-fES" id="iKV-S3-p8M"/>
+                <outlet property="productTitleLbl" destination="3gz-5W-e93" id="7J4-QT-Ml1"/>
+            </connections>
+            <point key="canvasLocation" x="26" y="72"/>
+        </tableViewCell>
+    </objects>
+</document>

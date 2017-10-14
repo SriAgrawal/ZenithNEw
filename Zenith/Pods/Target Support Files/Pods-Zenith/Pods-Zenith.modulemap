@@ -1,0 +1,6 @@
+framework module Pods_Zenith {
+  umbrella header "Pods-Zenith-umbrella.h"
+
+  export *
+  module * { export * }
+}

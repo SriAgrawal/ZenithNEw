@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Itc kabel Std-Book.otf">
+            <string>ITCKabelStd-Book</string>
+        </array>
+        <array key="Itc kabel Std-Demi.otf">
+            <string>ITCKabelStd-Demi</string>
+        </array>
+        <array key="Itc kabel Std-Medium.otf">
+            <string>ITCKabelStd-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZNCardListViewController" customModule="Zenith" customModuleProvider="target">
+            <connections>
+                <outlet property="cardTableView" destination="rLe-XE-vur" id="cO0-qo-wZv"/>
+                <outlet property="labelMessage" destination="49p-n7-GGO" id="DZS-S7-D6N"/>
+                <outlet property="view" destination="rxb-eB-nIW" id="T5S-y7-bVx"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="rxb-eB-nIW">
+            <rect key="frame" x="0.0" y="0.0" width="355" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4ez-Ju-PiU">
+                    <rect key="frame" x="0.0" y="0.0" width="355" height="64"/>
+                    <subviews>
+                        <button opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BRR-xm-wSq">
+                            <rect key="frame" x="15" y="32" width="34" height="24"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="34" id="KyQ-4D-4J9"/>
+                                <constraint firstAttribute="height" constant="24" id="TbN-tN-Cbh"/>
+                            </constraints>
+                            <state key="normal" image="backIcon"/>
+                            <connections>
+                                <action selector="backButtonAction:" destination="-1" eventType="touchUpInside" id="icN-0m-MBI"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Card List" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ogn-5k-VqZ">
+                            <rect key="frame" x="124" y="32" width="108" height="24"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="24" id="Bc8-UI-H2F"/>
+                                <constraint firstAttribute="width" constant="108" id="cyx-KV-FQB"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="ITCKabelStd-Medium" family="ITC Kabel Std" pointSize="21"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vRR-XF-dYz">
+                            <rect key="frame" x="270" y="32" width="80" height="24"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="80" id="FbO-Vb-0SI"/>
+                                <constraint firstAttribute="height" constant="24" id="ts6-8g-ldN"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="ITCKabelStd-Book" family="ITC Kabel Std" pointSize="16"/>
+                            <state key="normal" title="Add Card">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="addButtonAction:" destination="-1" eventType="touchUpInside" id="uus-Kg-jjh"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.70980392160000005" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="ogn-5k-VqZ" firstAttribute="centerX" secondItem="4ez-Ju-PiU" secondAttribute="centerX" id="Eud-t3-Hg6"/>
+                        <constraint firstAttribute="trailing" secondItem="vRR-XF-dYz" secondAttribute="trailing" constant="5" id="If0-cj-J0Z"/>
+                        <constraint firstItem="vRR-XF-dYz" firstAttribute="top" secondItem="4ez-Ju-PiU" secondAttribute="top" constant="32" id="J8r-ai-6hm"/>
+                        <constraint firstItem="BRR-xm-wSq" firstAttribute="leading" secondItem="4ez-Ju-PiU" secondAttribute="leading" constant="15" id="L45-hL-aMU"/>
+                        <constraint firstAttribute="height" constant="64" id="iag-Xf-7Ae"/>
+                        <constraint firstItem="BRR-xm-wSq" firstAttribute="top" secondItem="4ez-Ju-PiU" secondAttribute="top" constant="32" id="tMC-mv-RPU"/>
+                        <constraint firstItem="ogn-5k-VqZ" firstAttribute="top" secondItem="4ez-Ju-PiU" secondAttribute="top" constant="32" id="v1N-UE-Qx8"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="rLe-XE-vur">
+                    <rect key="frame" x="10" y="64" width="335" height="603"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="Uik-Ez-yEm"/>
+                        <outlet property="delegate" destination="-1" id="Igg-45-Eeb"/>
+                    </connections>
+                </tableView>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No card available." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="49p-n7-GGO">
+                    <rect key="frame" x="10" y="323" width="335" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="W4n-TL-a3z"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="ITCKabelStd-Demi" family="ITC Kabel Std" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.88574338230000005" green="0.88574338230000005" blue="0.88574338230000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="49p-n7-GGO" firstAttribute="centerY" secondItem="rxb-eB-nIW" secondAttribute="centerY" id="9Lm-Lg-tmC"/>
+                <constraint firstItem="4ez-Ju-PiU" firstAttribute="top" secondItem="rxb-eB-nIW" secondAttribute="top" id="D4a-15-jFy"/>
+                <constraint firstAttribute="trailing" secondItem="49p-n7-GGO" secondAttribute="trailing" constant="10" id="G0T-9Q-qLc"/>
+                <constraint firstItem="4ez-Ju-PiU" firstAttribute="leading" secondItem="rxb-eB-nIW" secondAttribute="leading" id="LW3-xF-gey"/>
+                <constraint firstAttribute="trailing" secondItem="4ez-Ju-PiU" secondAttribute="trailing" id="Lmv-LG-3P2"/>
+                <constraint firstItem="rLe-XE-vur" firstAttribute="leading" secondItem="rxb-eB-nIW" secondAttribute="leading" constant="10" id="SRj-8W-KZr"/>
+                <constraint firstItem="49p-n7-GGO" firstAttribute="leading" secondItem="rxb-eB-nIW" secondAttribute="leading" constant="10" id="eer-2t-nHR"/>
+                <constraint firstAttribute="bottom" secondItem="rLe-XE-vur" secondAttribute="bottom" id="kOp-GY-mcb"/>
+                <constraint firstItem="49p-n7-GGO" firstAttribute="centerX" secondItem="rxb-eB-nIW" secondAttribute="centerX" id="mss-qc-hKy"/>
+                <constraint firstItem="rLe-XE-vur" firstAttribute="top" secondItem="rxb-eB-nIW" secondAttribute="top" constant="64" id="viD-Tc-ZUg"/>
+                <constraint firstAttribute="trailing" secondItem="rLe-XE-vur" secondAttribute="trailing" constant="10" id="waB-MI-Ezp"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-194.5" y="89.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="backIcon" width="25" height="25"/>
+    </resources>
+</document>

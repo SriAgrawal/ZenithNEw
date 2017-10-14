@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Itc kabel Std-Medium.otf">
+            <string>ITCKabelStd-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZNLoyalityGainInfoVC" customModule="Zenith" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="webViewLoyalitygain" destination="BW2-ab-7XX" id="uxA-YG-M3j"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DWD-LP-klD">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="178"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k67-7Q-Gwx">
+                            <rect key="frame" x="15" y="20" width="60" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="Afv-Xp-tSj"/>
+                                <constraint firstAttribute="width" constant="60" id="QtW-di-Lem"/>
+                            </constraints>
+                            <state key="normal" image="backIcon"/>
+                            <connections>
+                                <action selector="backButtonAction:" destination="-1" eventType="touchUpInside" id="pys-dc-imf"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loyality Info" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gTW-Hw-cv3">
+                            <rect key="frame" x="136" y="32" width="103.5" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="eQt-NQ-3Rm"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="ITCKabelStd-Medium" family="ITC Kabel Std" pointSize="20"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                            <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.70980392156862748" blue="0.98431372549019602" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="178" id="8NV-yp-eDi"/>
+                        <constraint firstItem="gTW-Hw-cv3" firstAttribute="centerX" secondItem="DWD-LP-klD" secondAttribute="centerX" constant="0.25" id="MPR-ow-WRx"/>
+                        <constraint firstItem="k67-7Q-Gwx" firstAttribute="top" secondItem="DWD-LP-klD" secondAttribute="top" constant="20" id="O8U-qt-I1Q"/>
+                        <constraint firstItem="gTW-Hw-cv3" firstAttribute="leading" secondItem="k67-7Q-Gwx" secondAttribute="trailing" constant="41" id="bKG-VZ-Sh9"/>
+                        <constraint firstItem="gTW-Hw-cv3" firstAttribute="top" secondItem="DWD-LP-klD" secondAttribute="top" constant="32" id="dM1-CW-wVd"/>
+                        <constraint firstItem="k67-7Q-Gwx" firstAttribute="leading" secondItem="DWD-LP-klD" secondAttribute="leading" constant="15" id="qhe-Bd-K64"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="bKG-VZ-Sh9"/>
+                        </mask>
+                    </variation>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="mEJ-AQ-0uv">
+                    <rect key="frame" x="13" y="80" width="349" height="574"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+                <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BW2-ab-7XX">
+                    <rect key="frame" x="13" y="80" width="349" height="574"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="5WI-kd-tEV"/>
+                    </connections>
+                </webView>
+            </subviews>
+            <color key="backgroundColor" red="0.9137254901960784" green="0.91764705882352937" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="mEJ-AQ-0uv" secondAttribute="trailing" constant="13" id="7CZ-wX-yvq"/>
+                <constraint firstItem="DWD-LP-klD" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="8MX-ws-KvL"/>
+                <constraint firstItem="mEJ-AQ-0uv" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="13" id="Ds3-pJ-mpG"/>
+                <constraint firstAttribute="bottom" secondItem="BW2-ab-7XX" secondAttribute="bottom" constant="13" id="FmI-4C-kRt"/>
+                <constraint firstItem="BW2-ab-7XX" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="80" id="GG0-yJ-X43"/>
+                <constraint firstItem="DWD-LP-klD" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="IiY-i0-SOa"/>
+                <constraint firstItem="BW2-ab-7XX" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="13" id="JRY-E6-Mgf"/>
+                <constraint firstAttribute="trailing" secondItem="DWD-LP-klD" secondAttribute="trailing" id="dsw-hP-QRK"/>
+                <constraint firstItem="mEJ-AQ-0uv" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="80" id="jtH-mZ-l74"/>
+                <constraint firstAttribute="bottom" secondItem="mEJ-AQ-0uv" secondAttribute="bottom" constant="13" id="smf-WN-h7g"/>
+                <constraint firstAttribute="trailing" secondItem="BW2-ab-7XX" secondAttribute="trailing" constant="13" id="zgY-sY-Rpb"/>
+            </constraints>
+            <point key="canvasLocation" x="26.5" y="51.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="backIcon" width="25" height="25"/>
+    </resources>
+</document>

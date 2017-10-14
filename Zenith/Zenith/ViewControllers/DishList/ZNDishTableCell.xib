@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Itc kabel Std-Book.otf">
+            <string>ITCKabelStd-Book</string>
+        </array>
+        <array key="Itc kabel Std-Medium.otf">
+            <string>ITCKabelStd-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ZNDishTableCell" rowHeight="106" id="GDp-Tq-qkK" customClass="ZNDishTableCell" customModule="Zenith" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GDp-Tq-qkK" id="Vtw-PF-3EF">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="149.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="burgur_Icon" translatesAutoresizingMaskIntoConstraints="NO" id="PL8-uk-ROw">
+                        <rect key="frame" x="11" y="10" width="90" height="90"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="90" id="Bo6-ut-0UC"/>
+                            <constraint firstAttribute="height" constant="90" id="DBk-aH-ibp"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Burger" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wt0-lT-vT4">
+                        <rect key="frame" x="111" y="10" width="254" height="20"/>
+                        <fontDescription key="fontDescription" name="ITCKabelStd-Medium" family="ITC Kabel Std" pointSize="20"/>
+                        <color key="textColor" red="0.30196078430000001" green="0.30196078430000001" blue="0.30196078430000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iDH-of-RyL">
+                        <rect key="frame" x="346" y="69" width="28" height="28"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="28" id="eRe-xE-QaW"/>
+                            <constraint firstAttribute="height" constant="28" id="sIR-wV-BUk"/>
+                        </constraints>
+                        <state key="normal" title="+" image="plus">
+                            <color key="titleColor" red="0.98828125" green="0.98828125" blue="0.98828125" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dAn-a4-Mbt">
+                        <rect key="frame" x="111" y="69" width="42" height="28"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="28" id="AKj-Z2-GhZ"/>
+                            <constraint firstAttribute="width" constant="42" id="UNq-pr-XXn"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="ITCKabelStd-Medium" family="ITC Kabel Std" pointSize="17"/>
+                        <color key="textColor" red="0.30196078430000001" green="0.30196078430000001" blue="0.30196078430000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N2j-iR-TOy">
+                        <rect key="frame" x="315" y="69" width="29" height="28"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="29" id="MHW-74-Y1u"/>
+                            <constraint firstAttribute="height" constant="28" id="hWQ-kZ-4EF"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="ITCKabelStd-Book" family="ITC Kabel Std" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="flR-4b-JK4">
+                        <rect key="frame" x="286" y="69" width="28" height="28"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="28" id="LDc-5w-7l4"/>
+                            <constraint firstAttribute="width" constant="28" id="m9w-tr-NfL"/>
+                        </constraints>
+                        <state key="normal" title="-" image="minus">
+                            <color key="titleColor" red="0.98828125" green="0.98828125" blue="0.98828125" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$25" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="CEP-4p-uEe">
+                        <rect key="frame" x="158" y="75" width="122" height="16"/>
+                        <fontDescription key="fontDescription" name="ITCKabelStd-Book" family="ITC Kabel Std" pointSize="16"/>
+                        <color key="textColor" red="0.30196078430000001" green="0.30196078430000001" blue="0.30196078430000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cheesy crunchy." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="suZ-dR-2ap">
+                        <rect key="frame" x="111" y="35" width="230" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="pxp-kN-MVX"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="ITCKabelStd-Book" family="ITC Kabel Std" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="checkSquare" translatesAutoresizingMaskIntoConstraints="NO" id="HDm-1H-uCZ">
+                        <rect key="frame" x="345" y="35" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="8uc-Rc-u2A"/>
+                            <constraint firstAttribute="width" constant="20" id="d3Q-Od-C0B"/>
+                        </constraints>
+                    </imageView>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Special Ingredients" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ciW-5z-XF4">
+                        <rect key="frame" x="10" y="107" width="355" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="XQF-Hy-eXs"/>
+                        </constraints>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" name="ITCKabelStd-Book" family="ITC Kabel Std" pointSize="15"/>
+                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="done"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="20"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.80392156859999997" green="0.80392156859999997" blue="0.80392156859999997" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <outlet property="delegate" destination="-1" id="Vqn-qN-K8A"/>
+                        </connections>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="HDm-1H-uCZ" secondAttribute="trailing" constant="10" id="08z-C5-enh"/>
+                    <constraint firstAttribute="trailing" secondItem="iDH-of-RyL" secondAttribute="trailing" constant="1" id="3jQ-NE-mqE"/>
+                    <constraint firstItem="dAn-a4-Mbt" firstAttribute="leading" secondItem="PL8-uk-ROw" secondAttribute="trailing" constant="10" id="8il-MH-DR5"/>
+                    <constraint firstItem="HDm-1H-uCZ" firstAttribute="leading" secondItem="suZ-dR-2ap" secondAttribute="trailing" constant="4" id="DwE-Vt-erM"/>
+                    <constraint firstItem="flR-4b-JK4" firstAttribute="leading" secondItem="CEP-4p-uEe" secondAttribute="trailing" constant="6" id="FGW-em-Pwz"/>
+                    <constraint firstItem="ciW-5z-XF4" firstAttribute="top" secondItem="CEP-4p-uEe" secondAttribute="bottom" constant="16" id="Fs0-MT-u39"/>
+                    <constraint firstAttribute="trailing" secondItem="wt0-lT-vT4" secondAttribute="trailing" constant="10" id="G9e-rD-Cbj"/>
+                    <constraint firstItem="ciW-5z-XF4" firstAttribute="top" secondItem="PL8-uk-ROw" secondAttribute="bottom" constant="7" id="IMH-xk-aKG"/>
+                    <constraint firstItem="HDm-1H-uCZ" firstAttribute="top" secondItem="wt0-lT-vT4" secondAttribute="bottom" constant="5" id="J74-RZ-PAA"/>
+                    <constraint firstItem="ciW-5z-XF4" firstAttribute="top" secondItem="flR-4b-JK4" secondAttribute="bottom" constant="10" id="P2z-jP-te6"/>
+                    <constraint firstItem="PL8-uk-ROw" firstAttribute="top" secondItem="Vtw-PF-3EF" secondAttribute="top" constant="10" id="UCN-1q-1LY"/>
+                    <constraint firstItem="CEP-4p-uEe" firstAttribute="leading" secondItem="dAn-a4-Mbt" secondAttribute="trailing" constant="5" id="VYd-m4-d4D"/>
+                    <constraint firstItem="ciW-5z-XF4" firstAttribute="leading" secondItem="Vtw-PF-3EF" secondAttribute="leading" constant="10" id="ZsY-zY-FQV"/>
+                    <constraint firstItem="HDm-1H-uCZ" firstAttribute="top" secondItem="wt0-lT-vT4" secondAttribute="bottom" constant="5" id="cn0-8t-ckN"/>
+                    <constraint firstAttribute="trailing" secondItem="ciW-5z-XF4" secondAttribute="trailing" constant="10" id="fz5-lx-sQc"/>
+                    <constraint firstItem="ciW-5z-XF4" firstAttribute="top" secondItem="N2j-iR-TOy" secondAttribute="bottom" constant="10" id="g5j-uE-16R"/>
+                    <constraint firstItem="ciW-5z-XF4" firstAttribute="top" secondItem="dAn-a4-Mbt" secondAttribute="bottom" constant="10" id="gwY-Kg-R7z"/>
+                    <constraint firstItem="wt0-lT-vT4" firstAttribute="top" secondItem="Vtw-PF-3EF" secondAttribute="top" constant="10" id="iyM-qQ-g3r"/>
+                    <constraint firstItem="ciW-5z-XF4" firstAttribute="top" secondItem="iDH-of-RyL" secondAttribute="bottom" constant="10" id="lrt-9z-u5v"/>
+                    <constraint firstItem="PL8-uk-ROw" firstAttribute="leading" secondItem="Vtw-PF-3EF" secondAttribute="leading" constant="11" id="sAW-cz-roJ"/>
+                    <constraint firstItem="suZ-dR-2ap" firstAttribute="leading" secondItem="PL8-uk-ROw" secondAttribute="trailing" constant="10" id="sZK-XG-VKb"/>
+                    <constraint firstItem="wt0-lT-vT4" firstAttribute="leading" secondItem="PL8-uk-ROw" secondAttribute="trailing" constant="10" id="sgw-fU-XFI"/>
+                    <constraint firstItem="suZ-dR-2ap" firstAttribute="top" secondItem="wt0-lT-vT4" secondAttribute="bottom" constant="5" id="tLc-Ua-5Bt"/>
+                    <constraint firstItem="iDH-of-RyL" firstAttribute="leading" secondItem="N2j-iR-TOy" secondAttribute="trailing" constant="2" id="yB8-kG-nKs"/>
+                    <constraint firstItem="N2j-iR-TOy" firstAttribute="leading" secondItem="flR-4b-JK4" secondAttribute="trailing" constant="1" id="z4f-aE-2lx"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="addButton" destination="iDH-of-RyL" id="cUf-8s-o8c"/>
+                <outlet property="checkImageView" destination="HDm-1H-uCZ" id="LCU-Tp-BYW"/>
+                <outlet property="dishDiscriptionLabel" destination="suZ-dR-2ap" id="eli-9m-Moh"/>
+                <outlet property="dishListImageView" destination="PL8-uk-ROw" id="7an-8L-Qys"/>
+                <outlet property="dishNameLabel" destination="wt0-lT-vT4" id="Xhs-8I-6bM"/>
+                <outlet property="dishPriceLabel" destination="CEP-4p-uEe" id="mhB-QX-BJ1"/>
+                <outlet property="extraTextField" destination="ciW-5z-XF4" id="i91-Ya-0HG"/>
+                <outlet property="noOfDishLabel" destination="N2j-iR-TOy" id="2uX-3N-maI"/>
+                <outlet property="removeButton" destination="flR-4b-JK4" id="qPi-3g-I8W"/>
+            </connections>
+            <point key="canvasLocation" x="83.5" y="63"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="burgur_Icon" width="96" height="96"/>
+        <image name="checkSquare" width="20" height="20"/>
+        <image name="minus" width="26" height="26"/>
+        <image name="plus" width="26" height="26"/>
+    </resources>
+</document>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Itc kabel Std-Demi.otf">
+            <string>ITCKabelStd-Demi</string>
+        </array>
+        <array key="Itc kabel Std-Medium.otf">
+            <string>ITCKabelStd-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZNTodayOffersVC" customModule="Zenith" customModuleProvider="target">
+            <connections>
+                <outlet property="emptyTableLabel" destination="A7J-qN-sVR" id="zuu-6f-eAS"/>
+                <outlet property="todayOffersTableView" destination="Mtv-3e-Fx4" id="8lD-gi-CZm"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Do-Rq-Ttb">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="178"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today's Offers" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c6D-0d-5wr">
+                            <rect key="frame" x="119" y="33" width="137" height="22"/>
+                            <constraints>
+                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="137" id="Yei-tR-qD6"/>
+                                <constraint firstAttribute="height" constant="22" id="rKD-1L-9yM"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="ITCKabelStd-Medium" family="ITC Kabel Std" pointSize="20"/>
+                            <color key="textColor" red="0.98431372549999996" green="0.99607843139999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QPI-GO-1E5">
+                            <rect key="frame" x="15" y="24" width="60" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="60" id="e8x-bj-Kuf"/>
+                                <constraint firstAttribute="height" constant="44" id="ekl-Oc-X4C"/>
+                            </constraints>
+                            <state key="normal" image="menu"/>
+                            <connections>
+                                <action selector="onMenuButtonClick:" destination="-1" eventType="touchUpInside" id="0vi-HG-h28"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.71372549019607845" blue="0.98431372549019602" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="QPI-GO-1E5" firstAttribute="leading" secondItem="9Do-Rq-Ttb" secondAttribute="leading" constant="15" id="8hN-cR-8O6"/>
+                        <constraint firstItem="QPI-GO-1E5" firstAttribute="top" secondItem="9Do-Rq-Ttb" secondAttribute="top" constant="24" id="UN8-ca-9iV"/>
+                        <constraint firstItem="c6D-0d-5wr" firstAttribute="top" secondItem="9Do-Rq-Ttb" secondAttribute="top" constant="33" id="fGI-BG-CIB"/>
+                        <constraint firstAttribute="height" constant="178" id="g4G-lr-rPL"/>
+                        <constraint firstItem="c6D-0d-5wr" firstAttribute="centerX" secondItem="9Do-Rq-Ttb" secondAttribute="centerX" id="uCw-0f-mwQ"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Mtv-3e-Fx4">
+                    <rect key="frame" x="12" y="77" width="350" height="591"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <inset key="separatorInset" minX="115" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="01n-TS-AGS"/>
+                        <outlet property="delegate" destination="-1" id="oOO-Db-lAw"/>
+                    </connections>
+                </tableView>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No offers available." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A7J-qN-sVR">
+                    <rect key="frame" x="119.5" y="323" width="136" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="wVg-n8-LjU"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="ITCKabelStd-Demi" family="ITC Kabel Std" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.9137254901960784" green="0.9137254901960784" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Mtv-3e-Fx4" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="77" id="6x7-rY-Mfg"/>
+                <constraint firstAttribute="bottom" secondItem="Mtv-3e-Fx4" secondAttribute="bottom" constant="-1" id="Fuv-oJ-AaE"/>
+                <constraint firstAttribute="trailing" secondItem="Mtv-3e-Fx4" secondAttribute="trailing" constant="13" id="HPh-12-IhS"/>
+                <constraint firstAttribute="trailing" secondItem="9Do-Rq-Ttb" secondAttribute="trailing" id="IM2-sH-ZeC"/>
+                <constraint firstItem="A7J-qN-sVR" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="QDm-xL-ocq"/>
+                <constraint firstItem="A7J-qN-sVR" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="exh-MT-YmF"/>
+                <constraint firstItem="Mtv-3e-Fx4" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="12" id="fH8-cL-vsa"/>
+                <constraint firstItem="9Do-Rq-Ttb" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="q1g-CY-yOt"/>
+                <constraint firstItem="9Do-Rq-Ttb" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="uIe-7B-cHs"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="26.5" y="52.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="menu" width="25" height="25"/>
+    </resources>
+</document>

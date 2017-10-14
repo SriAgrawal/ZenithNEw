@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Itc kabel Std-Book.otf">
+            <string>ITCKabelStd-Book</string>
+        </array>
+        <array key="Itc kabel Std-Medium.otf">
+            <string>ITCKabelStd-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="ZNTodayOffersTableViewCell" customModule="Zenith" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="110"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="109.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="j2m-YQ-qV6">
+                        <rect key="frame" x="8" y="8" width="96" height="96"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="96" id="X9e-pA-Zb9"/>
+                            <constraint firstAttribute="width" constant="96" id="cKh-Rd-B1c"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jjI-lF-wlg">
+                        <rect key="frame" x="109" y="34" width="180" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="Wxa-3L-jGD"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="ITCKabelStd-Medium" family="ITC Kabel Std" pointSize="17"/>
+                        <color key="textColor" red="0.30196078431372547" green="0.30196078431372547" blue="0.30196078431372547" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Valid until" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cXf-gv-SEx">
+                        <rect key="frame" x="109" y="62" width="67" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="3cL-Nu-znd"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="ITCKabelStd-Medium" family="ITC Kabel Std" pointSize="16"/>
+                        <color key="textColor" red="0.30196078431372547" green="0.30196078431372547" blue="0.30196078431372547" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="27/09/2017" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tgx-re-Y0E">
+                        <rect key="frame" x="185.5" y="62" width="79" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="79" id="bm3-XA-gsa"/>
+                            <constraint firstAttribute="height" constant="21" id="tkg-uu-K4o"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="ITCKabelStd-Book" family="ITC Kabel Std" pointSize="15"/>
+                        <color key="textColor" red="0.2666666667" green="0.83137254900000002" blue="0.98431372549999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow1" translatesAutoresizingMaskIntoConstraints="NO" id="wHJ-iG-OVn">
+                        <rect key="frame" x="302" y="44" width="10" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="10" id="aia-z9-WAI"/>
+                            <constraint firstAttribute="height" constant="21" id="xJY-29-3XX"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GWy-iR-Zgz">
+                        <rect key="frame" x="109" y="10" width="182" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="D2t-ib-KSP"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="yuB-vE-3wO"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="ITCKabelStd-Medium" family="ITC Kabel Std" pointSize="17"/>
+                        <color key="textColor" red="0.30196078430000001" green="0.30196078430000001" blue="0.30196078430000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eec-Hc-Jnc">
+                        <rect key="frame" x="109" y="86" width="211" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="69P-l5-Ziy"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="ITCKabelStd-Medium" family="ITC Kabel Std" pointSize="17"/>
+                        <color key="textColor" red="0.30196078430000001" green="0.30196078430000001" blue="0.30196078430000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="eec-Hc-Jnc" firstAttribute="leading" secondItem="j2m-YQ-qV6" secondAttribute="trailing" constant="5" id="0VO-XT-ZrZ"/>
+                    <constraint firstItem="tgx-re-Y0E" firstAttribute="top" secondItem="jjI-lF-wlg" secondAttribute="bottom" constant="7" id="4eY-QV-mBp"/>
+                    <constraint firstItem="j2m-YQ-qV6" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="A0Z-vQ-YIQ"/>
+                    <constraint firstItem="wHJ-iG-OVn" firstAttribute="leading" secondItem="jjI-lF-wlg" secondAttribute="trailing" constant="13" id="BeT-Yf-uSO"/>
+                    <constraint firstAttribute="trailing" secondItem="eec-Hc-Jnc" secondAttribute="trailing" id="Cct-na-9Zp"/>
+                    <constraint firstItem="GWy-iR-Zgz" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="ItP-lX-t9v"/>
+                    <constraint firstItem="cXf-gv-SEx" firstAttribute="top" secondItem="jjI-lF-wlg" secondAttribute="bottom" constant="7" id="LBI-Hq-U3L"/>
+                    <constraint firstAttribute="trailing" secondItem="wHJ-iG-OVn" secondAttribute="trailing" constant="8" id="Lmk-Vg-JWA"/>
+                    <constraint firstItem="j2m-YQ-qV6" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="Mev-Md-nYU"/>
+                    <constraint firstItem="cXf-gv-SEx" firstAttribute="leading" secondItem="j2m-YQ-qV6" secondAttribute="trailing" constant="5" id="Uir-kR-7Yi"/>
+                    <constraint firstAttribute="trailing" secondItem="GWy-iR-Zgz" secondAttribute="trailing" constant="29" id="WV7-9H-dnH"/>
+                    <constraint firstItem="jjI-lF-wlg" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="34" id="dVp-HU-DbV"/>
+                    <constraint firstItem="jjI-lF-wlg" firstAttribute="leading" secondItem="j2m-YQ-qV6" secondAttribute="trailing" constant="5" id="hDj-GG-9b2"/>
+                    <constraint firstItem="tgx-re-Y0E" firstAttribute="leading" secondItem="cXf-gv-SEx" secondAttribute="trailing" constant="9.5" id="hGl-El-WNk"/>
+                    <constraint firstItem="wHJ-iG-OVn" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="hgc-lX-SUl"/>
+                    <constraint firstAttribute="bottom" secondItem="eec-Hc-Jnc" secondAttribute="bottom" constant="2.5" id="q7N-6V-DaF"/>
+                    <constraint firstItem="GWy-iR-Zgz" firstAttribute="leading" secondItem="j2m-YQ-qV6" secondAttribute="trailing" constant="5" id="xjG-dR-eVx"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="offerPriceLabel" destination="tgx-re-Y0E" id="qex-3H-24P"/>
+                <outlet property="offerProductLabel" destination="jjI-lF-wlg" id="wsS-5t-drP"/>
+                <outlet property="storeAddressLabel" destination="eec-Hc-Jnc" id="ygo-Pa-zz2"/>
+                <outlet property="storeNameLabel" destination="GWy-iR-Zgz" id="XNM-nC-iHp"/>
+                <outlet property="todayOfferImageView" destination="j2m-YQ-qV6" id="XVc-Ri-9iq"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="arrow1" width="10" height="17"/>
+    </resources>
+</document>

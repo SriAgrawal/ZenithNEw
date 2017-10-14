@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Itc kabel Std-Book.otf">
+            <string>ITCKabelStd-Book</string>
+        </array>
+        <array key="Itc kabel Std-Medium.otf">
+            <string>ITCKabelStd-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZNRestaurantVC" customModule="Zenith" customModuleProvider="target">
+            <connections>
+                <outlet property="pointLabel" destination="WMk-1T-c7A" id="6BD-eK-S2H"/>
+                <outlet property="restaurantTableView" destination="uEG-Bb-GhV" id="YaA-af-uQk"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vdX-no-fkx">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="178"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SUL-54-O8Q">
+                            <rect key="frame" x="15" y="20" width="60" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="IvT-z2-7Cc"/>
+                                <constraint firstAttribute="width" constant="60" id="xQb-SA-wK0"/>
+                            </constraints>
+                            <state key="normal" image="backIcon"/>
+                            <connections>
+                                <action selector="backButtonAction:" destination="-1" eventType="touchUpInside" id="Jj0-Mv-kjL"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Restaurants" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y83-dA-Nix">
+                            <rect key="frame" x="138" y="32" width="99" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="DS2-dT-egH"/>
+                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="83" id="hHT-BO-8EQ"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="ITCKabelStd-Medium" family="ITC Kabel Std" pointSize="20"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.70980392156862748" blue="0.98431372549019602" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="SUL-54-O8Q" firstAttribute="top" secondItem="vdX-no-fkx" secondAttribute="top" constant="20" id="5cI-PG-YpT"/>
+                        <constraint firstItem="Y83-dA-Nix" firstAttribute="top" secondItem="vdX-no-fkx" secondAttribute="top" constant="32" id="FW9-s6-eHz"/>
+                        <constraint firstAttribute="height" constant="178" id="UIG-Er-bM7"/>
+                        <constraint firstItem="SUL-54-O8Q" firstAttribute="leading" secondItem="vdX-no-fkx" secondAttribute="leading" constant="15" id="hxQ-cE-kih"/>
+                        <constraint firstItem="Y83-dA-Nix" firstAttribute="centerX" secondItem="vdX-no-fkx" secondAttribute="centerX" id="iT5-GS-Xv6"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wXW-4Y-ERR">
+                    <rect key="frame" x="13" y="80" width="349" height="66"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Loyalty Earned : " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QCM-VV-1Vj">
+                            <rect key="frame" x="18" y="30" width="176" height="19"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="176" id="0Qn-87-LaH"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="ITCKabelStd-Medium" family="ITC Kabel Std" pointSize="19"/>
+                            <color key="textColor" red="0.30196078431372547" green="0.30196078431372547" blue="0.30196078431372547" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uvf-ZM-Lzt">
+                            <rect key="frame" x="0.0" y="65" width="349" height="1"/>
+                            <color key="backgroundColor" red="0.90588235289999997" green="0.90588235289999997" blue="0.90588235289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="0.5" id="RiT-VC-KKU"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WMk-1T-c7A">
+                            <rect key="frame" x="289.5" y="30" width="43.5" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="pQH-zM-wYu"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="ITCKabelStd-Book" family="ITC Kabel Std" pointSize="20"/>
+                            <color key="textColor" red="0.30196078431372547" green="0.30196078431372547" blue="0.30196078431372547" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <rect key="contentStretch" x="0.0" y="1" width="1" height="1"/>
+                    <constraints>
+                        <constraint firstItem="QCM-VV-1Vj" firstAttribute="top" secondItem="wXW-4Y-ERR" secondAttribute="top" constant="30" id="Dpc-cO-3jR"/>
+                        <constraint firstItem="Uvf-ZM-Lzt" firstAttribute="leading" secondItem="wXW-4Y-ERR" secondAttribute="leading" id="F4k-jR-fVi"/>
+                        <constraint firstAttribute="height" constant="66" id="HKo-Gs-CMJ"/>
+                        <constraint firstAttribute="bottom" secondItem="Uvf-ZM-Lzt" secondAttribute="bottom" id="Shb-qE-Jo4"/>
+                        <constraint firstAttribute="trailing" secondItem="WMk-1T-c7A" secondAttribute="trailing" constant="16" id="kef-Mu-Xnr"/>
+                        <constraint firstItem="QCM-VV-1Vj" firstAttribute="leading" secondItem="wXW-4Y-ERR" secondAttribute="leading" constant="18" id="lSW-hA-RYn"/>
+                        <constraint firstItem="WMk-1T-c7A" firstAttribute="top" secondItem="wXW-4Y-ERR" secondAttribute="top" constant="30" id="upc-3r-RQI"/>
+                        <constraint firstAttribute="trailing" secondItem="Uvf-ZM-Lzt" secondAttribute="trailing" id="zRd-Qw-s8J"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="uEG-Bb-GhV">
+                    <rect key="frame" x="13" y="146" width="349" height="521"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <inset key="separatorInset" minX="112" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="eVU-wj-6X7"/>
+                        <outlet property="delegate" destination="-1" id="vr1-H8-YjJ"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="0.85098039215686272" green="0.85882352941176465" blue="0.86274509803921573" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="uEG-Bb-GhV" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="146" id="3hd-W0-7Jp"/>
+                <constraint firstAttribute="trailing" secondItem="wXW-4Y-ERR" secondAttribute="trailing" constant="13" id="8AK-0O-2MY"/>
+                <constraint firstAttribute="trailing" secondItem="uEG-Bb-GhV" secondAttribute="trailing" constant="13" id="Ajm-Gx-J4s"/>
+                <constraint firstItem="vdX-no-fkx" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="OvT-xW-TRS"/>
+                <constraint firstItem="vdX-no-fkx" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="R1u-AI-MSr"/>
+                <constraint firstItem="wXW-4Y-ERR" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="80" id="aRs-PN-EYr"/>
+                <constraint firstItem="uEG-Bb-GhV" firstAttribute="top" secondItem="vdX-no-fkx" secondAttribute="bottom" constant="80" id="lbx-Pt-pT3"/>
+                <constraint firstAttribute="bottom" secondItem="uEG-Bb-GhV" secondAttribute="bottom" id="mZE-ye-fG3"/>
+                <constraint firstAttribute="trailing" secondItem="vdX-no-fkx" secondAttribute="trailing" id="ohd-kT-aS3"/>
+                <constraint firstItem="uEG-Bb-GhV" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="13" id="v2t-cb-5wd"/>
+                <constraint firstItem="wXW-4Y-ERR" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="13" id="v6x-25-p3U"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="lbx-Pt-pT3"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="26.5" y="52.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="backIcon" width="25" height="25"/>
+    </resources>
+</document>

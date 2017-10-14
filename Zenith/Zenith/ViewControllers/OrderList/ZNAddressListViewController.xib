@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Itc kabel Std-Book.otf">
+            <string>ITCKabelStd-Book</string>
+        </array>
+        <array key="Itc kabel Std-Medium.otf">
+            <string>ITCKabelStd-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZNAddressListViewController" customModule="Zenith" customModuleProvider="target">
+            <connections>
+                <outlet property="addressListTableView" destination="Tom-6R-4xb" id="gx0-AI-d7h"/>
+                <outlet property="view" destination="475-Zu-7cD" id="wE1-kU-4gJ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="475-Zu-7cD">
+            <rect key="frame" x="0.0" y="0.0" width="355" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IqU-is-I24">
+                    <rect key="frame" x="0.0" y="0.0" width="355" height="63"/>
+                    <subviews>
+                        <button opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wBF-o0-5g8">
+                            <rect key="frame" x="15" y="32" width="34" height="24"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="24" id="hXw-hJ-tGZ"/>
+                                <constraint firstAttribute="width" constant="34" id="zt5-AN-Mar"/>
+                            </constraints>
+                            <state key="normal" image="backIcon"/>
+                            <connections>
+                                <action selector="backButtonAction:" destination="-1" eventType="touchUpInside" id="jcI-du-F9h"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address List" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7RU-1c-vKv">
+                            <rect key="frame" x="123" y="32" width="116" height="24"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="24" id="1Vc-6W-qLr"/>
+                                <constraint firstAttribute="width" constant="116" id="DSk-Yd-6VC"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="ITCKabelStd-Medium" family="ITC Kabel Std" pointSize="21"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sw3-Cj-2Ba">
+                            <rect key="frame" x="306" y="32" width="34" height="24"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="34" id="55b-lX-hh4"/>
+                                <constraint firstAttribute="height" constant="24" id="t70-AB-i2o"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="ITCKabelStd-Book" family="ITC Kabel Std" pointSize="16"/>
+                            <state key="normal" title="ADD">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="nextButtonAction:" destination="-1" eventType="touchUpInside" id="t5c-RR-cna"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.70980392160000005" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="7RU-1c-vKv" firstAttribute="centerX" secondItem="IqU-is-I24" secondAttribute="centerX" constant="3.5" id="0ai-nu-dFx"/>
+                        <constraint firstItem="wBF-o0-5g8" firstAttribute="top" secondItem="IqU-is-I24" secondAttribute="top" constant="32" id="Dpo-VZ-JgF"/>
+                        <constraint firstItem="sw3-Cj-2Ba" firstAttribute="top" secondItem="IqU-is-I24" secondAttribute="top" constant="32" id="XyU-eC-l8M"/>
+                        <constraint firstAttribute="height" constant="63" id="bew-OZ-nBV"/>
+                        <constraint firstAttribute="trailing" secondItem="sw3-Cj-2Ba" secondAttribute="trailing" constant="15" id="oeb-PQ-9Ow"/>
+                        <constraint firstItem="7RU-1c-vKv" firstAttribute="top" secondItem="IqU-is-I24" secondAttribute="top" constant="32" id="qQh-cg-Dwe"/>
+                        <constraint firstItem="wBF-o0-5g8" firstAttribute="leading" secondItem="IqU-is-I24" secondAttribute="leading" constant="15" id="wzq-Pm-yo5"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Tom-6R-4xb">
+                    <rect key="frame" x="10" y="64" width="335" height="603"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="4G1-xV-p6q"/>
+                        <outlet property="delegate" destination="-1" id="GVh-Sr-JfL"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="0.88574338230000005" green="0.88574338230000005" blue="0.88574338230000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Tom-6R-4xb" firstAttribute="top" secondItem="475-Zu-7cD" secondAttribute="top" constant="64" id="Is2-yE-T1Q"/>
+                <constraint firstAttribute="bottom" secondItem="Tom-6R-4xb" secondAttribute="bottom" id="LSS-ku-3Pk"/>
+                <constraint firstItem="IqU-is-I24" firstAttribute="leading" secondItem="475-Zu-7cD" secondAttribute="leading" id="Qa8-bo-Rud"/>
+                <constraint firstAttribute="trailing" secondItem="IqU-is-I24" secondAttribute="trailing" id="e2i-CS-Pfr"/>
+                <constraint firstAttribute="trailing" secondItem="Tom-6R-4xb" secondAttribute="trailing" constant="10" id="h3h-Ku-ob7"/>
+                <constraint firstItem="Tom-6R-4xb" firstAttribute="leading" secondItem="475-Zu-7cD" secondAttribute="leading" constant="10" id="oYW-ht-f62"/>
+                <constraint firstItem="IqU-is-I24" firstAttribute="top" secondItem="475-Zu-7cD" secondAttribute="top" id="x7S-Lv-R4l"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-194.5" y="89.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="backIcon" width="25" height="25"/>
+    </resources>
+</document>

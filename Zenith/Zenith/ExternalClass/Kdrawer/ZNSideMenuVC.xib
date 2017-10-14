@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Itc kabel Std-Medium.otf">
+            <string>ITCKabelStd-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZNSideMenuVC" customModule="Zenith" customModuleProvider="target">
+            <connections>
+                <outlet property="tableView" destination="nwi-18-4BB" id="Edz-AI-JxQ"/>
+                <outlet property="userNameLabel" destination="XpS-KE-AsG" id="lK0-4u-JF8"/>
+                <outlet property="userProfileImage" destination="Dgw-z6-UjO" id="8Og-WU-GG1"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="60" sectionHeaderHeight="49" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="nwi-18-4BB">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="separatorColor" red="0.85612309644670082" green="0.85612309644670082" blue="0.85612309644670082" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <inset key="separatorInset" minX="64" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <view key="tableHeaderView" contentMode="scaleToFill" id="4pt-pJ-eQl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="178"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alex Martin" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XpS-KE-AsG">
+                                <rect key="frame" x="0.0" y="137" width="375" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="Ttk-9s-tvT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ITCKabelStd-Medium" family="ITC Kabel Std" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dgw-z6-UjO">
+                                <rect key="frame" x="143.5" y="27" width="98" height="98"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="98" id="Wr5-Kj-aBY"/>
+                                    <constraint firstAttribute="height" constant="98" id="nqM-Fk-3pH"/>
+                                </constraints>
+                                <state key="normal" image="user"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="49"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="userProfileButton:" destination="-1" eventType="touchUpInside" id="ui5-rD-2hw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C3S-6I-w61">
+                                <rect key="frame" x="25" y="126" width="325" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="gIr-ZJ-hR8"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="userProfileButton:" destination="-1" eventType="touchUpInside" id="wMI-5F-jA1"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.70980392160000005" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="C3S-6I-w61" firstAttribute="top" secondItem="Dgw-z6-UjO" secondAttribute="bottom" constant="1" id="DMJ-bD-xLn"/>
+                            <constraint firstAttribute="trailing" secondItem="XpS-KE-AsG" secondAttribute="trailing" id="WSS-15-sYT"/>
+                            <constraint firstItem="XpS-KE-AsG" firstAttribute="top" secondItem="Dgw-z6-UjO" secondAttribute="bottom" constant="12" id="Whm-Zq-KPS"/>
+                            <constraint firstItem="XpS-KE-AsG" firstAttribute="leading" secondItem="4pt-pJ-eQl" secondAttribute="leading" id="ZAa-Ws-7xn"/>
+                            <constraint firstAttribute="trailing" secondItem="C3S-6I-w61" secondAttribute="trailing" constant="25" id="k94-4H-pJ2"/>
+                            <constraint firstItem="Dgw-z6-UjO" firstAttribute="top" secondItem="4pt-pJ-eQl" secondAttribute="top" constant="27" id="uvd-n9-qtl"/>
+                            <constraint firstItem="C3S-6I-w61" firstAttribute="leading" secondItem="4pt-pJ-eQl" secondAttribute="leading" constant="25" id="wTs-00-KTe"/>
+                            <constraint firstItem="Dgw-z6-UjO" firstAttribute="centerX" secondItem="4pt-pJ-eQl" secondAttribute="centerX" constant="5" id="yBN-Bf-b53"/>
+                        </constraints>
+                    </view>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.70980392156862748" blue="0.98431372549019602" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="nwi-18-4BB" secondAttribute="trailing" id="KaO-bk-8MH"/>
+                <constraint firstItem="nwi-18-4BB" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="gWY-qW-6dz"/>
+                <constraint firstItem="nwi-18-4BB" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="nQg-sk-qBv"/>
+                <constraint firstAttribute="bottom" secondItem="nwi-18-4BB" secondAttribute="bottom" id="tWY-vU-tor"/>
+            </constraints>
+            <point key="canvasLocation" x="-34.5" y="40.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="user" width="115" height="115"/>
+    </resources>
+</document>

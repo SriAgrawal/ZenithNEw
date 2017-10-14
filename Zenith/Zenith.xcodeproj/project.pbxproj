@@ -1,0 +1,2103 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04183EDA1EF0E7BC008B1FE5 /* ZNSpaRewardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04183ED81EF0E7BC008B1FE5 /* ZNSpaRewardVC.swift */; };
+		04183EDB1EF0E7BC008B1FE5 /* ZNSpaRewardVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04183ED91EF0E7BC008B1FE5 /* ZNSpaRewardVC.xib */; };
+		045C66EA1EE6A05F006F9777 /* ZNUserShippingDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045C66E81EE6A05F006F9777 /* ZNUserShippingDetailTableViewCell.swift */; };
+		045C66EB1EE6A05F006F9777 /* ZNUserShippingDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 045C66E91EE6A05F006F9777 /* ZNUserShippingDetailTableViewCell.xib */; };
+		045C66F01EE6F215006F9777 /* ZNAboutUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045C66EE1EE6F215006F9777 /* ZNAboutUsVC.swift */; };
+		045C66F11EE6F215006F9777 /* ZNAboutUsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 045C66EF1EE6F215006F9777 /* ZNAboutUsVC.xib */; };
+		04609CBB1EEBBA4E002BC4AD /* ZNEditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04609CB91EEBBA4E002BC4AD /* ZNEditProfileVC.swift */; };
+		04609CBC1EEBBA4E002BC4AD /* ZNEditProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04609CBA1EEBBA4E002BC4AD /* ZNEditProfileVC.xib */; };
+		04609CC41EEBD3CB002BC4AD /* ZNProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04609CC21EEBD3CB002BC4AD /* ZNProfileTableViewCell.swift */; };
+		04609CC51EEBD3CB002BC4AD /* ZNProfileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04609CC31EEBD3CB002BC4AD /* ZNProfileTableViewCell.xib */; };
+		04609CC81EEC0F4A002BC4AD /* ZNProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04609CC61EEC0F4A002BC4AD /* ZNProfileVC.swift */; };
+		04609CC91EEC0F4A002BC4AD /* ZNProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04609CC71EEC0F4A002BC4AD /* ZNProfileVC.xib */; };
+		04609CCC1EEC2CDE002BC4AD /* ZNTodayOffersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04609CCA1EEC2CDE002BC4AD /* ZNTodayOffersVC.swift */; };
+		04609CCD1EEC2CDE002BC4AD /* ZNTodayOffersVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04609CCB1EEC2CDE002BC4AD /* ZNTodayOffersVC.xib */; };
+		04609CD01EEC30C1002BC4AD /* ZNTodayOffersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04609CCE1EEC30C1002BC4AD /* ZNTodayOffersTableViewCell.swift */; };
+		04609CD11EEC30C1002BC4AD /* ZNTodayOffersTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04609CCF1EEC30C1002BC4AD /* ZNTodayOffersTableViewCell.xib */; };
+		04609CD41EEC5193002BC4AD /* ZNOffersLoyalityEarnedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04609CD21EEC5193002BC4AD /* ZNOffersLoyalityEarnedVC.swift */; };
+		04609CD51EEC5193002BC4AD /* ZNOffersLoyalityEarnedVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04609CD31EEC5193002BC4AD /* ZNOffersLoyalityEarnedVC.xib */; };
+		046BC4E31EEEB90A002A1B88 /* ZNCustomSharePopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046BC4E11EEEB90A002A1B88 /* ZNCustomSharePopUpViewController.swift */; };
+		046BC4E41EEEB90A002A1B88 /* ZNCustomSharePopUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046BC4E21EEEB90A002A1B88 /* ZNCustomSharePopUpViewController.xib */; };
+		0478049B1EE9316500E1765A /* ZNUserDeliveryAddressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047804991EE9316500E1765A /* ZNUserDeliveryAddressVC.swift */; };
+		0478049C1EE9316500E1765A /* ZNUserDeliveryAddressVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0478049A1EE9316500E1765A /* ZNUserDeliveryAddressVC.xib */; };
+		0480E8071EDE87AE00CCC2B1 /* DatePickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0480E8061EDE87AE00CCC2B1 /* DatePickerDialog.swift */; };
+		0480E82B1EDEEFF800CCC2B1 /* ZNMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0480E8291EDEEFF800CCC2B1 /* ZNMenuTableViewCell.swift */; };
+		0480E82C1EDEEFF800CCC2B1 /* ZNMenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0480E82A1EDEEFF800CCC2B1 /* ZNMenuTableViewCell.xib */; };
+		0480E8311EDEF6FC00CCC2B1 /* SVSlidingPanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0480E8301EDEF6FC00CCC2B1 /* SVSlidingPanelViewController.swift */; };
+		0484C3AF1EDDC84A000ECC4C /* ZNSignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0484C3AD1EDDC84A000ECC4C /* ZNSignUpVC.swift */; };
+		0484C3B01EDDC84A000ECC4C /* ZNSignUpVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0484C3AE1EDDC84A000ECC4C /* ZNSignUpVC.xib */; };
+		0484C3B71EDDC896000ECC4C /* ZNSignUpTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0484C3B51EDDC896000ECC4C /* ZNSignUpTableViewCell.swift */; };
+		0484C3B81EDDC896000ECC4C /* ZNSignUpTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0484C3B61EDDC896000ECC4C /* ZNSignUpTableViewCell.xib */; };
+		048AA97F1EEAD126008F8DE8 /* ZNProductListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048AA97D1EEAD126008F8DE8 /* ZNProductListTableViewCell.swift */; };
+		048AA9801EEAD126008F8DE8 /* ZNProductListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048AA97E1EEAD126008F8DE8 /* ZNProductListTableViewCell.xib */; };
+		049F20BA1EF04601005C28AF /* ZNRestaurantRewardsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F20B61EF04601005C28AF /* ZNRestaurantRewardsVC.swift */; };
+		049F20BB1EF04601005C28AF /* ZNRestaurantRewardsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 049F20B71EF04601005C28AF /* ZNRestaurantRewardsVC.xib */; };
+		049F20BC1EF04601005C28AF /* ZNRewardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F20B81EF04601005C28AF /* ZNRewardVC.swift */; };
+		049F20BD1EF04601005C28AF /* ZNRewardVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 049F20B91EF04601005C28AF /* ZNRewardVC.xib */; };
+		049F20C71EF04625005C28AF /* ZNRewardPointsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F20C11EF04625005C28AF /* ZNRewardPointsTableViewCell.swift */; };
+		049F20C81EF04625005C28AF /* ZNRewardPointsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 049F20C21EF04625005C28AF /* ZNRewardPointsTableViewCell.xib */; };
+		049F20C91EF04625005C28AF /* ZNRewardStampsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F20C31EF04625005C28AF /* ZNRewardStampsTableViewCell.swift */; };
+		049F20CA1EF04625005C28AF /* ZNRewardStampsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 049F20C41EF04625005C28AF /* ZNRewardStampsTableViewCell.xib */; };
+		049F20CC1EF0468F005C28AF /* ZNProductInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F20CB1EF0468F005C28AF /* ZNProductInfo.swift */; };
+		252D79881EEBD08A0094429A /* ZNOffersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252D79861EEBD08A0094429A /* ZNOffersTableViewCell.swift */; };
+		252D79891EEBD08A0094429A /* ZNOffersTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 252D79871EEBD08A0094429A /* ZNOffersTableViewCell.xib */; };
+		253CACF61EE01747002DACA2 /* KYDrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253CACF31EE01747002DACA2 /* KYDrawerController.swift */; };
+		253CACF71EE01747002DACA2 /* KYEmbedDrawerControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253CACF41EE01747002DACA2 /* KYEmbedDrawerControllerSegue.swift */; };
+		253CACF81EE01747002DACA2 /* KYEmbedMainControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253CACF51EE01747002DACA2 /* KYEmbedMainControllerSegue.swift */; };
+		253CAD031EE035AC002DACA2 /* ZNSideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253CAD011EE035AC002DACA2 /* ZNSideMenuVC.swift */; };
+		253CAD041EE035AC002DACA2 /* ZNSideMenuVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 253CAD021EE035AC002DACA2 /* ZNSideMenuVC.xib */; };
+		254164001EE9228400C6B3CD /* ZNPointStatusTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254163FE1EE9228400C6B3CD /* ZNPointStatusTableViewCell.swift */; };
+		254164011EE9228400C6B3CD /* ZNPointStatusTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 254163FF1EE9228400C6B3CD /* ZNPointStatusTableViewCell.xib */; };
+		254DD1AF1EEFA921009F4240 /* ZNThanksVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254DD1AD1EEFA921009F4240 /* ZNThanksVC.swift */; };
+		254DD1B01EEFA921009F4240 /* ZNThanksVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 254DD1AE1EEFA921009F4240 /* ZNThanksVC.xib */; };
+		256DDD4A1EE04E94007A45DE /* ZNSideTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256DDD481EE04E94007A45DE /* ZNSideTableViewCell.swift */; };
+		256DDD4B1EE04E94007A45DE /* ZNSideTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 256DDD491EE04E94007A45DE /* ZNSideTableViewCell.xib */; };
+		25C6C2641EEEBE1B00FFDDAF /* ZNPlaceOrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C6C2621EEEBE1B00FFDDAF /* ZNPlaceOrderTableViewCell.swift */; };
+		25C6C2651EEEBE1B00FFDDAF /* ZNPlaceOrderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25C6C2631EEEBE1B00FFDDAF /* ZNPlaceOrderTableViewCell.xib */; };
+		25C6C2681EEED28900FFDDAF /* ZNThankYouTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C6C2661EEED28900FFDDAF /* ZNThankYouTableViewCell.swift */; };
+		25C6C2691EEED28900FFDDAF /* ZNThankYouTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25C6C2671EEED28900FFDDAF /* ZNThankYouTableViewCell.xib */; };
+		25C9A6AF1EE26FB00026C41C /* ZNMyPointsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C9A6A91EE26FB00026C41C /* ZNMyPointsVC.swift */; };
+		25C9A6B01EE26FB00026C41C /* ZNMyPointsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25C9A6AA1EE26FB00026C41C /* ZNMyPointsVC.xib */; };
+		25C9A6B11EE26FB00026C41C /* ZNPointsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C9A6AB1EE26FB00026C41C /* ZNPointsVC.swift */; };
+		25C9A6B21EE26FB00026C41C /* ZNPointsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25C9A6AC1EE26FB00026C41C /* ZNPointsVC.xib */; };
+		25C9A6B41EE26FB00026C41C /* ZNStampsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25C9A6AE1EE26FB00026C41C /* ZNStampsVC.xib */; };
+		25C9A6B81EE27C110026C41C /* ZNStampsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C9A6B61EE27C110026C41C /* ZNStampsTableViewCell.swift */; };
+		25C9A6B91EE27C110026C41C /* ZNStampsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25C9A6B71EE27C110026C41C /* ZNStampsTableViewCell.xib */; };
+		25C9A6BB1EE27D0A0026C41C /* ZNStamps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C9A6BA1EE27D0A0026C41C /* ZNStamps.swift */; };
+		25C9A6BE1EE2BFD80026C41C /* ZNPointsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C9A6BC1EE2BFD80026C41C /* ZNPointsTableViewCell.swift */; };
+		25C9A6BF1EE2BFD80026C41C /* ZNPointsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25C9A6BD1EE2BFD80026C41C /* ZNPointsTableViewCell.xib */; };
+		25CFE1761EE15766006EAAD3 /* ZNRetailersSettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CFE1741EE15766006EAAD3 /* ZNRetailersSettingVC.swift */; };
+		25CFE1771EE15766006EAAD3 /* ZNRetailersSettingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25CFE1751EE15766006EAAD3 /* ZNRetailersSettingVC.xib */; };
+		25CFE1801EE1582F006EAAD3 /* ZNChangePassswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CFE17E1EE1582F006EAAD3 /* ZNChangePassswordVC.swift */; };
+		25CFE1811EE1582F006EAAD3 /* ZNChangePassswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25CFE17F1EE1582F006EAAD3 /* ZNChangePassswordVC.xib */; };
+		25CFE1AD1EE15B00006EAAD3 /* ZNStoreListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CFE1AB1EE15B00006EAAD3 /* ZNStoreListVC.swift */; };
+		25CFE1AE1EE15B00006EAAD3 /* ZNStoreListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25CFE1AC1EE15B00006EAAD3 /* ZNStoreListVC.xib */; };
+		25CFE1B71EE15B26006EAAD3 /* ZNProductListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CFE1B51EE15B26006EAAD3 /* ZNProductListVC.swift */; };
+		25CFE1B81EE15B26006EAAD3 /* ZNProductListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25CFE1B61EE15B26006EAAD3 /* ZNProductListVC.xib */; };
+		25CFE1BC1EE15B37006EAAD3 /* ZNLoyalityGainInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CFE1BA1EE15B37006EAAD3 /* ZNLoyalityGainInfoVC.swift */; };
+		25CFE1BD1EE15B37006EAAD3 /* ZNLoyalityGainInfoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25CFE1BB1EE15B37006EAAD3 /* ZNLoyalityGainInfoVC.xib */; };
+		25CFE1C11EE15B52006EAAD3 /* ZNForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CFE1BF1EE15B52006EAAD3 /* ZNForgotPasswordVC.swift */; };
+		25CFE1C21EE15B52006EAAD3 /* ZNForgotPasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25CFE1C01EE15B52006EAAD3 /* ZNForgotPasswordVC.xib */; };
+		25CFE1CB1EE15B71006EAAD3 /* ZNChangeRetailerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CFE1C91EE15B71006EAAD3 /* ZNChangeRetailerVC.swift */; };
+		25CFE1DA1EE15BC1006EAAD3 /* ZNRestaurantVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CFE1D81EE15BC1006EAAD3 /* ZNRestaurantVC.swift */; };
+		25CFE1DB1EE15BC1006EAAD3 /* ZNRestaurantVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25CFE1D91EE15BC1006EAAD3 /* ZNRestaurantVC.xib */; };
+		25CFE1E41EE15C19006EAAD3 /* ZNProductDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CFE1E21EE15C19006EAAD3 /* ZNProductDetailVC.swift */; };
+		25CFE1E51EE15C19006EAAD3 /* ZNProductDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25CFE1E31EE15C19006EAAD3 /* ZNProductDetailVC.xib */; };
+		25CFE1EE1EE15C74006EAAD3 /* ZNStoreDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CFE1EC1EE15C74006EAAD3 /* ZNStoreDetailVC.swift */; };
+		25CFE1EF1EE15C74006EAAD3 /* ZNStoreDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25CFE1ED1EE15C74006EAAD3 /* ZNStoreDetailVC.xib */; };
+		25CFE1F31EE15CB9006EAAD3 /* ZNSettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CFE1F11EE15CB9006EAAD3 /* ZNSettingVC.swift */; };
+		25CFE1F41EE15CB9006EAAD3 /* ZNSettingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25CFE1F21EE15CB9006EAAD3 /* ZNSettingVC.xib */; };
+		25CFE1F81EE160DD006EAAD3 /* ZNRouteMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CFE1F61EE160DD006EAAD3 /* ZNRouteMapVC.swift */; };
+		25CFE1F91EE160DD006EAAD3 /* ZNRouteMapVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25CFE1F71EE160DD006EAAD3 /* ZNRouteMapVC.xib */; };
+		25DD801C1EDF0D1C00D68240 /* ZNHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DD801A1EDF0D1C00D68240 /* ZNHomeVC.swift */; };
+		25DD80201EDF0D8000D68240 /* ZNHomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DD801E1EDF0D8000D68240 /* ZNHomeTableViewCell.swift */; };
+		25DD80211EDF0D8000D68240 /* ZNHomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25DD801F1EDF0D8000D68240 /* ZNHomeTableViewCell.xib */; };
+		25DD80271EDF0DC800D68240 /* RContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DD80261EDF0DC800D68240 /* RContainerController.swift */; };
+		25DD80311EDF0E0B00D68240 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25DD80301EDF0E0B00D68240 /* MapKit.framework */; };
+		25DD80331EDF0E7F00D68240 /* ZNHomeModelClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DD80321EDF0E7F00D68240 /* ZNHomeModelClass.swift */; };
+		25FDDC401EEE89A90018EBC9 /* ZNThankYouVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FDDC3E1EEE89A90018EBC9 /* ZNThankYouVC.swift */; };
+		25FDDC411EEE89A90018EBC9 /* ZNThankYouVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25FDDC3F1EEE89A90018EBC9 /* ZNThankYouVC.xib */; };
+		25FDDC431EEE92310018EBC9 /* ZNThankYou.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FDDC421EEE92310018EBC9 /* ZNThankYou.swift */; };
+		2B75BC1D1EE19E5400DA51C5 /* ZNDishListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B75BC181EE19E5400DA51C5 /* ZNDishListViewController.swift */; };
+		2B75BC1E1EE19E5400DA51C5 /* ZNDishListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B75BC191EE19E5400DA51C5 /* ZNDishListViewController.xib */; };
+		2B75BC1F1EE19E5400DA51C5 /* ZNOrderListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B75BC1B1EE19E5400DA51C5 /* ZNOrderListVC.swift */; };
+		2B75BC201EE19E5400DA51C5 /* ZNOrderListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B75BC1C1EE19E5400DA51C5 /* ZNOrderListVC.xib */; };
+		2B75BC241EE19EDF00DA51C5 /* ZNTCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B75BC221EE19EDF00DA51C5 /* ZNTCViewController.swift */; };
+		2B75BC251EE19EDF00DA51C5 /* ZNTCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B75BC231EE19EDF00DA51C5 /* ZNTCViewController.xib */; };
+		2B7F04701EDFDC2B00230EBF /* ZNStoreDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F046E1EDFDC2B00230EBF /* ZNStoreDetailTableViewCell.swift */; };
+		2B7F04711EDFDC2B00230EBF /* ZNStoreDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B7F046F1EDFDC2B00230EBF /* ZNStoreDetailTableViewCell.xib */; };
+		2B7F04741EDFDC4200230EBF /* ZNConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F04731EDFDC4200230EBF /* ZNConstant.swift */; };
+		2B7F04781EDFE82100230EBF /* ZNProductDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F04761EDFE82100230EBF /* ZNProductDetailTableViewCell.swift */; };
+		2B7F04791EDFE82100230EBF /* ZNProductDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B7F04771EDFE82100230EBF /* ZNProductDetailTableViewCell.xib */; };
+		2B87C1301EDDBAEF005CF9CC /* ZNLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B87C11D1EDDBAEF005CF9CC /* ZNLoginVC.swift */; };
+		2B87C1311EDDBAEF005CF9CC /* ZNLoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B87C11E1EDDBAEF005CF9CC /* ZNLoginVC.xib */; };
+		2B87C13E1EDDBB02005CF9CC /* ZNSetNotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B87C1381EDDBB02005CF9CC /* ZNSetNotificationTableViewCell.swift */; };
+		2B87C13F1EDDBB02005CF9CC /* ZNSetNotificationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B87C1391EDDBB02005CF9CC /* ZNSetNotificationTableViewCell.xib */; };
+		2B87C1401EDDBB02005CF9CC /* ZNSettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B87C13A1EDDBB02005CF9CC /* ZNSettingTableViewCell.swift */; };
+		2B87C1411EDDBB02005CF9CC /* ZNSettingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B87C13B1EDDBB02005CF9CC /* ZNSettingTableViewCell.xib */; };
+		2B87C1511EDDBCBD005CF9CC /* FacebookManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B87C1461EDDBCBD005CF9CC /* FacebookManager.swift */; };
+		2B87C1521EDDBCBD005CF9CC /* EDKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B87C1491EDDBCBD005CF9CC /* EDKeyboardAvoidingCollectionView.m */; };
+		2B87C1531EDDBCBD005CF9CC /* EDKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B87C14B1EDDBCBD005CF9CC /* EDKeyboardAvoidingScrollView.m */; };
+		2B87C1541EDDBCBD005CF9CC /* EDKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B87C14D1EDDBCBD005CF9CC /* EDKeyboardAvoidingTableView.m */; };
+		2B87C1551EDDBCBD005CF9CC /* HADropDown 4.07.07 PM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B87C14E1EDDBCBD005CF9CC /* HADropDown 4.07.07 PM.swift */; };
+		2B87C1561EDDBCBD005CF9CC /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B87C1501EDDBCBD005CF9CC /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		2B87C15B1EDDBD7F005CF9CC /* BTCustomTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B87C1581EDDBD7F005CF9CC /* BTCustomTextfield.swift */; };
+		2B87C15D1EDDBD7F005CF9CC /* MAPlaceholderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B87C15A1EDDBD7F005CF9CC /* MAPlaceholderTextView.swift */; };
+		2B89750C1EEFA15E004E584A /* ZNSpaDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B89750A1EEFA15E004E584A /* ZNSpaDetailVC.swift */; };
+		2B89750D1EEFA15E004E584A /* ZNSpaDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B89750B1EEFA15E004E584A /* ZNSpaDetailVC.xib */; };
+		2B8B5A361EE000240080C053 /* ZNUserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8B5A351EE000240080C053 /* ZNUserInfo.swift */; };
+		2BB3C85A1EE51DB400EFCA3E /* ZNCouponsDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB3C8581EE51DB400EFCA3E /* ZNCouponsDetailVC.swift */; };
+		2BB3C85B1EE51DB400EFCA3E /* ZNCouponsDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BB3C8591EE51DB400EFCA3E /* ZNCouponsDetailVC.xib */; };
+		2BB3C85D1EE53F1700EFCA3E /* ZNGradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB3C85C1EE53F1700EFCA3E /* ZNGradientButton.swift */; };
+		2BC5E4FE1EE2E9870078EB3F /* ZNRestaurantDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC5E4FC1EE2E9870078EB3F /* ZNRestaurantDetailVC.swift */; };
+		2BC5E4FF1EE2E9870078EB3F /* ZNRestaurantDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC5E4FD1EE2E9870078EB3F /* ZNRestaurantDetailVC.xib */; };
+		2BC5E5031EE2E9DA0078EB3F /* ZNBookAppointmentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC5E5011EE2E9DA0078EB3F /* ZNBookAppointmentVC.swift */; };
+		2BC5E5041EE2E9DA0078EB3F /* ZNBookAppointmentVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC5E5021EE2E9DA0078EB3F /* ZNBookAppointmentVC.xib */; };
+		2BC5E5111EE2F05C0078EB3F /* ZNMyCouponsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC5E50F1EE2F05C0078EB3F /* ZNMyCouponsTableViewCell.swift */; };
+		2BC5E5121EE2F05C0078EB3F /* ZNMyCouponsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC5E5101EE2F05C0078EB3F /* ZNMyCouponsTableViewCell.xib */; };
+		2BC5E5141EE2F0870078EB3F /* ZNMyCouponInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC5E5131EE2F0870078EB3F /* ZNMyCouponInfo.swift */; };
+		2BC5E5181EE2F0E00078EB3F /* ZNMyCouponsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC5E5161EE2F0E00078EB3F /* ZNMyCouponsVC.swift */; };
+		2BC5E5191EE2F0E00078EB3F /* ZNMyCouponsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC5E5171EE2F0E00078EB3F /* ZNMyCouponsVC.xib */; };
+		2BD3A8111EE7E00E00FA1B7F /* Itc kabel Std-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2BD3A80D1EE7E00E00FA1B7F /* Itc kabel Std-Bold.otf */; };
+		2BD3A8121EE7E00E00FA1B7F /* Itc kabel Std-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2BD3A80E1EE7E00E00FA1B7F /* Itc kabel Std-Book.otf */; };
+		2BD3A8131EE7E00E00FA1B7F /* Itc kabel Std-Demi.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2BD3A80F1EE7E00E00FA1B7F /* Itc kabel Std-Demi.otf */; };
+		2BD3A8141EE7E00E00FA1B7F /* Itc kabel Std-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2BD3A8101EE7E00E00FA1B7F /* Itc kabel Std-Medium.otf */; };
+		2BD3A8171EE80D0600FA1B7F /* Roboto Condensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2BD3A8151EE80D0600FA1B7F /* Roboto Condensed-Bold.ttf */; };
+		2BD3A8181EE80D0600FA1B7F /* Roboto Condensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2BD3A8161EE80D0600FA1B7F /* Roboto Condensed-Regular.ttf */; };
+		2BDD14561EE679BF003A495F /* ZNLoginTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDD14541EE679BF003A495F /* ZNLoginTableViewCell.swift */; };
+		2BDD14571EE679BF003A495F /* ZNLoginTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BDD14551EE679BF003A495F /* ZNLoginTableViewCell.xib */; };
+		2BDD145A1EE6C329003A495F /* ZNContactUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDD14581EE6C329003A495F /* ZNContactUsVC.swift */; };
+		2BDD145B1EE6C329003A495F /* ZNContactUsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BDD14591EE6C329003A495F /* ZNContactUsVC.xib */; };
+		2BF1DAF51EEE680E00B1072A /* ZNProductDetailDescTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF1DAF31EEE680E00B1072A /* ZNProductDetailDescTableViewCell.swift */; };
+		2BF1DAF61EEE680E00B1072A /* ZNProductDetailDescTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BF1DAF41EEE680E00B1072A /* ZNProductDetailDescTableViewCell.xib */; };
+		2BF1DAFA1EEE7A0100B1072A /* ZNRestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF1DAF81EEE7A0100B1072A /* ZNRestaurantTableViewCell.swift */; };
+		2BF1DAFB1EEE7A0100B1072A /* ZNRestaurantTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BF1DAF91EEE7A0100B1072A /* ZNRestaurantTableViewCell.xib */; };
+		2BF1DAFF1EEECC1A00B1072A /* ZNSpaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF1DAFD1EEECC1A00B1072A /* ZNSpaTableViewCell.swift */; };
+		2BF1DB001EEECC1A00B1072A /* ZNSpaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BF1DAFE1EEECC1A00B1072A /* ZNSpaTableViewCell.xib */; };
+		2BF1DB021EEECC4500B1072A /* ZNSpaInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF1DB011EEECC4500B1072A /* ZNSpaInfo.swift */; };
+		2BF1DB061EEECC7000B1072A /* ZNSpaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF1DB041EEECC7000B1072A /* ZNSpaVC.swift */; };
+		2BF1DB071EEECC7000B1072A /* ZNSpaVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BF1DB051EEECC7000B1072A /* ZNSpaVC.xib */; };
+		6880DDD21EDC299F00FD0BBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6880DDD11EDC299F00FD0BBD /* AppDelegate.swift */; };
+		6880DDD91EDC29A000FD0BBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6880DDD81EDC29A000FD0BBD /* Assets.xcassets */; };
+		6880DE001EDC2BDA00FD0BBD /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6880DDF61EDC2BDA00FD0BBD /* AlertController.swift */; };
+		6880DE041EDC2BDA00FD0BBD /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6880DDFA1EDC2BDA00FD0BBD /* StringExtensions.swift */; };
+		6880DE051EDC2BDA00FD0BBD /* UIWindowExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6880DDFB1EDC2BDA00FD0BBD /* UIWindowExtension.swift */; };
+		6880DE0F1EDC31F400FD0BBD /* GeneralExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6880DE0E1EDC31F400FD0BBD /* GeneralExtensions.swift */; };
+		881160760C784242B5FC6FAB /* Pods_Zenith.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E0C13BBDB0A2358B9FCB63 /* Pods_Zenith.framework */; };
+		AD1A62511EEAC7D5006FC5E7 /* ZNBookATableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1A624F1EEAC7D5006FC5E7 /* ZNBookATableVC.swift */; };
+		AD1A62521EEAC7D5006FC5E7 /* ZNBookATableVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD1A62501EEAC7D5006FC5E7 /* ZNBookATableVC.xib */; };
+		AD1A62641EEAC8C6006FC5E7 /* JBDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1A62551EEAC8C6006FC5E7 /* JBDate.swift */; };
+		AD1A62651EEAC8C6006FC5E7 /* JBDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1A62561EEAC8C6006FC5E7 /* JBDateExtension.swift */; };
+		AD1A62661EEAC8C6006FC5E7 /* JBDatePickerContentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1A62571EEAC8C6006FC5E7 /* JBDatePickerContentVC.swift */; };
+		AD1A62671EEAC8C6006FC5E7 /* JBDatePickerDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1A62581EEAC8C6006FC5E7 /* JBDatePickerDayView.swift */; };
+		AD1A62681EEAC8C6006FC5E7 /* JBDatePickerEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1A62591EEAC8C6006FC5E7 /* JBDatePickerEnums.swift */; };
+		AD1A62691EEAC8C6006FC5E7 /* JBDatePickerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1A625A1EEAC8C6006FC5E7 /* JBDatePickerManager.swift */; };
+		AD1A626A1EEAC8C6006FC5E7 /* JBDatePickerMonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1A625B1EEAC8C6006FC5E7 /* JBDatePickerMonthView.swift */; };
+		AD1A626B1EEAC8C6006FC5E7 /* JBDatePickerSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1A625C1EEAC8C6006FC5E7 /* JBDatePickerSelectionView.swift */; };
+		AD1A626C1EEAC8C6006FC5E7 /* JBDatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1A625D1EEAC8C6006FC5E7 /* JBDatePickerView.swift */; };
+		AD1A626D1EEAC8C6006FC5E7 /* JBDatePickerViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1A625E1EEAC8C6006FC5E7 /* JBDatePickerViewDelegate.swift */; };
+		AD1A626E1EEAC8C6006FC5E7 /* JBDatePickerWeekDaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1A625F1EEAC8C6006FC5E7 /* JBDatePickerWeekDaysView.swift */; };
+		AD1A626F1EEAC8C6006FC5E7 /* JBDatePickerWeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1A62601EEAC8C6006FC5E7 /* JBDatePickerWeekView.swift */; };
+		AD1A62701EEAC8C6006FC5E7 /* JBFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1A62611EEAC8C6006FC5E7 /* JBFont.swift */; };
+		AD1A62711EEAC8C6006FC5E7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD1A62621EEAC8C6006FC5E7 /* Info.plist */; };
+		AD2A079B1F14DFE800F11C06 /* ZNPointAnnotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2A079A1F14DFE800F11C06 /* ZNPointAnnotion.swift */; };
+		AD2A079D1F14EF1600F11C06 /* ZNHomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD2A079C1F14EF1600F11C06 /* ZNHomeVC.xib */; };
+		ADB1C1CF1EE97F9A004A4F15 /* MASliderAnimating.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB1C1CB1EE97F9A004A4F15 /* MASliderAnimating.swift */; };
+		ADB1C1D01EE97F9A004A4F15 /* MASliderSpringAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB1C1CC1EE97F9A004A4F15 /* MASliderSpringAnimator.swift */; };
+		ADB1C1D11EE97F9A004A4F15 /* MASliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB1C1CD1EE97F9A004A4F15 /* MASliderView.swift */; };
+		ADB1C1D21EE97F9A004A4F15 /* MASliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB1C1CE1EE97F9A004A4F15 /* MASliderViewController.swift */; };
+		ADCAED001EFD2C840090BB72 /* ZNPagination.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCAECFF1EFD2C840090BB72 /* ZNPagination.swift */; };
+		ADCAED021EFD35200090BB72 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADCAED011EFD35200090BB72 /* MessageUI.framework */; };
+		ADE4AFE01EEE58EF00E1F54A /* ZNTodayOfferHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE4AFDE1EEE58EF00E1F54A /* ZNTodayOfferHeaderCell.swift */; };
+		ADE4AFE11EEE58EF00E1F54A /* ZNTodayOfferHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADE4AFDF1EEE58EF00E1F54A /* ZNTodayOfferHeaderCell.xib */; };
+		ADE4AFE51EEE95EC00E1F54A /* ZNUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE4AFE41EEE95EC00E1F54A /* ZNUtility.swift */; };
+		ADE4AFE71EEE9EFC00E1F54A /* RPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE4AFE61EEE9EFC00E1F54A /* RPicker.swift */; };
+		ADE4AFFC1EEEC93B00E1F54A /* OptionPickerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE4AFF91EEEC93B00E1F54A /* OptionPickerManager.m */; };
+		ADE4AFFD1EEEC93B00E1F54A /* RMPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE4AFFB1EEEC93B00E1F54A /* RMPickerViewController.m */; };
+		ADE4B0001EEEC9F000E1F54A /* RMActionController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE4AFFF1EEEC9F000E1F54A /* RMActionController.m */; };
+		ADF180751EFBC76600DCCCB7 /* ZNDrawPolylineClass.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF180741EFBC76600DCCCB7 /* ZNDrawPolylineClass.m */; };
+		E8466D461F26121F009E8A39 /* ZNPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8466D441F26121F009E8A39 /* ZNPaymentViewController.swift */; };
+		E8466D471F26121F009E8A39 /* ZNPaymentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8466D451F26121F009E8A39 /* ZNPaymentViewController.xib */; };
+		E86E79281F2771B0008BF2C0 /* ZNCategoryInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86E79271F2771B0008BF2C0 /* ZNCategoryInfo.swift */; };
+		E8A708631F25C2E6001351B2 /* ZNAddCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A708611F25C2E6001351B2 /* ZNAddCardViewController.swift */; };
+		E8A708641F25C2E6001351B2 /* ZNAddCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8A708621F25C2E6001351B2 /* ZNAddCardViewController.xib */; };
+		E8DAE6D41F21E0D700ED8A44 /* ZNAddCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DAE6D21F21E0D700ED8A44 /* ZNAddCardTableViewCell.swift */; };
+		E8DAE6D51F21E0D700ED8A44 /* ZNAddCardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8DAE6D31F21E0D700ED8A44 /* ZNAddCardTableViewCell.xib */; };
+		E8DAE6D71F21FDDA00ED8A44 /* MonthYearPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DAE6D61F21FDDA00ED8A44 /* MonthYearPickerView.swift */; };
+		E8DAE6D91F21FFDD00ED8A44 /* ZNCardOnfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DAE6D81F21FFDD00ED8A44 /* ZNCardOnfo.swift */; };
+		E8DAE6DF1F2212FF00ED8A44 /* RateView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DAE6DE1F2212FF00ED8A44 /* RateView.m */; };
+		E8DAE6E11F22138A00ED8A44 /* ZNStampsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DAE6E01F22138A00ED8A44 /* ZNStampsVC.swift */; };
+		E8DAE6EB1F22229900ED8A44 /* AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DAE6E41F22229900ED8A44 /* AESCrypt.m */; };
+		E8DAE6EC1F22229900ED8A44 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DAE6E61F22229900ED8A44 /* NSData+Base64.m */; };
+		E8DAE6ED1F22229900ED8A44 /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DAE6E81F22229900ED8A44 /* NSData+CommonCrypto.m */; };
+		E8DAE6EE1F22229900ED8A44 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DAE6EA1F22229900ED8A44 /* NSString+Base64.m */; };
+		ED1D837E1EDD82B80090A8AD /* ZNLoyalityGainInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1D837C1EDD82B80090A8AD /* ZNLoyalityGainInfoTableViewCell.swift */; };
+		ED1D837F1EDD82B80090A8AD /* ZNLoyalityGainInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED1D837D1EDD82B80090A8AD /* ZNLoyalityGainInfoTableViewCell.xib */; };
+		ED56E1611F21C57C003344CD /* ZNAddressListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56E15F1F21C57C003344CD /* ZNAddressListViewController.swift */; };
+		ED56E1621F21C57C003344CD /* ZNAddressListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED56E1601F21C57C003344CD /* ZNAddressListViewController.xib */; };
+		ED56E1651F21C5F6003344CD /* ZNSaveListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56E1631F21C5F6003344CD /* ZNSaveListTableViewCell.swift */; };
+		ED56E1661F21C5F6003344CD /* ZNSaveListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED56E1641F21C5F6003344CD /* ZNSaveListTableViewCell.xib */; };
+		ED56E1681F21D6A2003344CD /* ZNAddressListInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56E1671F21D6A2003344CD /* ZNAddressListInfo.swift */; };
+		ED56E16F1F21F6D3003344CD /* ZNCardListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56E16D1F21F6D3003344CD /* ZNCardListViewController.swift */; };
+		ED56E1701F21F6D3003344CD /* ZNCardListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED56E16E1F21F6D3003344CD /* ZNCardListViewController.xib */; };
+		ED6954DE1EE137C200F3B6EC /* ZNOrderListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6954DC1EE137C200F3B6EC /* ZNOrderListTableViewCell.swift */; };
+		ED6954DF1EE137C200F3B6EC /* ZNOrderListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED6954DD1EE137C200F3B6EC /* ZNOrderListTableViewCell.xib */; };
+		ED6954E11EE14F7700F3B6EC /* ZNOrderListInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6954E01EE14F7700F3B6EC /* ZNOrderListInfo.swift */; };
+		EDA9BF9E1EDFD172001CE28E /* ZNStoreListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA9BF9C1EDFD172001CE28E /* ZNStoreListTableViewCell.swift */; };
+		EDA9BF9F1EDFD172001CE28E /* ZNStoreListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDA9BF9D1EDFD172001CE28E /* ZNStoreListTableViewCell.xib */; };
+		EDA9BFA81EDFD61C001CE28E /* ZNRetailersSettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA9BFA61EDFD61C001CE28E /* ZNRetailersSettingTableViewCell.swift */; };
+		EDA9BFA91EDFD61C001CE28E /* ZNRetailersSettingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDA9BFA71EDFD61C001CE28E /* ZNRetailersSettingTableViewCell.xib */; };
+		EDA9BFAF1EDFE48F001CE28E /* ZNRetailersInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA9BFAE1EDFE48F001CE28E /* ZNRetailersInfo.swift */; };
+		EDA9BFBD1EE0343D001CE28E /* ZNDishListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA9BFBB1EE0343D001CE28E /* ZNDishListCollectionViewCell.swift */; };
+		EDA9BFBE1EE0343D001CE28E /* ZNDishListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDA9BFBC1EE0343D001CE28E /* ZNDishListCollectionViewCell.xib */; };
+		EDA9BFC01EE03A33001CE28E /* ZNDishInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA9BFBF1EE03A33001CE28E /* ZNDishInfo.swift */; };
+		EDC4B5A51EDEF87B00E44584 /* ZNStoreInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC4B5A31EDEF87B00E44584 /* ZNStoreInfo.swift */; };
+		EF21882B1F7B7BF000EDF06F /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF21882A1F7B7BF000EDF06F /* SafariServices.framework */; };
+		EF606E431F8DE7CC008E37B6 /* Stripe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF606E421F8DE7CC008E37B6 /* Stripe.framework */; };
+		EF7FF0121EF7C5FC00B10602 /* FNPConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7FF0091EF7C5FC00B10602 /* FNPConstants.swift */; };
+		EF7FF0131EF7C5FC00B10602 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7FF00C1EF7C5FC00B10602 /* MBProgressHUD.m */; };
+		EF7FF0141EF7C5FC00B10602 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7FF00F1EF7C5FC00B10602 /* Reachability.m */; };
+		EF7FF0151EF7C5FC00B10602 /* ServiceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7FF0101EF7C5FC00B10602 /* ServiceHelper.swift */; };
+		EF845E811F1C9F0B0072E65A /* ZNBookTableInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF845E801F1C9F0B0072E65A /* ZNBookTableInfo.swift */; };
+		EF9CCF9B1F29C9DC008009A1 /* CountryCodeList.csv in Resources */ = {isa = PBXBuildFile; fileRef = EF9CCF9A1F29C9DC008009A1 /* CountryCodeList.csv */; };
+		EFACF9691F20A65B00753AB7 /* ZNJoinUsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFACF9651F20A65B00753AB7 /* ZNJoinUsTableCell.swift */; };
+		EFACF96A1F20A65B00753AB7 /* ZNJoinUsTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFACF9661F20A65B00753AB7 /* ZNJoinUsTableCell.xib */; };
+		EFACF96B1F20A65B00753AB7 /* ZNStoreUserInfoTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFACF9671F20A65B00753AB7 /* ZNStoreUserInfoTableCell.swift */; };
+		EFACF96C1F20A65B00753AB7 /* ZNStoreUserInfoTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFACF9681F20A65B00753AB7 /* ZNStoreUserInfoTableCell.xib */; };
+		EFACF9711F20AA3A00753AB7 /* ZNDishItemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFACF96D1F20AA3A00753AB7 /* ZNDishItemListViewController.swift */; };
+		EFACF9721F20AA3A00753AB7 /* ZNDishItemListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFACF96E1F20AA3A00753AB7 /* ZNDishItemListViewController.xib */; };
+		EFACF9731F20AA3A00753AB7 /* ZNDishTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFACF96F1F20AA3A00753AB7 /* ZNDishTableCell.swift */; };
+		EFACF9741F20AA3A00753AB7 /* ZNDishTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFACF9701F20AA3A00753AB7 /* ZNDishTableCell.xib */; };
+		EFF77D981EF9325600071DE5 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF77D7C1EF9325600071DE5 /* NSData+ImageContentType.m */; };
+		EFF77D991EF9325600071DE5 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF77D7E1EF9325600071DE5 /* SDImageCache.m */; };
+		EFF77D9A1EF9325600071DE5 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF77D801EF9325600071DE5 /* SDWebImageCompat.m */; };
+		EFF77D9B1EF9325600071DE5 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF77D821EF9325600071DE5 /* SDWebImageDecoder.m */; };
+		EFF77D9C1EF9325600071DE5 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF77D841EF9325600071DE5 /* SDWebImageDownloader.m */; };
+		EFF77D9D1EF9325600071DE5 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF77D861EF9325600071DE5 /* SDWebImageDownloaderOperation.m */; };
+		EFF77D9E1EF9325600071DE5 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF77D881EF9325600071DE5 /* SDWebImageManager.m */; };
+		EFF77D9F1EF9325600071DE5 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF77D8B1EF9325600071DE5 /* SDWebImagePrefetcher.m */; };
+		EFF77DA01EF9325600071DE5 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF77D8D1EF9325600071DE5 /* UIButton+WebCache.m */; };
+		EFF77DA11EF9325600071DE5 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF77D8F1EF9325600071DE5 /* UIImage+GIF.m */; };
+		EFF77DA21EF9325600071DE5 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF77D911EF9325600071DE5 /* UIImage+MultiFormat.m */; };
+		EFF77DA31EF9325600071DE5 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF77D931EF9325600071DE5 /* UIImageView+HighlightedWebCache.m */; };
+		EFF77DA41EF9325600071DE5 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF77D951EF9325600071DE5 /* UIImageView+WebCache.m */; };
+		EFF77DA51EF9325600071DE5 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF77D971EF9325600071DE5 /* UIView+WebCacheOperation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03CE1ED23ACB4558B6FD3949 /* Pods-Zenith.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zenith.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Zenith/Pods-Zenith.debug.xcconfig"; sourceTree = "<group>"; };
+		04183ED81EF0E7BC008B1FE5 /* ZNSpaRewardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNSpaRewardVC.swift; sourceTree = "<group>"; };
+		04183ED91EF0E7BC008B1FE5 /* ZNSpaRewardVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNSpaRewardVC.xib; sourceTree = "<group>"; };
+		045C66E81EE6A05F006F9777 /* ZNUserShippingDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNUserShippingDetailTableViewCell.swift; sourceTree = "<group>"; };
+		045C66E91EE6A05F006F9777 /* ZNUserShippingDetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNUserShippingDetailTableViewCell.xib; sourceTree = "<group>"; };
+		045C66EE1EE6F215006F9777 /* ZNAboutUsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNAboutUsVC.swift; sourceTree = "<group>"; };
+		045C66EF1EE6F215006F9777 /* ZNAboutUsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNAboutUsVC.xib; sourceTree = "<group>"; };
+		04609CB91EEBBA4E002BC4AD /* ZNEditProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNEditProfileVC.swift; sourceTree = "<group>"; };
+		04609CBA1EEBBA4E002BC4AD /* ZNEditProfileVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNEditProfileVC.xib; sourceTree = "<group>"; };
+		04609CC21EEBD3CB002BC4AD /* ZNProfileTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNProfileTableViewCell.swift; sourceTree = "<group>"; };
+		04609CC31EEBD3CB002BC4AD /* ZNProfileTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNProfileTableViewCell.xib; sourceTree = "<group>"; };
+		04609CC61EEC0F4A002BC4AD /* ZNProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNProfileVC.swift; sourceTree = "<group>"; };
+		04609CC71EEC0F4A002BC4AD /* ZNProfileVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNProfileVC.xib; sourceTree = "<group>"; };
+		04609CCA1EEC2CDE002BC4AD /* ZNTodayOffersVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNTodayOffersVC.swift; sourceTree = "<group>"; };
+		04609CCB1EEC2CDE002BC4AD /* ZNTodayOffersVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNTodayOffersVC.xib; sourceTree = "<group>"; };
+		04609CCE1EEC30C1002BC4AD /* ZNTodayOffersTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNTodayOffersTableViewCell.swift; sourceTree = "<group>"; };
+		04609CCF1EEC30C1002BC4AD /* ZNTodayOffersTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNTodayOffersTableViewCell.xib; sourceTree = "<group>"; };
+		04609CD21EEC5193002BC4AD /* ZNOffersLoyalityEarnedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNOffersLoyalityEarnedVC.swift; sourceTree = "<group>"; };
+		04609CD31EEC5193002BC4AD /* ZNOffersLoyalityEarnedVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNOffersLoyalityEarnedVC.xib; sourceTree = "<group>"; };
+		046BC4E11EEEB90A002A1B88 /* ZNCustomSharePopUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNCustomSharePopUpViewController.swift; sourceTree = "<group>"; };
+		046BC4E21EEEB90A002A1B88 /* ZNCustomSharePopUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNCustomSharePopUpViewController.xib; sourceTree = "<group>"; };
+		047804991EE9316500E1765A /* ZNUserDeliveryAddressVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNUserDeliveryAddressVC.swift; sourceTree = "<group>"; };
+		0478049A1EE9316500E1765A /* ZNUserDeliveryAddressVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNUserDeliveryAddressVC.xib; sourceTree = "<group>"; };
+		0480E8061EDE87AE00CCC2B1 /* DatePickerDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerDialog.swift; sourceTree = "<group>"; };
+		0480E8291EDEEFF800CCC2B1 /* ZNMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNMenuTableViewCell.swift; sourceTree = "<group>"; };
+		0480E82A1EDEEFF800CCC2B1 /* ZNMenuTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNMenuTableViewCell.xib; sourceTree = "<group>"; };
+		0480E8301EDEF6FC00CCC2B1 /* SVSlidingPanelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVSlidingPanelViewController.swift; sourceTree = "<group>"; };
+		0484C3AD1EDDC84A000ECC4C /* ZNSignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNSignUpVC.swift; sourceTree = "<group>"; };
+		0484C3AE1EDDC84A000ECC4C /* ZNSignUpVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNSignUpVC.xib; sourceTree = "<group>"; };
+		0484C3B51EDDC896000ECC4C /* ZNSignUpTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNSignUpTableViewCell.swift; sourceTree = "<group>"; };
+		0484C3B61EDDC896000ECC4C /* ZNSignUpTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNSignUpTableViewCell.xib; sourceTree = "<group>"; };
+		048AA97D1EEAD126008F8DE8 /* ZNProductListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNProductListTableViewCell.swift; sourceTree = "<group>"; };
+		048AA97E1EEAD126008F8DE8 /* ZNProductListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNProductListTableViewCell.xib; sourceTree = "<group>"; };
+		049F20B61EF04601005C28AF /* ZNRestaurantRewardsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNRestaurantRewardsVC.swift; sourceTree = "<group>"; };
+		049F20B71EF04601005C28AF /* ZNRestaurantRewardsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNRestaurantRewardsVC.xib; sourceTree = "<group>"; };
+		049F20B81EF04601005C28AF /* ZNRewardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNRewardVC.swift; sourceTree = "<group>"; };
+		049F20B91EF04601005C28AF /* ZNRewardVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNRewardVC.xib; sourceTree = "<group>"; };
+		049F20C11EF04625005C28AF /* ZNRewardPointsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNRewardPointsTableViewCell.swift; sourceTree = "<group>"; };
+		049F20C21EF04625005C28AF /* ZNRewardPointsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNRewardPointsTableViewCell.xib; sourceTree = "<group>"; };
+		049F20C31EF04625005C28AF /* ZNRewardStampsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNRewardStampsTableViewCell.swift; sourceTree = "<group>"; };
+		049F20C41EF04625005C28AF /* ZNRewardStampsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNRewardStampsTableViewCell.xib; sourceTree = "<group>"; };
+		049F20CB1EF0468F005C28AF /* ZNProductInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNProductInfo.swift; sourceTree = "<group>"; };
+		252D79861EEBD08A0094429A /* ZNOffersTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNOffersTableViewCell.swift; sourceTree = "<group>"; };
+		252D79871EEBD08A0094429A /* ZNOffersTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNOffersTableViewCell.xib; sourceTree = "<group>"; };
+		253CACF31EE01747002DACA2 /* KYDrawerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYDrawerController.swift; sourceTree = "<group>"; };
+		253CACF41EE01747002DACA2 /* KYEmbedDrawerControllerSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYEmbedDrawerControllerSegue.swift; sourceTree = "<group>"; };
+		253CACF51EE01747002DACA2 /* KYEmbedMainControllerSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYEmbedMainControllerSegue.swift; sourceTree = "<group>"; };
+		253CAD011EE035AC002DACA2 /* ZNSideMenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNSideMenuVC.swift; sourceTree = "<group>"; };
+		253CAD021EE035AC002DACA2 /* ZNSideMenuVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNSideMenuVC.xib; sourceTree = "<group>"; };
+		254163FE1EE9228400C6B3CD /* ZNPointStatusTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNPointStatusTableViewCell.swift; sourceTree = "<group>"; };
+		254163FF1EE9228400C6B3CD /* ZNPointStatusTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNPointStatusTableViewCell.xib; sourceTree = "<group>"; };
+		254DD1AD1EEFA921009F4240 /* ZNThanksVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNThanksVC.swift; sourceTree = "<group>"; };
+		254DD1AE1EEFA921009F4240 /* ZNThanksVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNThanksVC.xib; sourceTree = "<group>"; };
+		256DDD481EE04E94007A45DE /* ZNSideTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNSideTableViewCell.swift; sourceTree = "<group>"; };
+		256DDD491EE04E94007A45DE /* ZNSideTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNSideTableViewCell.xib; sourceTree = "<group>"; };
+		25C6C2621EEEBE1B00FFDDAF /* ZNPlaceOrderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNPlaceOrderTableViewCell.swift; sourceTree = "<group>"; };
+		25C6C2631EEEBE1B00FFDDAF /* ZNPlaceOrderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNPlaceOrderTableViewCell.xib; sourceTree = "<group>"; };
+		25C6C2661EEED28900FFDDAF /* ZNThankYouTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNThankYouTableViewCell.swift; sourceTree = "<group>"; };
+		25C6C2671EEED28900FFDDAF /* ZNThankYouTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNThankYouTableViewCell.xib; sourceTree = "<group>"; };
+		25C9A6A91EE26FB00026C41C /* ZNMyPointsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNMyPointsVC.swift; sourceTree = "<group>"; };
+		25C9A6AA1EE26FB00026C41C /* ZNMyPointsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNMyPointsVC.xib; sourceTree = "<group>"; };
+		25C9A6AB1EE26FB00026C41C /* ZNPointsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNPointsVC.swift; sourceTree = "<group>"; };
+		25C9A6AC1EE26FB00026C41C /* ZNPointsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNPointsVC.xib; sourceTree = "<group>"; };
+		25C9A6AE1EE26FB00026C41C /* ZNStampsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNStampsVC.xib; sourceTree = "<group>"; };
+		25C9A6B61EE27C110026C41C /* ZNStampsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNStampsTableViewCell.swift; sourceTree = "<group>"; };
+		25C9A6B71EE27C110026C41C /* ZNStampsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNStampsTableViewCell.xib; sourceTree = "<group>"; };
+		25C9A6BA1EE27D0A0026C41C /* ZNStamps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNStamps.swift; sourceTree = "<group>"; };
+		25C9A6BC1EE2BFD80026C41C /* ZNPointsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNPointsTableViewCell.swift; sourceTree = "<group>"; };
+		25C9A6BD1EE2BFD80026C41C /* ZNPointsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNPointsTableViewCell.xib; sourceTree = "<group>"; };
+		25CFE1741EE15766006EAAD3 /* ZNRetailersSettingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNRetailersSettingVC.swift; sourceTree = "<group>"; };
+		25CFE1751EE15766006EAAD3 /* ZNRetailersSettingVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNRetailersSettingVC.xib; sourceTree = "<group>"; };
+		25CFE17E1EE1582F006EAAD3 /* ZNChangePassswordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNChangePassswordVC.swift; sourceTree = "<group>"; };
+		25CFE17F1EE1582F006EAAD3 /* ZNChangePassswordVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNChangePassswordVC.xib; sourceTree = "<group>"; };
+		25CFE1AB1EE15B00006EAAD3 /* ZNStoreListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNStoreListVC.swift; sourceTree = "<group>"; };
+		25CFE1AC1EE15B00006EAAD3 /* ZNStoreListVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNStoreListVC.xib; sourceTree = "<group>"; };
+		25CFE1B51EE15B26006EAAD3 /* ZNProductListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNProductListVC.swift; sourceTree = "<group>"; };
+		25CFE1B61EE15B26006EAAD3 /* ZNProductListVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNProductListVC.xib; sourceTree = "<group>"; };
+		25CFE1BA1EE15B37006EAAD3 /* ZNLoyalityGainInfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNLoyalityGainInfoVC.swift; sourceTree = "<group>"; };
+		25CFE1BB1EE15B37006EAAD3 /* ZNLoyalityGainInfoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNLoyalityGainInfoVC.xib; sourceTree = "<group>"; };
+		25CFE1BF1EE15B52006EAAD3 /* ZNForgotPasswordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNForgotPasswordVC.swift; sourceTree = "<group>"; };
+		25CFE1C01EE15B52006EAAD3 /* ZNForgotPasswordVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNForgotPasswordVC.xib; sourceTree = "<group>"; };
+		25CFE1C91EE15B71006EAAD3 /* ZNChangeRetailerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNChangeRetailerVC.swift; sourceTree = "<group>"; };
+		25CFE1CA1EE15B71006EAAD3 /* ZNChangeRetailerVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNChangeRetailerVC.xib; sourceTree = "<group>"; };
+		25CFE1D81EE15BC1006EAAD3 /* ZNRestaurantVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNRestaurantVC.swift; sourceTree = "<group>"; };
+		25CFE1D91EE15BC1006EAAD3 /* ZNRestaurantVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNRestaurantVC.xib; sourceTree = "<group>"; };
+		25CFE1E21EE15C19006EAAD3 /* ZNProductDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNProductDetailVC.swift; sourceTree = "<group>"; };
+		25CFE1E31EE15C19006EAAD3 /* ZNProductDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNProductDetailVC.xib; sourceTree = "<group>"; };
+		25CFE1EC1EE15C74006EAAD3 /* ZNStoreDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNStoreDetailVC.swift; sourceTree = "<group>"; };
+		25CFE1ED1EE15C74006EAAD3 /* ZNStoreDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNStoreDetailVC.xib; sourceTree = "<group>"; };
+		25CFE1F11EE15CB9006EAAD3 /* ZNSettingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNSettingVC.swift; sourceTree = "<group>"; };
+		25CFE1F21EE15CB9006EAAD3 /* ZNSettingVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNSettingVC.xib; sourceTree = "<group>"; };
+		25CFE1F61EE160DD006EAAD3 /* ZNRouteMapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNRouteMapVC.swift; sourceTree = "<group>"; };
+		25CFE1F71EE160DD006EAAD3 /* ZNRouteMapVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNRouteMapVC.xib; sourceTree = "<group>"; };
+		25DD801A1EDF0D1C00D68240 /* ZNHomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNHomeVC.swift; sourceTree = "<group>"; };
+		25DD801E1EDF0D8000D68240 /* ZNHomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNHomeTableViewCell.swift; sourceTree = "<group>"; };
+		25DD801F1EDF0D8000D68240 /* ZNHomeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNHomeTableViewCell.xib; sourceTree = "<group>"; };
+		25DD80261EDF0DC800D68240 /* RContainerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RContainerController.swift; sourceTree = "<group>"; };
+		25DD80301EDF0E0B00D68240 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		25DD80321EDF0E7F00D68240 /* ZNHomeModelClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNHomeModelClass.swift; sourceTree = "<group>"; };
+		25FDDC3E1EEE89A90018EBC9 /* ZNThankYouVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNThankYouVC.swift; sourceTree = "<group>"; };
+		25FDDC3F1EEE89A90018EBC9 /* ZNThankYouVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNThankYouVC.xib; sourceTree = "<group>"; };
+		25FDDC421EEE92310018EBC9 /* ZNThankYou.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNThankYou.swift; sourceTree = "<group>"; };
+		2B75BC181EE19E5400DA51C5 /* ZNDishListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNDishListViewController.swift; sourceTree = "<group>"; };
+		2B75BC191EE19E5400DA51C5 /* ZNDishListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNDishListViewController.xib; sourceTree = "<group>"; };
+		2B75BC1B1EE19E5400DA51C5 /* ZNOrderListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNOrderListVC.swift; sourceTree = "<group>"; };
+		2B75BC1C1EE19E5400DA51C5 /* ZNOrderListVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNOrderListVC.xib; sourceTree = "<group>"; };
+		2B75BC221EE19EDF00DA51C5 /* ZNTCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNTCViewController.swift; sourceTree = "<group>"; };
+		2B75BC231EE19EDF00DA51C5 /* ZNTCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNTCViewController.xib; sourceTree = "<group>"; };
+		2B7F046E1EDFDC2B00230EBF /* ZNStoreDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNStoreDetailTableViewCell.swift; sourceTree = "<group>"; };
+		2B7F046F1EDFDC2B00230EBF /* ZNStoreDetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNStoreDetailTableViewCell.xib; sourceTree = "<group>"; };
+		2B7F04731EDFDC4200230EBF /* ZNConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNConstant.swift; sourceTree = "<group>"; };
+		2B7F04761EDFE82100230EBF /* ZNProductDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNProductDetailTableViewCell.swift; sourceTree = "<group>"; };
+		2B7F04771EDFE82100230EBF /* ZNProductDetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNProductDetailTableViewCell.xib; sourceTree = "<group>"; };
+		2B87C11D1EDDBAEF005CF9CC /* ZNLoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNLoginVC.swift; sourceTree = "<group>"; };
+		2B87C11E1EDDBAEF005CF9CC /* ZNLoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNLoginVC.xib; sourceTree = "<group>"; };
+		2B87C1381EDDBB02005CF9CC /* ZNSetNotificationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNSetNotificationTableViewCell.swift; sourceTree = "<group>"; };
+		2B87C1391EDDBB02005CF9CC /* ZNSetNotificationTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNSetNotificationTableViewCell.xib; sourceTree = "<group>"; };
+		2B87C13A1EDDBB02005CF9CC /* ZNSettingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNSettingTableViewCell.swift; sourceTree = "<group>"; };
+		2B87C13B1EDDBB02005CF9CC /* ZNSettingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNSettingTableViewCell.xib; sourceTree = "<group>"; };
+		2B87C1461EDDBCBD005CF9CC /* FacebookManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookManager.swift; sourceTree = "<group>"; };
+		2B87C1481EDDBCBD005CF9CC /* EDKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		2B87C1491EDDBCBD005CF9CC /* EDKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		2B87C14A1EDDBCBD005CF9CC /* EDKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		2B87C14B1EDDBCBD005CF9CC /* EDKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		2B87C14C1EDDBCBD005CF9CC /* EDKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		2B87C14D1EDDBCBD005CF9CC /* EDKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		2B87C14E1EDDBCBD005CF9CC /* HADropDown 4.07.07 PM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HADropDown 4.07.07 PM.swift"; sourceTree = "<group>"; };
+		2B87C14F1EDDBCBD005CF9CC /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		2B87C1501EDDBCBD005CF9CC /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		2B87C1581EDDBD7F005CF9CC /* BTCustomTextfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTCustomTextfield.swift; sourceTree = "<group>"; };
+		2B87C15A1EDDBD7F005CF9CC /* MAPlaceholderTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAPlaceholderTextView.swift; sourceTree = "<group>"; };
+		2B89750A1EEFA15E004E584A /* ZNSpaDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNSpaDetailVC.swift; sourceTree = "<group>"; };
+		2B89750B1EEFA15E004E584A /* ZNSpaDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNSpaDetailVC.xib; sourceTree = "<group>"; };
+		2B8B5A351EE000240080C053 /* ZNUserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNUserInfo.swift; sourceTree = "<group>"; };
+		2BB3C8581EE51DB400EFCA3E /* ZNCouponsDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNCouponsDetailVC.swift; sourceTree = "<group>"; };
+		2BB3C8591EE51DB400EFCA3E /* ZNCouponsDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNCouponsDetailVC.xib; sourceTree = "<group>"; };
+		2BB3C85C1EE53F1700EFCA3E /* ZNGradientButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNGradientButton.swift; sourceTree = "<group>"; };
+		2BC5E4FC1EE2E9870078EB3F /* ZNRestaurantDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNRestaurantDetailVC.swift; sourceTree = "<group>"; };
+		2BC5E4FD1EE2E9870078EB3F /* ZNRestaurantDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNRestaurantDetailVC.xib; sourceTree = "<group>"; };
+		2BC5E5011EE2E9DA0078EB3F /* ZNBookAppointmentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNBookAppointmentVC.swift; sourceTree = "<group>"; };
+		2BC5E5021EE2E9DA0078EB3F /* ZNBookAppointmentVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNBookAppointmentVC.xib; sourceTree = "<group>"; };
+		2BC5E50F1EE2F05C0078EB3F /* ZNMyCouponsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNMyCouponsTableViewCell.swift; sourceTree = "<group>"; };
+		2BC5E5101EE2F05C0078EB3F /* ZNMyCouponsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNMyCouponsTableViewCell.xib; sourceTree = "<group>"; };
+		2BC5E5131EE2F0870078EB3F /* ZNMyCouponInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNMyCouponInfo.swift; sourceTree = "<group>"; };
+		2BC5E5161EE2F0E00078EB3F /* ZNMyCouponsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNMyCouponsVC.swift; sourceTree = "<group>"; };
+		2BC5E5171EE2F0E00078EB3F /* ZNMyCouponsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNMyCouponsVC.xib; sourceTree = "<group>"; };
+		2BD3A80D1EE7E00E00FA1B7F /* Itc kabel Std-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Itc kabel Std-Bold.otf"; sourceTree = "<group>"; };
+		2BD3A80E1EE7E00E00FA1B7F /* Itc kabel Std-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Itc kabel Std-Book.otf"; sourceTree = "<group>"; };
+		2BD3A80F1EE7E00E00FA1B7F /* Itc kabel Std-Demi.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Itc kabel Std-Demi.otf"; sourceTree = "<group>"; };
+		2BD3A8101EE7E00E00FA1B7F /* Itc kabel Std-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Itc kabel Std-Medium.otf"; sourceTree = "<group>"; };
+		2BD3A8151EE80D0600FA1B7F /* Roboto Condensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto Condensed-Bold.ttf"; sourceTree = "<group>"; };
+		2BD3A8161EE80D0600FA1B7F /* Roboto Condensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto Condensed-Regular.ttf"; sourceTree = "<group>"; };
+		2BDD14541EE679BF003A495F /* ZNLoginTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNLoginTableViewCell.swift; sourceTree = "<group>"; };
+		2BDD14551EE679BF003A495F /* ZNLoginTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNLoginTableViewCell.xib; sourceTree = "<group>"; };
+		2BDD14581EE6C329003A495F /* ZNContactUsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNContactUsVC.swift; sourceTree = "<group>"; };
+		2BDD14591EE6C329003A495F /* ZNContactUsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNContactUsVC.xib; sourceTree = "<group>"; };
+		2BF1DAF31EEE680E00B1072A /* ZNProductDetailDescTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNProductDetailDescTableViewCell.swift; sourceTree = "<group>"; };
+		2BF1DAF41EEE680E00B1072A /* ZNProductDetailDescTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNProductDetailDescTableViewCell.xib; sourceTree = "<group>"; };
+		2BF1DAF81EEE7A0100B1072A /* ZNRestaurantTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNRestaurantTableViewCell.swift; sourceTree = "<group>"; };
+		2BF1DAF91EEE7A0100B1072A /* ZNRestaurantTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNRestaurantTableViewCell.xib; sourceTree = "<group>"; };
+		2BF1DAFD1EEECC1A00B1072A /* ZNSpaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNSpaTableViewCell.swift; sourceTree = "<group>"; };
+		2BF1DAFE1EEECC1A00B1072A /* ZNSpaTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNSpaTableViewCell.xib; sourceTree = "<group>"; };
+		2BF1DB011EEECC4500B1072A /* ZNSpaInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNSpaInfo.swift; sourceTree = "<group>"; };
+		2BF1DB041EEECC7000B1072A /* ZNSpaVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNSpaVC.swift; sourceTree = "<group>"; };
+		2BF1DB051EEECC7000B1072A /* ZNSpaVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNSpaVC.xib; sourceTree = "<group>"; };
+		6880DDCE1EDC299F00FD0BBD /* Zenith.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zenith.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6880DDD11EDC299F00FD0BBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6880DDD81EDC29A000FD0BBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6880DDDD1EDC29A000FD0BBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6880DDF61EDC2BDA00FD0BBD /* AlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
+		6880DDFA1EDC2BDA00FD0BBD /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		6880DDFB1EDC2BDA00FD0BBD /* UIWindowExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIWindowExtension.swift; sourceTree = "<group>"; };
+		6880DE0E1EDC31F400FD0BBD /* GeneralExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralExtensions.swift; sourceTree = "<group>"; };
+		AD1A624F1EEAC7D5006FC5E7 /* ZNBookATableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNBookATableVC.swift; sourceTree = "<group>"; };
+		AD1A62501EEAC7D5006FC5E7 /* ZNBookATableVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNBookATableVC.xib; sourceTree = "<group>"; };
+		AD1A62551EEAC8C6006FC5E7 /* JBDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JBDate.swift; sourceTree = "<group>"; };
+		AD1A62561EEAC8C6006FC5E7 /* JBDateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JBDateExtension.swift; sourceTree = "<group>"; };
+		AD1A62571EEAC8C6006FC5E7 /* JBDatePickerContentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JBDatePickerContentVC.swift; sourceTree = "<group>"; };
+		AD1A62581EEAC8C6006FC5E7 /* JBDatePickerDayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JBDatePickerDayView.swift; sourceTree = "<group>"; };
+		AD1A62591EEAC8C6006FC5E7 /* JBDatePickerEnums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JBDatePickerEnums.swift; sourceTree = "<group>"; };
+		AD1A625A1EEAC8C6006FC5E7 /* JBDatePickerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JBDatePickerManager.swift; sourceTree = "<group>"; };
+		AD1A625B1EEAC8C6006FC5E7 /* JBDatePickerMonthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JBDatePickerMonthView.swift; sourceTree = "<group>"; };
+		AD1A625C1EEAC8C6006FC5E7 /* JBDatePickerSelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JBDatePickerSelectionView.swift; sourceTree = "<group>"; };
+		AD1A625D1EEAC8C6006FC5E7 /* JBDatePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JBDatePickerView.swift; sourceTree = "<group>"; };
+		AD1A625E1EEAC8C6006FC5E7 /* JBDatePickerViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JBDatePickerViewDelegate.swift; sourceTree = "<group>"; };
+		AD1A625F1EEAC8C6006FC5E7 /* JBDatePickerWeekDaysView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JBDatePickerWeekDaysView.swift; sourceTree = "<group>"; };
+		AD1A62601EEAC8C6006FC5E7 /* JBDatePickerWeekView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JBDatePickerWeekView.swift; sourceTree = "<group>"; };
+		AD1A62611EEAC8C6006FC5E7 /* JBFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JBFont.swift; sourceTree = "<group>"; };
+		AD1A62621EEAC8C6006FC5E7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD1A62631EEAC8C6006FC5E7 /* JBDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBDatePicker.h; sourceTree = "<group>"; };
+		AD2A079A1F14DFE800F11C06 /* ZNPointAnnotion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNPointAnnotion.swift; sourceTree = "<group>"; };
+		AD2A079C1F14EF1600F11C06 /* ZNHomeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNHomeVC.xib; sourceTree = "<group>"; };
+		ADB1C1CB1EE97F9A004A4F15 /* MASliderAnimating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASliderAnimating.swift; sourceTree = "<group>"; };
+		ADB1C1CC1EE97F9A004A4F15 /* MASliderSpringAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASliderSpringAnimator.swift; sourceTree = "<group>"; };
+		ADB1C1CD1EE97F9A004A4F15 /* MASliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASliderView.swift; sourceTree = "<group>"; };
+		ADB1C1CE1EE97F9A004A4F15 /* MASliderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASliderViewController.swift; sourceTree = "<group>"; };
+		ADCAECFF1EFD2C840090BB72 /* ZNPagination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNPagination.swift; sourceTree = "<group>"; };
+		ADCAED011EFD35200090BB72 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		ADE4AFDE1EEE58EF00E1F54A /* ZNTodayOfferHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNTodayOfferHeaderCell.swift; sourceTree = "<group>"; };
+		ADE4AFDF1EEE58EF00E1F54A /* ZNTodayOfferHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNTodayOfferHeaderCell.xib; sourceTree = "<group>"; };
+		ADE4AFE41EEE95EC00E1F54A /* ZNUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNUtility.swift; sourceTree = "<group>"; };
+		ADE4AFE61EEE9EFC00E1F54A /* RPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPicker.swift; sourceTree = "<group>"; };
+		ADE4AFF81EEEC93B00E1F54A /* OptionPickerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionPickerManager.h; sourceTree = "<group>"; };
+		ADE4AFF91EEEC93B00E1F54A /* OptionPickerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionPickerManager.m; sourceTree = "<group>"; };
+		ADE4AFFA1EEEC93B00E1F54A /* RMPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMPickerViewController.h; sourceTree = "<group>"; };
+		ADE4AFFB1EEEC93B00E1F54A /* RMPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMPickerViewController.m; sourceTree = "<group>"; };
+		ADE4AFFE1EEEC9F000E1F54A /* RMActionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMActionController.h; sourceTree = "<group>"; };
+		ADE4AFFF1EEEC9F000E1F54A /* RMActionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMActionController.m; sourceTree = "<group>"; };
+		ADF180731EFBC76600DCCCB7 /* ZNDrawPolylineClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZNDrawPolylineClass.h; sourceTree = "<group>"; };
+		ADF180741EFBC76600DCCCB7 /* ZNDrawPolylineClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZNDrawPolylineClass.m; sourceTree = "<group>"; };
+		C0E0C13BBDB0A2358B9FCB63 /* Pods_Zenith.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zenith.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8466D441F26121F009E8A39 /* ZNPaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNPaymentViewController.swift; sourceTree = "<group>"; };
+		E8466D451F26121F009E8A39 /* ZNPaymentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNPaymentViewController.xib; sourceTree = "<group>"; };
+		E86E79271F2771B0008BF2C0 /* ZNCategoryInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNCategoryInfo.swift; sourceTree = "<group>"; };
+		E8A7085C1F25BEFA001351B2 /* BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		E8A708611F25C2E6001351B2 /* ZNAddCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZNAddCardViewController.swift; path = ../ZNAddCardViewController.swift; sourceTree = "<group>"; };
+		E8A708621F25C2E6001351B2 /* ZNAddCardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ZNAddCardViewController.xib; path = ../ZNAddCardViewController.xib; sourceTree = "<group>"; };
+		E8DAE6D21F21E0D700ED8A44 /* ZNAddCardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNAddCardTableViewCell.swift; sourceTree = "<group>"; };
+		E8DAE6D31F21E0D700ED8A44 /* ZNAddCardTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNAddCardTableViewCell.xib; sourceTree = "<group>"; };
+		E8DAE6D61F21FDDA00ED8A44 /* MonthYearPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthYearPickerView.swift; sourceTree = "<group>"; };
+		E8DAE6D81F21FFDD00ED8A44 /* ZNCardOnfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNCardOnfo.swift; sourceTree = "<group>"; };
+		E8DAE6DD1F2212FF00ED8A44 /* RateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RateView.h; sourceTree = "<group>"; };
+		E8DAE6DE1F2212FF00ED8A44 /* RateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RateView.m; sourceTree = "<group>"; };
+		E8DAE6E01F22138A00ED8A44 /* ZNStampsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNStampsVC.swift; sourceTree = "<group>"; };
+		E8DAE6E31F22229900ED8A44 /* AESCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESCrypt.h; sourceTree = "<group>"; };
+		E8DAE6E41F22229900ED8A44 /* AESCrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESCrypt.m; sourceTree = "<group>"; };
+		E8DAE6E51F22229900ED8A44 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		E8DAE6E61F22229900ED8A44 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		E8DAE6E71F22229900ED8A44 /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonCrypto.h"; sourceTree = "<group>"; };
+		E8DAE6E81F22229900ED8A44 /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
+		E8DAE6E91F22229900ED8A44 /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		E8DAE6EA1F22229900ED8A44 /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		EB1C2E6418D7460824A46AA6 /* Pods-Zenith.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zenith.release.xcconfig"; path = "Pods/Target Support Files/Pods-Zenith/Pods-Zenith.release.xcconfig"; sourceTree = "<group>"; };
+		ED1D837C1EDD82B80090A8AD /* ZNLoyalityGainInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNLoyalityGainInfoTableViewCell.swift; sourceTree = "<group>"; };
+		ED1D837D1EDD82B80090A8AD /* ZNLoyalityGainInfoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNLoyalityGainInfoTableViewCell.xib; sourceTree = "<group>"; };
+		ED56E15F1F21C57C003344CD /* ZNAddressListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNAddressListViewController.swift; sourceTree = "<group>"; };
+		ED56E1601F21C57C003344CD /* ZNAddressListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNAddressListViewController.xib; sourceTree = "<group>"; };
+		ED56E1631F21C5F6003344CD /* ZNSaveListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNSaveListTableViewCell.swift; sourceTree = "<group>"; };
+		ED56E1641F21C5F6003344CD /* ZNSaveListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNSaveListTableViewCell.xib; sourceTree = "<group>"; };
+		ED56E1671F21D6A2003344CD /* ZNAddressListInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNAddressListInfo.swift; sourceTree = "<group>"; };
+		ED56E16D1F21F6D3003344CD /* ZNCardListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNCardListViewController.swift; sourceTree = "<group>"; };
+		ED56E16E1F21F6D3003344CD /* ZNCardListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNCardListViewController.xib; sourceTree = "<group>"; };
+		ED6954DC1EE137C200F3B6EC /* ZNOrderListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNOrderListTableViewCell.swift; sourceTree = "<group>"; };
+		ED6954DD1EE137C200F3B6EC /* ZNOrderListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNOrderListTableViewCell.xib; sourceTree = "<group>"; };
+		ED6954E01EE14F7700F3B6EC /* ZNOrderListInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNOrderListInfo.swift; sourceTree = "<group>"; };
+		EDA9BF9C1EDFD172001CE28E /* ZNStoreListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNStoreListTableViewCell.swift; sourceTree = "<group>"; };
+		EDA9BF9D1EDFD172001CE28E /* ZNStoreListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNStoreListTableViewCell.xib; sourceTree = "<group>"; };
+		EDA9BFA61EDFD61C001CE28E /* ZNRetailersSettingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNRetailersSettingTableViewCell.swift; sourceTree = "<group>"; };
+		EDA9BFA71EDFD61C001CE28E /* ZNRetailersSettingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNRetailersSettingTableViewCell.xib; sourceTree = "<group>"; };
+		EDA9BFAE1EDFE48F001CE28E /* ZNRetailersInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNRetailersInfo.swift; sourceTree = "<group>"; };
+		EDA9BFBB1EE0343D001CE28E /* ZNDishListCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNDishListCollectionViewCell.swift; sourceTree = "<group>"; };
+		EDA9BFBC1EE0343D001CE28E /* ZNDishListCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNDishListCollectionViewCell.xib; sourceTree = "<group>"; };
+		EDA9BFBF1EE03A33001CE28E /* ZNDishInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNDishInfo.swift; sourceTree = "<group>"; };
+		EDC4B5A31EDEF87B00E44584 /* ZNStoreInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNStoreInfo.swift; sourceTree = "<group>"; };
+		EF21882A1F7B7BF000EDF06F /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		EF2850761F307FA700CB08E5 /* Zenith.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Zenith.entitlements; sourceTree = "<group>"; };
+		EF606E421F8DE7CC008E37B6 /* Stripe.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Stripe.framework; sourceTree = "<group>"; };
+		EF7FF0091EF7C5FC00B10602 /* FNPConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FNPConstants.swift; sourceTree = "<group>"; };
+		EF7FF00B1EF7C5FC00B10602 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		EF7FF00C1EF7C5FC00B10602 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		EF7FF00E1EF7C5FC00B10602 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		EF7FF00F1EF7C5FC00B10602 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		EF7FF0101EF7C5FC00B10602 /* ServiceHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceHelper.swift; sourceTree = "<group>"; };
+		EF845E801F1C9F0B0072E65A /* ZNBookTableInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNBookTableInfo.swift; sourceTree = "<group>"; };
+		EF9CCF9A1F29C9DC008009A1 /* CountryCodeList.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CountryCodeList.csv; path = Zenith/CountryCodeList.csv; sourceTree = "<group>"; };
+		EFACF9651F20A65B00753AB7 /* ZNJoinUsTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNJoinUsTableCell.swift; sourceTree = "<group>"; };
+		EFACF9661F20A65B00753AB7 /* ZNJoinUsTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNJoinUsTableCell.xib; sourceTree = "<group>"; };
+		EFACF9671F20A65B00753AB7 /* ZNStoreUserInfoTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNStoreUserInfoTableCell.swift; sourceTree = "<group>"; };
+		EFACF9681F20A65B00753AB7 /* ZNStoreUserInfoTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNStoreUserInfoTableCell.xib; sourceTree = "<group>"; };
+		EFACF96D1F20AA3A00753AB7 /* ZNDishItemListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNDishItemListViewController.swift; sourceTree = "<group>"; };
+		EFACF96E1F20AA3A00753AB7 /* ZNDishItemListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNDishItemListViewController.xib; sourceTree = "<group>"; };
+		EFACF96F1F20AA3A00753AB7 /* ZNDishTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNDishTableCell.swift; sourceTree = "<group>"; };
+		EFACF9701F20AA3A00753AB7 /* ZNDishTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZNDishTableCell.xib; sourceTree = "<group>"; };
+		EFF77D7B1EF9325600071DE5 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		EFF77D7C1EF9325600071DE5 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		EFF77D7D1EF9325600071DE5 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		EFF77D7E1EF9325600071DE5 /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		EFF77D7F1EF9325600071DE5 /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		EFF77D801EF9325600071DE5 /* SDWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCompat.m; sourceTree = "<group>"; };
+		EFF77D811EF9325600071DE5 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		EFF77D821EF9325600071DE5 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		EFF77D831EF9325600071DE5 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		EFF77D841EF9325600071DE5 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		EFF77D851EF9325600071DE5 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		EFF77D861EF9325600071DE5 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		EFF77D871EF9325600071DE5 /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		EFF77D881EF9325600071DE5 /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		EFF77D891EF9325600071DE5 /* SDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageOperation.h; sourceTree = "<group>"; };
+		EFF77D8A1EF9325600071DE5 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		EFF77D8B1EF9325600071DE5 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		EFF77D8C1EF9325600071DE5 /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		EFF77D8D1EF9325600071DE5 /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		EFF77D8E1EF9325600071DE5 /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		EFF77D8F1EF9325600071DE5 /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		EFF77D901EF9325600071DE5 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		EFF77D911EF9325600071DE5 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		EFF77D921EF9325600071DE5 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		EFF77D931EF9325600071DE5 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		EFF77D941EF9325600071DE5 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		EFF77D951EF9325600071DE5 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		EFF77D961EF9325600071DE5 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		EFF77D971EF9325600071DE5 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6880DDCB1EDC299F00FD0BBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF21882B1F7B7BF000EDF06F /* SafariServices.framework in Frameworks */,
+				ADCAED021EFD35200090BB72 /* MessageUI.framework in Frameworks */,
+				25DD80311EDF0E0B00D68240 /* MapKit.framework in Frameworks */,
+				EF606E431F8DE7CC008E37B6 /* Stripe.framework in Frameworks */,
+				881160760C784242B5FC6FAB /* Pods_Zenith.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		045C66E71EE6A021006F9777 /* UserDetailTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				045C66E81EE6A05F006F9777 /* ZNUserShippingDetailTableViewCell.swift */,
+				045C66E91EE6A05F006F9777 /* ZNUserShippingDetailTableViewCell.xib */,
+			);
+			path = UserDetailTableViewCell;
+			sourceTree = "<group>";
+		};
+		045C66ED1EE6F215006F9777 /* AboutUs */ = {
+			isa = PBXGroup;
+			children = (
+				045C66EE1EE6F215006F9777 /* ZNAboutUsVC.swift */,
+				045C66EF1EE6F215006F9777 /* ZNAboutUsVC.xib */,
+			);
+			path = AboutUs;
+			sourceTree = "<group>";
+		};
+		04609CC11EEBD3B2002BC4AD /* ProfileTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				04609CC21EEBD3CB002BC4AD /* ZNProfileTableViewCell.swift */,
+				04609CC31EEBD3CB002BC4AD /* ZNProfileTableViewCell.xib */,
+			);
+			path = ProfileTableViewCell;
+			sourceTree = "<group>";
+		};
+		046BC4E01EEEB90A002A1B88 /* CustomSharePopUp */ = {
+			isa = PBXGroup;
+			children = (
+				046BC4E11EEEB90A002A1B88 /* ZNCustomSharePopUpViewController.swift */,
+				046BC4E21EEEB90A002A1B88 /* ZNCustomSharePopUpViewController.xib */,
+			);
+			path = CustomSharePopUp;
+			sourceTree = "<group>";
+		};
+		0480E8051EDE87AE00CCC2B1 /* DatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				ADE4AFE61EEE9EFC00E1F54A /* RPicker.swift */,
+				0480E8061EDE87AE00CCC2B1 /* DatePickerDialog.swift */,
+			);
+			path = DatePicker;
+			sourceTree = "<group>";
+		};
+		0480E8281EDEEFE600CCC2B1 /* ZNMenuTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				0480E8291EDEEFF800CCC2B1 /* ZNMenuTableViewCell.swift */,
+				0480E82A1EDEEFF800CCC2B1 /* ZNMenuTableViewCell.xib */,
+			);
+			path = ZNMenuTableViewCell;
+			sourceTree = "<group>";
+		};
+		0480E82F1EDEF6FC00CCC2B1 /* SlidingPanelController */ = {
+			isa = PBXGroup;
+			children = (
+				0480E8301EDEF6FC00CCC2B1 /* SVSlidingPanelViewController.swift */,
+			);
+			path = SlidingPanelController;
+			sourceTree = "<group>";
+		};
+		0484C3B41EDDC896000ECC4C /* SignUpTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				0484C3B51EDDC896000ECC4C /* ZNSignUpTableViewCell.swift */,
+				0484C3B61EDDC896000ECC4C /* ZNSignUpTableViewCell.xib */,
+			);
+			path = SignUpTableViewCell;
+			sourceTree = "<group>";
+		};
+		048AA97C1EEAD108008F8DE8 /* ProductListTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				048AA97D1EEAD126008F8DE8 /* ZNProductListTableViewCell.swift */,
+				048AA97E1EEAD126008F8DE8 /* ZNProductListTableViewCell.xib */,
+			);
+			path = ProductListTableViewCell;
+			sourceTree = "<group>";
+		};
+		049F20B51EF04601005C28AF /* MyRewards */ = {
+			isa = PBXGroup;
+			children = (
+				049F20B61EF04601005C28AF /* ZNRestaurantRewardsVC.swift */,
+				049F20B71EF04601005C28AF /* ZNRestaurantRewardsVC.xib */,
+				049F20B81EF04601005C28AF /* ZNRewardVC.swift */,
+				049F20B91EF04601005C28AF /* ZNRewardVC.xib */,
+				04183ED81EF0E7BC008B1FE5 /* ZNSpaRewardVC.swift */,
+				04183ED91EF0E7BC008B1FE5 /* ZNSpaRewardVC.xib */,
+			);
+			path = MyRewards;
+			sourceTree = "<group>";
+		};
+		049F20BE1EF04625005C28AF /* MyRewardTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				049F20C11EF04625005C28AF /* ZNRewardPointsTableViewCell.swift */,
+				049F20C21EF04625005C28AF /* ZNRewardPointsTableViewCell.xib */,
+				049F20C31EF04625005C28AF /* ZNRewardStampsTableViewCell.swift */,
+				049F20C41EF04625005C28AF /* ZNRewardStampsTableViewCell.xib */,
+			);
+			path = MyRewardTableViewCell;
+			sourceTree = "<group>";
+		};
+		252D79851EEBD0760094429A /* OffersTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				252D79861EEBD08A0094429A /* ZNOffersTableViewCell.swift */,
+				252D79871EEBD08A0094429A /* ZNOffersTableViewCell.xib */,
+			);
+			path = OffersTableViewCell;
+			sourceTree = "<group>";
+		};
+		253CACF21EE01747002DACA2 /* Kdrawer */ = {
+			isa = PBXGroup;
+			children = (
+				253CACF31EE01747002DACA2 /* KYDrawerController.swift */,
+				253CACF41EE01747002DACA2 /* KYEmbedDrawerControllerSegue.swift */,
+				253CACF51EE01747002DACA2 /* KYEmbedMainControllerSegue.swift */,
+				253CAD011EE035AC002DACA2 /* ZNSideMenuVC.swift */,
+				253CAD021EE035AC002DACA2 /* ZNSideMenuVC.xib */,
+				256DDD481EE04E94007A45DE /* ZNSideTableViewCell.swift */,
+				256DDD491EE04E94007A45DE /* ZNSideTableViewCell.xib */,
+			);
+			path = Kdrawer;
+			sourceTree = "<group>";
+		};
+		25C6C2611EEEBDE500FFDDAF /* ThankYouTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				25C6C2621EEEBE1B00FFDDAF /* ZNPlaceOrderTableViewCell.swift */,
+				25C6C2631EEEBE1B00FFDDAF /* ZNPlaceOrderTableViewCell.xib */,
+				25C6C2661EEED28900FFDDAF /* ZNThankYouTableViewCell.swift */,
+				25C6C2671EEED28900FFDDAF /* ZNThankYouTableViewCell.xib */,
+			);
+			path = ThankYouTableViewCell;
+			sourceTree = "<group>";
+		};
+		25C9A6A81EE26FB00026C41C /* MyPoints */ = {
+			isa = PBXGroup;
+			children = (
+				25C9A6A91EE26FB00026C41C /* ZNMyPointsVC.swift */,
+				25C9A6AA1EE26FB00026C41C /* ZNMyPointsVC.xib */,
+				25C9A6AB1EE26FB00026C41C /* ZNPointsVC.swift */,
+				25C9A6AC1EE26FB00026C41C /* ZNPointsVC.xib */,
+				E8DAE6E01F22138A00ED8A44 /* ZNStampsVC.swift */,
+				25C9A6AE1EE26FB00026C41C /* ZNStampsVC.xib */,
+			);
+			path = MyPoints;
+			sourceTree = "<group>";
+		};
+		25C9A6B51EE27BD70026C41C /* MyPointsTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				25C9A6B61EE27C110026C41C /* ZNStampsTableViewCell.swift */,
+				25C9A6B71EE27C110026C41C /* ZNStampsTableViewCell.xib */,
+				25C9A6BC1EE2BFD80026C41C /* ZNPointsTableViewCell.swift */,
+				25C9A6BD1EE2BFD80026C41C /* ZNPointsTableViewCell.xib */,
+				254163FE1EE9228400C6B3CD /* ZNPointStatusTableViewCell.swift */,
+				254163FF1EE9228400C6B3CD /* ZNPointStatusTableViewCell.xib */,
+			);
+			path = MyPointsTableViewCell;
+			sourceTree = "<group>";
+		};
+		25CFE1731EE15766006EAAD3 /* RetailersSettings */ = {
+			isa = PBXGroup;
+			children = (
+				25CFE1741EE15766006EAAD3 /* ZNRetailersSettingVC.swift */,
+				25CFE1751EE15766006EAAD3 /* ZNRetailersSettingVC.xib */,
+			);
+			path = RetailersSettings;
+			sourceTree = "<group>";
+		};
+		25CFE17D1EE1582F006EAAD3 /* ChangePassword */ = {
+			isa = PBXGroup;
+			children = (
+				25CFE17E1EE1582F006EAAD3 /* ZNChangePassswordVC.swift */,
+				25CFE17F1EE1582F006EAAD3 /* ZNChangePassswordVC.xib */,
+			);
+			path = ChangePassword;
+			sourceTree = "<group>";
+		};
+		25CFE1821EE158DD006EAAD3 /* ContactUs */ = {
+			isa = PBXGroup;
+			children = (
+				2BDD14581EE6C329003A495F /* ZNContactUsVC.swift */,
+				2BDD14591EE6C329003A495F /* ZNContactUsVC.xib */,
+			);
+			path = ContactUs;
+			sourceTree = "<group>";
+		};
+		25CFE1AA1EE15B00006EAAD3 /* StoreList */ = {
+			isa = PBXGroup;
+			children = (
+				25CFE1AB1EE15B00006EAAD3 /* ZNStoreListVC.swift */,
+				25CFE1AC1EE15B00006EAAD3 /* ZNStoreListVC.xib */,
+			);
+			path = StoreList;
+			sourceTree = "<group>";
+		};
+		25CFE1AF1EE15B18006EAAD3 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				04609CC61EEC0F4A002BC4AD /* ZNProfileVC.swift */,
+				04609CC71EEC0F4A002BC4AD /* ZNProfileVC.xib */,
+				04609CB91EEBBA4E002BC4AD /* ZNEditProfileVC.swift */,
+				04609CBA1EEBBA4E002BC4AD /* ZNEditProfileVC.xib */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		25CFE1B41EE15B26006EAAD3 /* ProductList */ = {
+			isa = PBXGroup;
+			children = (
+				25CFE1B51EE15B26006EAAD3 /* ZNProductListVC.swift */,
+				25CFE1B61EE15B26006EAAD3 /* ZNProductListVC.xib */,
+			);
+			path = ProductList;
+			sourceTree = "<group>";
+		};
+		25CFE1B91EE15B37006EAAD3 /* LoyalityGainInfo */ = {
+			isa = PBXGroup;
+			children = (
+				04609CD21EEC5193002BC4AD /* ZNOffersLoyalityEarnedVC.swift */,
+				04609CD31EEC5193002BC4AD /* ZNOffersLoyalityEarnedVC.xib */,
+				25CFE1BA1EE15B37006EAAD3 /* ZNLoyalityGainInfoVC.swift */,
+				25CFE1BB1EE15B37006EAAD3 /* ZNLoyalityGainInfoVC.xib */,
+				04609CCA1EEC2CDE002BC4AD /* ZNTodayOffersVC.swift */,
+				04609CCB1EEC2CDE002BC4AD /* ZNTodayOffersVC.xib */,
+			);
+			path = LoyalityGainInfo;
+			sourceTree = "<group>";
+		};
+		25CFE1BE1EE15B52006EAAD3 /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				25CFE1BF1EE15B52006EAAD3 /* ZNForgotPasswordVC.swift */,
+				25CFE1C01EE15B52006EAAD3 /* ZNForgotPasswordVC.xib */,
+			);
+			path = ForgotPassword;
+			sourceTree = "<group>";
+		};
+		25CFE1C81EE15B71006EAAD3 /* ChangeRetailer */ = {
+			isa = PBXGroup;
+			children = (
+				25CFE1C91EE15B71006EAAD3 /* ZNChangeRetailerVC.swift */,
+				25CFE1CA1EE15B71006EAAD3 /* ZNChangeRetailerVC.xib */,
+			);
+			path = ChangeRetailer;
+			sourceTree = "<group>";
+		};
+		25CFE1D71EE15BC1006EAAD3 /* Restraunant */ = {
+			isa = PBXGroup;
+			children = (
+				2BC5E4FC1EE2E9870078EB3F /* ZNRestaurantDetailVC.swift */,
+				2BC5E4FD1EE2E9870078EB3F /* ZNRestaurantDetailVC.xib */,
+				25CFE1D81EE15BC1006EAAD3 /* ZNRestaurantVC.swift */,
+				25CFE1D91EE15BC1006EAAD3 /* ZNRestaurantVC.xib */,
+				AD1A624F1EEAC7D5006FC5E7 /* ZNBookATableVC.swift */,
+				AD1A62501EEAC7D5006FC5E7 /* ZNBookATableVC.xib */,
+			);
+			path = Restraunant;
+			sourceTree = "<group>";
+		};
+		25CFE1E11EE15C19006EAAD3 /* ProductDetail */ = {
+			isa = PBXGroup;
+			children = (
+				25CFE1E21EE15C19006EAAD3 /* ZNProductDetailVC.swift */,
+				25CFE1E31EE15C19006EAAD3 /* ZNProductDetailVC.xib */,
+			);
+			path = ProductDetail;
+			sourceTree = "<group>";
+		};
+		25CFE1EB1EE15C74006EAAD3 /* StoreDetail */ = {
+			isa = PBXGroup;
+			children = (
+				25CFE1EC1EE15C74006EAAD3 /* ZNStoreDetailVC.swift */,
+				25CFE1ED1EE15C74006EAAD3 /* ZNStoreDetailVC.xib */,
+			);
+			path = StoreDetail;
+			sourceTree = "<group>";
+		};
+		25CFE1F01EE15CB9006EAAD3 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				25CFE1F11EE15CB9006EAAD3 /* ZNSettingVC.swift */,
+				25CFE1F21EE15CB9006EAAD3 /* ZNSettingVC.xib */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		25CFE1F51EE15D3B006EAAD3 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				25CFE1F61EE160DD006EAAD3 /* ZNRouteMapVC.swift */,
+				25CFE1F71EE160DD006EAAD3 /* ZNRouteMapVC.xib */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		25DD801D1EDF0D8000D68240 /* HomeTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				25DD801E1EDF0D8000D68240 /* ZNHomeTableViewCell.swift */,
+				25DD801F1EDF0D8000D68240 /* ZNHomeTableViewCell.xib */,
+			);
+			path = HomeTableViewCell;
+			sourceTree = "<group>";
+		};
+		25FDDC3D1EEE89230018EBC9 /* ThankYou */ = {
+			isa = PBXGroup;
+			children = (
+				25FDDC3E1EEE89A90018EBC9 /* ZNThankYouVC.swift */,
+				25FDDC3F1EEE89A90018EBC9 /* ZNThankYouVC.xib */,
+				254DD1AD1EEFA921009F4240 /* ZNThanksVC.swift */,
+				254DD1AE1EEFA921009F4240 /* ZNThanksVC.xib */,
+			);
+			path = ThankYou;
+			sourceTree = "<group>";
+		};
+		2B75BC171EE19E5400DA51C5 /* DishList */ = {
+			isa = PBXGroup;
+			children = (
+				EFACF96D1F20AA3A00753AB7 /* ZNDishItemListViewController.swift */,
+				EFACF96E1F20AA3A00753AB7 /* ZNDishItemListViewController.xib */,
+				EFACF96F1F20AA3A00753AB7 /* ZNDishTableCell.swift */,
+				EFACF9701F20AA3A00753AB7 /* ZNDishTableCell.xib */,
+				2B75BC181EE19E5400DA51C5 /* ZNDishListViewController.swift */,
+				2B75BC191EE19E5400DA51C5 /* ZNDishListViewController.xib */,
+			);
+			path = DishList;
+			sourceTree = "<group>";
+		};
+		2B75BC1A1EE19E5400DA51C5 /* OrderList */ = {
+			isa = PBXGroup;
+			children = (
+				2B75BC1B1EE19E5400DA51C5 /* ZNOrderListVC.swift */,
+				2B75BC1C1EE19E5400DA51C5 /* ZNOrderListVC.xib */,
+				ED56E15F1F21C57C003344CD /* ZNAddressListViewController.swift */,
+				ED56E1601F21C57C003344CD /* ZNAddressListViewController.xib */,
+				ED56E16D1F21F6D3003344CD /* ZNCardListViewController.swift */,
+				ED56E16E1F21F6D3003344CD /* ZNCardListViewController.xib */,
+			);
+			path = OrderList;
+			sourceTree = "<group>";
+		};
+		2B75BC211EE19EDF00DA51C5 /* Terms&Conditions */ = {
+			isa = PBXGroup;
+			children = (
+				2B75BC221EE19EDF00DA51C5 /* ZNTCViewController.swift */,
+				2B75BC231EE19EDF00DA51C5 /* ZNTCViewController.xib */,
+			);
+			path = "Terms&Conditions";
+			sourceTree = "<group>";
+		};
+		2B7F046D1EDFDC2B00230EBF /* StoreDetailTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				EFACF9651F20A65B00753AB7 /* ZNJoinUsTableCell.swift */,
+				EFACF9661F20A65B00753AB7 /* ZNJoinUsTableCell.xib */,
+				EFACF9671F20A65B00753AB7 /* ZNStoreUserInfoTableCell.swift */,
+				EFACF9681F20A65B00753AB7 /* ZNStoreUserInfoTableCell.xib */,
+				2B7F046E1EDFDC2B00230EBF /* ZNStoreDetailTableViewCell.swift */,
+				2B7F046F1EDFDC2B00230EBF /* ZNStoreDetailTableViewCell.xib */,
+			);
+			path = StoreDetailTableViewCell;
+			sourceTree = "<group>";
+		};
+		2B7F04721EDFDC4200230EBF /* AppUtility */ = {
+			isa = PBXGroup;
+			children = (
+				2B7F04731EDFDC4200230EBF /* ZNConstant.swift */,
+			);
+			path = AppUtility;
+			sourceTree = "<group>";
+		};
+		2B7F04751EDFE7FC00230EBF /* ProductDetailTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				2B7F04761EDFE82100230EBF /* ZNProductDetailTableViewCell.swift */,
+				2B7F04771EDFE82100230EBF /* ZNProductDetailTableViewCell.xib */,
+				2BF1DAF31EEE680E00B1072A /* ZNProductDetailDescTableViewCell.swift */,
+				2BF1DAF41EEE680E00B1072A /* ZNProductDetailDescTableViewCell.xib */,
+			);
+			path = ProductDetailTableViewCell;
+			sourceTree = "<group>";
+		};
+		2B87C1051EDDBAEF005CF9CC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E8466D431F261201009E8A39 /* ZNPaymentViewController */,
+				E8DAE6CD1F21DF7700ED8A44 /* AdCardViewController */,
+				049F20B51EF04601005C28AF /* MyRewards */,
+				2BF1DB031EEECC7000B1072A /* Spa */,
+				046BC4E01EEEB90A002A1B88 /* CustomSharePopUp */,
+				25FDDC3D1EEE89230018EBC9 /* ThankYou */,
+				045C66ED1EE6F215006F9777 /* AboutUs */,
+				2BC5E5151EE2F0E00078EB3F /* MyCoupons */,
+				2BC5E5091EE2EF160078EB3F /* UserDetails */,
+				2BC5E5001EE2E9DA0078EB3F /* BookAppointment */,
+				25C9A6A81EE26FB00026C41C /* MyPoints */,
+				2B75BC211EE19EDF00DA51C5 /* Terms&Conditions */,
+				2B75BC171EE19E5400DA51C5 /* DishList */,
+				2B75BC1A1EE19E5400DA51C5 /* OrderList */,
+				25CFE1F51EE15D3B006EAAD3 /* Location */,
+				25CFE1F01EE15CB9006EAAD3 /* Settings */,
+				25CFE1EB1EE15C74006EAAD3 /* StoreDetail */,
+				25CFE1E11EE15C19006EAAD3 /* ProductDetail */,
+				25CFE1D71EE15BC1006EAAD3 /* Restraunant */,
+				25CFE1C81EE15B71006EAAD3 /* ChangeRetailer */,
+				25CFE1BE1EE15B52006EAAD3 /* ForgotPassword */,
+				25CFE1B91EE15B37006EAAD3 /* LoyalityGainInfo */,
+				25CFE1B41EE15B26006EAAD3 /* ProductList */,
+				25CFE1AF1EE15B18006EAAD3 /* Profile */,
+				25CFE1AA1EE15B00006EAAD3 /* StoreList */,
+				25CFE1821EE158DD006EAAD3 /* ContactUs */,
+				25CFE17D1EE1582F006EAAD3 /* ChangePassword */,
+				25CFE1731EE15766006EAAD3 /* RetailersSettings */,
+				2B87C1121EDDBAEF005CF9CC /* Home */,
+				2B87C11C1EDDBAEF005CF9CC /* Registration */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2B87C1121EDDBAEF005CF9CC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AD2A079C1F14EF1600F11C06 /* ZNHomeVC.xib */,
+				25DD801A1EDF0D1C00D68240 /* ZNHomeVC.swift */,
+				AD2A079A1F14DFE800F11C06 /* ZNPointAnnotion.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2B87C11C1EDDBAEF005CF9CC /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				0484C3AD1EDDC84A000ECC4C /* ZNSignUpVC.swift */,
+				0484C3AE1EDDC84A000ECC4C /* ZNSignUpVC.xib */,
+				2B87C11D1EDDBAEF005CF9CC /* ZNLoginVC.swift */,
+				2B87C11E1EDDBAEF005CF9CC /* ZNLoginVC.xib */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		2B87C1371EDDBB02005CF9CC /* SettingTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				2B87C1381EDDBB02005CF9CC /* ZNSetNotificationTableViewCell.swift */,
+				2B87C1391EDDBB02005CF9CC /* ZNSetNotificationTableViewCell.xib */,
+				2B87C13A1EDDBB02005CF9CC /* ZNSettingTableViewCell.swift */,
+				2B87C13B1EDDBB02005CF9CC /* ZNSettingTableViewCell.xib */,
+			);
+			path = SettingTableViewCell;
+			sourceTree = "<group>";
+		};
+		2B87C1441EDDBCBD005CF9CC /* ExternalClass */ = {
+			isa = PBXGroup;
+			children = (
+				E8DAE6E21F22229900ED8A44 /* AESEncrypt */,
+				E8DAE6DD1F2212FF00ED8A44 /* RateView.h */,
+				E8DAE6DE1F2212FF00ED8A44 /* RateView.m */,
+				ADE4AFE81EEEBBAA00E1F54A /* ObjectiveCClass */,
+				AD1A62531EEAC8C6006FC5E7 /* JBDatePicker */,
+				ADB1C1CA1EE97F9A004A4F15 /* SideMenu */,
+				253CACF21EE01747002DACA2 /* Kdrawer */,
+				0480E82F1EDEF6FC00CCC2B1 /* SlidingPanelController */,
+				0480E8051EDE87AE00CCC2B1 /* DatePicker */,
+				2B87C1451EDDBCBD005CF9CC /* FacebookManager */,
+				2B87C1471EDDBCBD005CF9CC /* keyboardAvoidingScroll */,
+			);
+			path = ExternalClass;
+			sourceTree = "<group>";
+		};
+		2B87C1451EDDBCBD005CF9CC /* FacebookManager */ = {
+			isa = PBXGroup;
+			children = (
+				2B87C1461EDDBCBD005CF9CC /* FacebookManager.swift */,
+			);
+			path = FacebookManager;
+			sourceTree = "<group>";
+		};
+		2B87C1471EDDBCBD005CF9CC /* keyboardAvoidingScroll */ = {
+			isa = PBXGroup;
+			children = (
+				2B87C1481EDDBCBD005CF9CC /* EDKeyboardAvoidingCollectionView.h */,
+				2B87C1491EDDBCBD005CF9CC /* EDKeyboardAvoidingCollectionView.m */,
+				2B87C14A1EDDBCBD005CF9CC /* EDKeyboardAvoidingScrollView.h */,
+				2B87C14B1EDDBCBD005CF9CC /* EDKeyboardAvoidingScrollView.m */,
+				2B87C14C1EDDBCBD005CF9CC /* EDKeyboardAvoidingTableView.h */,
+				2B87C14D1EDDBCBD005CF9CC /* EDKeyboardAvoidingTableView.m */,
+				2B87C14E1EDDBCBD005CF9CC /* HADropDown 4.07.07 PM.swift */,
+				2B87C14F1EDDBCBD005CF9CC /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				2B87C1501EDDBCBD005CF9CC /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+			);
+			path = keyboardAvoidingScroll;
+			sourceTree = "<group>";
+		};
+		2B87C1571EDDBD7F005CF9CC /* SubClasses */ = {
+			isa = PBXGroup;
+			children = (
+				25DD80261EDF0DC800D68240 /* RContainerController.swift */,
+				2B87C1581EDDBD7F005CF9CC /* BTCustomTextfield.swift */,
+				2B87C15A1EDDBD7F005CF9CC /* MAPlaceholderTextView.swift */,
+				2BB3C85C1EE53F1700EFCA3E /* ZNGradientButton.swift */,
+			);
+			path = SubClasses;
+			sourceTree = "<group>";
+		};
+		2BB3C85E1EE58DE700EFCA3E /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				2BD3A8151EE80D0600FA1B7F /* Roboto Condensed-Bold.ttf */,
+				2BD3A8161EE80D0600FA1B7F /* Roboto Condensed-Regular.ttf */,
+				2BD3A80D1EE7E00E00FA1B7F /* Itc kabel Std-Bold.otf */,
+				2BD3A80E1EE7E00E00FA1B7F /* Itc kabel Std-Book.otf */,
+				2BD3A80F1EE7E00E00FA1B7F /* Itc kabel Std-Demi.otf */,
+				2BD3A8101EE7E00E00FA1B7F /* Itc kabel Std-Medium.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		2BC5E5001EE2E9DA0078EB3F /* BookAppointment */ = {
+			isa = PBXGroup;
+			children = (
+				2BC5E5011EE2E9DA0078EB3F /* ZNBookAppointmentVC.swift */,
+				2BC5E5021EE2E9DA0078EB3F /* ZNBookAppointmentVC.xib */,
+			);
+			path = BookAppointment;
+			sourceTree = "<group>";
+		};
+		2BC5E5091EE2EF160078EB3F /* UserDetails */ = {
+			isa = PBXGroup;
+			children = (
+				047804991EE9316500E1765A /* ZNUserDeliveryAddressVC.swift */,
+				0478049A1EE9316500E1765A /* ZNUserDeliveryAddressVC.xib */,
+			);
+			path = UserDetails;
+			sourceTree = "<group>";
+		};
+		2BC5E50E1EE2F05C0078EB3F /* MyCouponsTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				2BC5E50F1EE2F05C0078EB3F /* ZNMyCouponsTableViewCell.swift */,
+				2BC5E5101EE2F05C0078EB3F /* ZNMyCouponsTableViewCell.xib */,
+			);
+			path = MyCouponsTableViewCell;
+			sourceTree = "<group>";
+		};
+		2BC5E5151EE2F0E00078EB3F /* MyCoupons */ = {
+			isa = PBXGroup;
+			children = (
+				2BC5E5161EE2F0E00078EB3F /* ZNMyCouponsVC.swift */,
+				2BC5E5171EE2F0E00078EB3F /* ZNMyCouponsVC.xib */,
+				2BB3C8581EE51DB400EFCA3E /* ZNCouponsDetailVC.swift */,
+				2BB3C8591EE51DB400EFCA3E /* ZNCouponsDetailVC.xib */,
+			);
+			path = MyCoupons;
+			sourceTree = "<group>";
+		};
+		2BDD144F1EE67364003A495F /* LoginTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				2BDD14541EE679BF003A495F /* ZNLoginTableViewCell.swift */,
+				2BDD14551EE679BF003A495F /* ZNLoginTableViewCell.xib */,
+			);
+			path = LoginTableViewCell;
+			sourceTree = "<group>";
+		};
+		2BF1DAF71EEE79F300B1072A /* RestaurantTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				2BF1DAF81EEE7A0100B1072A /* ZNRestaurantTableViewCell.swift */,
+				2BF1DAF91EEE7A0100B1072A /* ZNRestaurantTableViewCell.xib */,
+			);
+			path = RestaurantTableViewCell;
+			sourceTree = "<group>";
+		};
+		2BF1DAFC1EEECC1A00B1072A /* SpaTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				2BF1DAFD1EEECC1A00B1072A /* ZNSpaTableViewCell.swift */,
+				2BF1DAFE1EEECC1A00B1072A /* ZNSpaTableViewCell.xib */,
+			);
+			path = SpaTableViewCell;
+			sourceTree = "<group>";
+		};
+		2BF1DB031EEECC7000B1072A /* Spa */ = {
+			isa = PBXGroup;
+			children = (
+				2BF1DB041EEECC7000B1072A /* ZNSpaVC.swift */,
+				2BF1DB051EEECC7000B1072A /* ZNSpaVC.xib */,
+				2B89750A1EEFA15E004E584A /* ZNSpaDetailVC.swift */,
+				2B89750B1EEFA15E004E584A /* ZNSpaDetailVC.xib */,
+			);
+			path = Spa;
+			sourceTree = "<group>";
+		};
+		6880DDC51EDC299F00FD0BBD = {
+			isa = PBXGroup;
+			children = (
+				EF9CCF9A1F29C9DC008009A1 /* CountryCodeList.csv */,
+				6880DDD01EDC299F00FD0BBD /* Zenith */,
+				6880DDCF1EDC299F00FD0BBD /* Products */,
+				856AF9594EE2EECABC531E9D /* Frameworks */,
+				DF260C6C740D8BAE56F7F9FE /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		6880DDCF1EDC299F00FD0BBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6880DDCE1EDC299F00FD0BBD /* Zenith.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6880DDD01EDC299F00FD0BBD /* Zenith */ = {
+			isa = PBXGroup;
+			children = (
+				EF2850761F307FA700CB08E5 /* Zenith.entitlements */,
+				EF7FF0081EF7C5FC00B10602 /* ServiceHelper */,
+				2BB3C85E1EE58DE700EFCA3E /* Font */,
+				2B7F04721EDFDC4200230EBF /* AppUtility */,
+				2B87C1571EDDBD7F005CF9CC /* SubClasses */,
+				2B87C1441EDDBCBD005CF9CC /* ExternalClass */,
+				6880DE0C1EDC2F2A00FD0BBD /* CustomeCell */,
+				6880DE0D1EDC2F2A00FD0BBD /* ModelClasses */,
+				6880DDF51EDC2BDA00FD0BBD /* UtilityClasses */,
+				2B87C1051EDDBAEF005CF9CC /* ViewControllers */,
+				6880DDD11EDC299F00FD0BBD /* AppDelegate.swift */,
+				6880DDD81EDC29A000FD0BBD /* Assets.xcassets */,
+				6880DDDD1EDC29A000FD0BBD /* Info.plist */,
+				E8A7085C1F25BEFA001351B2 /* BridgingHeader.h */,
+			);
+			path = Zenith;
+			sourceTree = "<group>";
+		};
+		6880DDF51EDC2BDA00FD0BBD /* UtilityClasses */ = {
+			isa = PBXGroup;
+			children = (
+				6880DDF61EDC2BDA00FD0BBD /* AlertController.swift */,
+				6880DE0E1EDC31F400FD0BBD /* GeneralExtensions.swift */,
+				6880DDFA1EDC2BDA00FD0BBD /* StringExtensions.swift */,
+				6880DDFB1EDC2BDA00FD0BBD /* UIWindowExtension.swift */,
+				ADE4AFE41EEE95EC00E1F54A /* ZNUtility.swift */,
+			);
+			path = UtilityClasses;
+			sourceTree = "<group>";
+		};
+		6880DE0C1EDC2F2A00FD0BBD /* CustomeCell */ = {
+			isa = PBXGroup;
+			children = (
+				049F20BE1EF04625005C28AF /* MyRewardTableViewCell */,
+				25C6C2611EEEBDE500FFDDAF /* ThankYouTableViewCell */,
+				2BF1DAFC1EEECC1A00B1072A /* SpaTableViewCell */,
+				2BF1DAF71EEE79F300B1072A /* RestaurantTableViewCell */,
+				04609CC11EEBD3B2002BC4AD /* ProfileTableViewCell */,
+				252D79851EEBD0760094429A /* OffersTableViewCell */,
+				048AA97C1EEAD108008F8DE8 /* ProductListTableViewCell */,
+				045C66E71EE6A021006F9777 /* UserDetailTableViewCell */,
+				2BDD144F1EE67364003A495F /* LoginTableViewCell */,
+				2BC5E50E1EE2F05C0078EB3F /* MyCouponsTableViewCell */,
+				25C9A6B51EE27BD70026C41C /* MyPointsTableViewCell */,
+				ED6954DB1EE1379E00F3B6EC /* OrderListTableViewCell */,
+				EDA9BFBA1EE033DC001CE28E /* DishListCollectionViewCell */,
+				EDA9BFA51EDFD5E8001CE28E /* RetailersSettingTableViewCell */,
+				2B7F04751EDFE7FC00230EBF /* ProductDetailTableViewCell */,
+				2B7F046D1EDFDC2B00230EBF /* StoreDetailTableViewCell */,
+				EDA9BF9B1EDFD172001CE28E /* StoreListTableViewCell */,
+				25DD801D1EDF0D8000D68240 /* HomeTableViewCell */,
+				0480E8281EDEEFE600CCC2B1 /* ZNMenuTableViewCell */,
+				0484C3B41EDDC896000ECC4C /* SignUpTableViewCell */,
+				2B87C1371EDDBB02005CF9CC /* SettingTableViewCell */,
+				ED1D837B1EDD82920090A8AD /* LoyalityGainInfoTableViewCell */,
+			);
+			path = CustomeCell;
+			sourceTree = "<group>";
+		};
+		6880DE0D1EDC2F2A00FD0BBD /* ModelClasses */ = {
+			isa = PBXGroup;
+			children = (
+				049F20CB1EF0468F005C28AF /* ZNProductInfo.swift */,
+				2BF1DB011EEECC4500B1072A /* ZNSpaInfo.swift */,
+				2BC5E5131EE2F0870078EB3F /* ZNMyCouponInfo.swift */,
+				25DD80321EDF0E7F00D68240 /* ZNHomeModelClass.swift */,
+				EF845E801F1C9F0B0072E65A /* ZNBookTableInfo.swift */,
+				EDC4B5A31EDEF87B00E44584 /* ZNStoreInfo.swift */,
+				EDA9BFAE1EDFE48F001CE28E /* ZNRetailersInfo.swift */,
+				2B8B5A351EE000240080C053 /* ZNUserInfo.swift */,
+				ED6954E01EE14F7700F3B6EC /* ZNOrderListInfo.swift */,
+				25C9A6BA1EE27D0A0026C41C /* ZNStamps.swift */,
+				25FDDC421EEE92310018EBC9 /* ZNThankYou.swift */,
+				ADCAECFF1EFD2C840090BB72 /* ZNPagination.swift */,
+				ED56E1671F21D6A2003344CD /* ZNAddressListInfo.swift */,
+				E8DAE6D81F21FFDD00ED8A44 /* ZNCardOnfo.swift */,
+				EDA9BFBF1EE03A33001CE28E /* ZNDishInfo.swift */,
+				E86E79271F2771B0008BF2C0 /* ZNCategoryInfo.swift */,
+			);
+			path = ModelClasses;
+			sourceTree = "<group>";
+		};
+		856AF9594EE2EECABC531E9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF606E421F8DE7CC008E37B6 /* Stripe.framework */,
+				EF21882A1F7B7BF000EDF06F /* SafariServices.framework */,
+				ADCAED011EFD35200090BB72 /* MessageUI.framework */,
+				25DD80301EDF0E0B00D68240 /* MapKit.framework */,
+				C0E0C13BBDB0A2358B9FCB63 /* Pods_Zenith.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD1A62531EEAC8C6006FC5E7 /* JBDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				AD1A62541EEAC8C6006FC5E7 /* Classes */,
+				AD1A62621EEAC8C6006FC5E7 /* Info.plist */,
+				AD1A62631EEAC8C6006FC5E7 /* JBDatePicker.h */,
+			);
+			path = JBDatePicker;
+			sourceTree = "<group>";
+		};
+		AD1A62541EEAC8C6006FC5E7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AD1A62551EEAC8C6006FC5E7 /* JBDate.swift */,
+				AD1A62561EEAC8C6006FC5E7 /* JBDateExtension.swift */,
+				AD1A62571EEAC8C6006FC5E7 /* JBDatePickerContentVC.swift */,
+				AD1A62581EEAC8C6006FC5E7 /* JBDatePickerDayView.swift */,
+				AD1A62591EEAC8C6006FC5E7 /* JBDatePickerEnums.swift */,
+				AD1A625A1EEAC8C6006FC5E7 /* JBDatePickerManager.swift */,
+				AD1A625B1EEAC8C6006FC5E7 /* JBDatePickerMonthView.swift */,
+				AD1A625C1EEAC8C6006FC5E7 /* JBDatePickerSelectionView.swift */,
+				AD1A625D1EEAC8C6006FC5E7 /* JBDatePickerView.swift */,
+				AD1A625E1EEAC8C6006FC5E7 /* JBDatePickerViewDelegate.swift */,
+				AD1A625F1EEAC8C6006FC5E7 /* JBDatePickerWeekDaysView.swift */,
+				AD1A62601EEAC8C6006FC5E7 /* JBDatePickerWeekView.swift */,
+				AD1A62611EEAC8C6006FC5E7 /* JBFont.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		ADB1C1CA1EE97F9A004A4F15 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				ADB1C1CB1EE97F9A004A4F15 /* MASliderAnimating.swift */,
+				ADB1C1CC1EE97F9A004A4F15 /* MASliderSpringAnimator.swift */,
+				ADB1C1CD1EE97F9A004A4F15 /* MASliderView.swift */,
+				ADB1C1CE1EE97F9A004A4F15 /* MASliderViewController.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		ADE4AFE81EEEBBAA00E1F54A /* ObjectiveCClass */ = {
+			isa = PBXGroup;
+			children = (
+				EFF77D7A1EF9325600071DE5 /* SDWebImage */,
+				ADE4AFFE1EEEC9F000E1F54A /* RMActionController.h */,
+				ADE4AFFF1EEEC9F000E1F54A /* RMActionController.m */,
+				ADE4AFF81EEEC93B00E1F54A /* OptionPickerManager.h */,
+				ADE4AFF91EEEC93B00E1F54A /* OptionPickerManager.m */,
+				ADE4AFFA1EEEC93B00E1F54A /* RMPickerViewController.h */,
+				ADE4AFFB1EEEC93B00E1F54A /* RMPickerViewController.m */,
+				ADF180731EFBC76600DCCCB7 /* ZNDrawPolylineClass.h */,
+				ADF180741EFBC76600DCCCB7 /* ZNDrawPolylineClass.m */,
+			);
+			path = ObjectiveCClass;
+			sourceTree = "<group>";
+		};
+		DF260C6C740D8BAE56F7F9FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03CE1ED23ACB4558B6FD3949 /* Pods-Zenith.debug.xcconfig */,
+				EB1C2E6418D7460824A46AA6 /* Pods-Zenith.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E8466D431F261201009E8A39 /* ZNPaymentViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E8466D441F26121F009E8A39 /* ZNPaymentViewController.swift */,
+				E8466D451F26121F009E8A39 /* ZNPaymentViewController.xib */,
+			);
+			path = ZNPaymentViewController;
+			sourceTree = "<group>";
+		};
+		E8DAE6CD1F21DF7700ED8A44 /* AdCardViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E8A708611F25C2E6001351B2 /* ZNAddCardViewController.swift */,
+				E8A708621F25C2E6001351B2 /* ZNAddCardViewController.xib */,
+				E8DAE6D61F21FDDA00ED8A44 /* MonthYearPickerView.swift */,
+				E8DAE6D21F21E0D700ED8A44 /* ZNAddCardTableViewCell.swift */,
+				E8DAE6D31F21E0D700ED8A44 /* ZNAddCardTableViewCell.xib */,
+			);
+			path = AdCardViewController;
+			sourceTree = "<group>";
+		};
+		E8DAE6E21F22229900ED8A44 /* AESEncrypt */ = {
+			isa = PBXGroup;
+			children = (
+				E8DAE6E31F22229900ED8A44 /* AESCrypt.h */,
+				E8DAE6E41F22229900ED8A44 /* AESCrypt.m */,
+				E8DAE6E51F22229900ED8A44 /* NSData+Base64.h */,
+				E8DAE6E61F22229900ED8A44 /* NSData+Base64.m */,
+				E8DAE6E71F22229900ED8A44 /* NSData+CommonCrypto.h */,
+				E8DAE6E81F22229900ED8A44 /* NSData+CommonCrypto.m */,
+				E8DAE6E91F22229900ED8A44 /* NSString+Base64.h */,
+				E8DAE6EA1F22229900ED8A44 /* NSString+Base64.m */,
+			);
+			path = AESEncrypt;
+			sourceTree = "<group>";
+		};
+		ED1D837B1EDD82920090A8AD /* LoyalityGainInfoTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				ED1D837C1EDD82B80090A8AD /* ZNLoyalityGainInfoTableViewCell.swift */,
+				ED1D837D1EDD82B80090A8AD /* ZNLoyalityGainInfoTableViewCell.xib */,
+				04609CCE1EEC30C1002BC4AD /* ZNTodayOffersTableViewCell.swift */,
+				04609CCF1EEC30C1002BC4AD /* ZNTodayOffersTableViewCell.xib */,
+				ADE4AFDE1EEE58EF00E1F54A /* ZNTodayOfferHeaderCell.swift */,
+				ADE4AFDF1EEE58EF00E1F54A /* ZNTodayOfferHeaderCell.xib */,
+			);
+			path = LoyalityGainInfoTableViewCell;
+			sourceTree = "<group>";
+		};
+		ED6954DB1EE1379E00F3B6EC /* OrderListTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				ED6954DC1EE137C200F3B6EC /* ZNOrderListTableViewCell.swift */,
+				ED6954DD1EE137C200F3B6EC /* ZNOrderListTableViewCell.xib */,
+				ED56E1631F21C5F6003344CD /* ZNSaveListTableViewCell.swift */,
+				ED56E1641F21C5F6003344CD /* ZNSaveListTableViewCell.xib */,
+			);
+			path = OrderListTableViewCell;
+			sourceTree = "<group>";
+		};
+		EDA9BF9B1EDFD172001CE28E /* StoreListTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				EDA9BF9C1EDFD172001CE28E /* ZNStoreListTableViewCell.swift */,
+				EDA9BF9D1EDFD172001CE28E /* ZNStoreListTableViewCell.xib */,
+			);
+			path = StoreListTableViewCell;
+			sourceTree = "<group>";
+		};
+		EDA9BFA51EDFD5E8001CE28E /* RetailersSettingTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				EDA9BFA61EDFD61C001CE28E /* ZNRetailersSettingTableViewCell.swift */,
+				EDA9BFA71EDFD61C001CE28E /* ZNRetailersSettingTableViewCell.xib */,
+			);
+			path = RetailersSettingTableViewCell;
+			sourceTree = "<group>";
+		};
+		EDA9BFBA1EE033DC001CE28E /* DishListCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				EDA9BFBB1EE0343D001CE28E /* ZNDishListCollectionViewCell.swift */,
+				EDA9BFBC1EE0343D001CE28E /* ZNDishListCollectionViewCell.xib */,
+			);
+			path = DishListCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		EF7FF0081EF7C5FC00B10602 /* ServiceHelper */ = {
+			isa = PBXGroup;
+			children = (
+				EF7FF0091EF7C5FC00B10602 /* FNPConstants.swift */,
+				EF7FF00A1EF7C5FC00B10602 /* MBProgressHUD */,
+				EF7FF00D1EF7C5FC00B10602 /* Reachability */,
+				EF7FF0101EF7C5FC00B10602 /* ServiceHelper.swift */,
+			);
+			path = ServiceHelper;
+			sourceTree = "<group>";
+		};
+		EF7FF00A1EF7C5FC00B10602 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				EF7FF00B1EF7C5FC00B10602 /* MBProgressHUD.h */,
+				EF7FF00C1EF7C5FC00B10602 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		EF7FF00D1EF7C5FC00B10602 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				EF7FF00E1EF7C5FC00B10602 /* Reachability.h */,
+				EF7FF00F1EF7C5FC00B10602 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		EFF77D7A1EF9325600071DE5 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				EFF77D7B1EF9325600071DE5 /* NSData+ImageContentType.h */,
+				EFF77D7C1EF9325600071DE5 /* NSData+ImageContentType.m */,
+				EFF77D7D1EF9325600071DE5 /* SDImageCache.h */,
+				EFF77D7E1EF9325600071DE5 /* SDImageCache.m */,
+				EFF77D7F1EF9325600071DE5 /* SDWebImageCompat.h */,
+				EFF77D801EF9325600071DE5 /* SDWebImageCompat.m */,
+				EFF77D811EF9325600071DE5 /* SDWebImageDecoder.h */,
+				EFF77D821EF9325600071DE5 /* SDWebImageDecoder.m */,
+				EFF77D831EF9325600071DE5 /* SDWebImageDownloader.h */,
+				EFF77D841EF9325600071DE5 /* SDWebImageDownloader.m */,
+				EFF77D851EF9325600071DE5 /* SDWebImageDownloaderOperation.h */,
+				EFF77D861EF9325600071DE5 /* SDWebImageDownloaderOperation.m */,
+				EFF77D871EF9325600071DE5 /* SDWebImageManager.h */,
+				EFF77D881EF9325600071DE5 /* SDWebImageManager.m */,
+				EFF77D891EF9325600071DE5 /* SDWebImageOperation.h */,
+				EFF77D8A1EF9325600071DE5 /* SDWebImagePrefetcher.h */,
+				EFF77D8B1EF9325600071DE5 /* SDWebImagePrefetcher.m */,
+				EFF77D8C1EF9325600071DE5 /* UIButton+WebCache.h */,
+				EFF77D8D1EF9325600071DE5 /* UIButton+WebCache.m */,
+				EFF77D8E1EF9325600071DE5 /* UIImage+GIF.h */,
+				EFF77D8F1EF9325600071DE5 /* UIImage+GIF.m */,
+				EFF77D901EF9325600071DE5 /* UIImage+MultiFormat.h */,
+				EFF77D911EF9325600071DE5 /* UIImage+MultiFormat.m */,
+				EFF77D921EF9325600071DE5 /* UIImageView+HighlightedWebCache.h */,
+				EFF77D931EF9325600071DE5 /* UIImageView+HighlightedWebCache.m */,
+				EFF77D941EF9325600071DE5 /* UIImageView+WebCache.h */,
+				EFF77D951EF9325600071DE5 /* UIImageView+WebCache.m */,
+				EFF77D961EF9325600071DE5 /* UIView+WebCacheOperation.h */,
+				EFF77D971EF9325600071DE5 /* UIView+WebCacheOperation.m */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6880DDCD1EDC299F00FD0BBD /* Zenith */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6880DDE01EDC29A000FD0BBD /* Build configuration list for PBXNativeTarget "Zenith" */;
+			buildPhases = (
+				2F6BD83E75D91CEFD949852B /* [CP] Check Pods Manifest.lock */,
+				6880DDCA1EDC299F00FD0BBD /* Sources */,
+				6880DDCB1EDC299F00FD0BBD /* Frameworks */,
+				6880DDCC1EDC299F00FD0BBD /* Resources */,
+				D40C823A07F9C7D89AA4DF2B /* [CP] Embed Pods Frameworks */,
+				972748AE3EF8FD615AAB8848 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zenith;
+			productName = Zenith;
+			productReference = 6880DDCE1EDC299F00FD0BBD /* Zenith.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6880DDC61EDC299F00FD0BBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZN;
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = mobiloitte;
+				TargetAttributes = {
+					6880DDCD1EDC299F00FD0BBD = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = AX4G8WBWQ8;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 6880DDC91EDC299F00FD0BBD /* Build configuration list for PBXProject "Zenith" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6880DDC51EDC299F00FD0BBD;
+			productRefGroup = 6880DDCF1EDC299F00FD0BBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6880DDCD1EDC299F00FD0BBD /* Zenith */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6880DDCC1EDC299F00FD0BBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6954DF1EE137C200F3B6EC /* ZNOrderListTableViewCell.xib in Resources */,
+				2B7F04791EDFE82100230EBF /* ZNProductDetailTableViewCell.xib in Resources */,
+				AD2A079D1F14EF1600F11C06 /* ZNHomeVC.xib in Resources */,
+				254DD1B01EEFA921009F4240 /* ZNThanksVC.xib in Resources */,
+				25DD80211EDF0D8000D68240 /* ZNHomeTableViewCell.xib in Resources */,
+				2BD3A8131EE7E00E00FA1B7F /* Itc kabel Std-Demi.otf in Resources */,
+				EDA9BFBE1EE0343D001CE28E /* ZNDishListCollectionViewCell.xib in Resources */,
+				2BD3A8181EE80D0600FA1B7F /* Roboto Condensed-Regular.ttf in Resources */,
+				2BD3A8121EE7E00E00FA1B7F /* Itc kabel Std-Book.otf in Resources */,
+				0478049C1EE9316500E1765A /* ZNUserDeliveryAddressVC.xib in Resources */,
+				ED56E1701F21F6D3003344CD /* ZNCardListViewController.xib in Resources */,
+				25C9A6BF1EE2BFD80026C41C /* ZNPointsTableViewCell.xib in Resources */,
+				2B75BC251EE19EDF00DA51C5 /* ZNTCViewController.xib in Resources */,
+				254164011EE9228400C6B3CD /* ZNPointStatusTableViewCell.xib in Resources */,
+				2BC5E5191EE2F0E00078EB3F /* ZNMyCouponsVC.xib in Resources */,
+				2BC5E5121EE2F05C0078EB3F /* ZNMyCouponsTableViewCell.xib in Resources */,
+				2BF1DB071EEECC7000B1072A /* ZNSpaVC.xib in Resources */,
+				25CFE1B81EE15B26006EAAD3 /* ZNProductListVC.xib in Resources */,
+				25C6C2691EEED28900FFDDAF /* ZNThankYouTableViewCell.xib in Resources */,
+				25C6C2651EEEBE1B00FFDDAF /* ZNPlaceOrderTableViewCell.xib in Resources */,
+				E8DAE6D51F21E0D700ED8A44 /* ZNAddCardTableViewCell.xib in Resources */,
+				2BB3C85B1EE51DB400EFCA3E /* ZNCouponsDetailVC.xib in Resources */,
+				25C9A6B41EE26FB00026C41C /* ZNStampsVC.xib in Resources */,
+				25C9A6B91EE27C110026C41C /* ZNStampsTableViewCell.xib in Resources */,
+				2B87C1411EDDBB02005CF9CC /* ZNSettingTableViewCell.xib in Resources */,
+				25C9A6B01EE26FB00026C41C /* ZNMyPointsVC.xib in Resources */,
+				2B7F04711EDFDC2B00230EBF /* ZNStoreDetailTableViewCell.xib in Resources */,
+				2BF1DAFB1EEE7A0100B1072A /* ZNRestaurantTableViewCell.xib in Resources */,
+				252D79891EEBD08A0094429A /* ZNOffersTableViewCell.xib in Resources */,
+				2BF1DB001EEECC1A00B1072A /* ZNSpaTableViewCell.xib in Resources */,
+				2BDD14571EE679BF003A495F /* ZNLoginTableViewCell.xib in Resources */,
+				AD1A62521EEAC7D5006FC5E7 /* ZNBookATableVC.xib in Resources */,
+				04183EDB1EF0E7BC008B1FE5 /* ZNSpaRewardVC.xib in Resources */,
+				2BD3A8141EE7E00E00FA1B7F /* Itc kabel Std-Medium.otf in Resources */,
+				25CFE1EF1EE15C74006EAAD3 /* ZNStoreDetailVC.xib in Resources */,
+				04609CD11EEC30C1002BC4AD /* ZNTodayOffersTableViewCell.xib in Resources */,
+				049F20CA1EF04625005C28AF /* ZNRewardStampsTableViewCell.xib in Resources */,
+				0480E82C1EDEEFF800CCC2B1 /* ZNMenuTableViewCell.xib in Resources */,
+				256DDD4B1EE04E94007A45DE /* ZNSideTableViewCell.xib in Resources */,
+				6880DDD91EDC29A000FD0BBD /* Assets.xcassets in Resources */,
+				25FDDC411EEE89A90018EBC9 /* ZNThankYouVC.xib in Resources */,
+				EFACF96A1F20A65B00753AB7 /* ZNJoinUsTableCell.xib in Resources */,
+				0484C3B01EDDC84A000ECC4C /* ZNSignUpVC.xib in Resources */,
+				ED1D837F1EDD82B80090A8AD /* ZNLoyalityGainInfoTableViewCell.xib in Resources */,
+				2BDD145B1EE6C329003A495F /* ZNContactUsVC.xib in Resources */,
+				045C66F11EE6F215006F9777 /* ZNAboutUsVC.xib in Resources */,
+				25C9A6B21EE26FB00026C41C /* ZNPointsVC.xib in Resources */,
+				EDA9BFA91EDFD61C001CE28E /* ZNRetailersSettingTableViewCell.xib in Resources */,
+				25CFE1F41EE15CB9006EAAD3 /* ZNSettingVC.xib in Resources */,
+				2B87C13F1EDDBB02005CF9CC /* ZNSetNotificationTableViewCell.xib in Resources */,
+				EFACF9741F20AA3A00753AB7 /* ZNDishTableCell.xib in Resources */,
+				25CFE1BD1EE15B37006EAAD3 /* ZNLoyalityGainInfoVC.xib in Resources */,
+				049F20C81EF04625005C28AF /* ZNRewardPointsTableViewCell.xib in Resources */,
+				25CFE1811EE1582F006EAAD3 /* ZNChangePassswordVC.xib in Resources */,
+				04609CC51EEBD3CB002BC4AD /* ZNProfileTableViewCell.xib in Resources */,
+				045C66EB1EE6A05F006F9777 /* ZNUserShippingDetailTableViewCell.xib in Resources */,
+				049F20BB1EF04601005C28AF /* ZNRestaurantRewardsVC.xib in Resources */,
+				2BD3A8171EE80D0600FA1B7F /* Roboto Condensed-Bold.ttf in Resources */,
+				ED56E1621F21C57C003344CD /* ZNAddressListViewController.xib in Resources */,
+				0484C3B81EDDC896000ECC4C /* ZNSignUpTableViewCell.xib in Resources */,
+				04609CD51EEC5193002BC4AD /* ZNOffersLoyalityEarnedVC.xib in Resources */,
+				04609CBC1EEBBA4E002BC4AD /* ZNEditProfileVC.xib in Resources */,
+				049F20BD1EF04601005C28AF /* ZNRewardVC.xib in Resources */,
+				25CFE1771EE15766006EAAD3 /* ZNRetailersSettingVC.xib in Resources */,
+				EDA9BF9F1EDFD172001CE28E /* ZNStoreListTableViewCell.xib in Resources */,
+				25CFE1F91EE160DD006EAAD3 /* ZNRouteMapVC.xib in Resources */,
+				2BC5E5041EE2E9DA0078EB3F /* ZNBookAppointmentVC.xib in Resources */,
+				E8466D471F26121F009E8A39 /* ZNPaymentViewController.xib in Resources */,
+				25CFE1AE1EE15B00006EAAD3 /* ZNStoreListVC.xib in Resources */,
+				048AA9801EEAD126008F8DE8 /* ZNProductListTableViewCell.xib in Resources */,
+				EFACF96C1F20A65B00753AB7 /* ZNStoreUserInfoTableCell.xib in Resources */,
+				E8A708641F25C2E6001351B2 /* ZNAddCardViewController.xib in Resources */,
+				2BF1DAF61EEE680E00B1072A /* ZNProductDetailDescTableViewCell.xib in Resources */,
+				ADE4AFE11EEE58EF00E1F54A /* ZNTodayOfferHeaderCell.xib in Resources */,
+				04609CC91EEC0F4A002BC4AD /* ZNProfileVC.xib in Resources */,
+				AD1A62711EEAC8C6006FC5E7 /* Info.plist in Resources */,
+				046BC4E41EEEB90A002A1B88 /* ZNCustomSharePopUpViewController.xib in Resources */,
+				2B75BC201EE19E5400DA51C5 /* ZNOrderListVC.xib in Resources */,
+				25CFE1E51EE15C19006EAAD3 /* ZNProductDetailVC.xib in Resources */,
+				EF9CCF9B1F29C9DC008009A1 /* CountryCodeList.csv in Resources */,
+				ED56E1661F21C5F6003344CD /* ZNSaveListTableViewCell.xib in Resources */,
+				2BD3A8111EE7E00E00FA1B7F /* Itc kabel Std-Bold.otf in Resources */,
+				2B75BC1E1EE19E5400DA51C5 /* ZNDishListViewController.xib in Resources */,
+				04609CCD1EEC2CDE002BC4AD /* ZNTodayOffersVC.xib in Resources */,
+				2B87C1311EDDBAEF005CF9CC /* ZNLoginVC.xib in Resources */,
+				25CFE1C21EE15B52006EAAD3 /* ZNForgotPasswordVC.xib in Resources */,
+				2B89750D1EEFA15E004E584A /* ZNSpaDetailVC.xib in Resources */,
+				253CAD041EE035AC002DACA2 /* ZNSideMenuVC.xib in Resources */,
+				2BC5E4FF1EE2E9870078EB3F /* ZNRestaurantDetailVC.xib in Resources */,
+				EFACF9721F20AA3A00753AB7 /* ZNDishItemListViewController.xib in Resources */,
+				25CFE1DB1EE15BC1006EAAD3 /* ZNRestaurantVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F6BD83E75D91CEFD949852B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		972748AE3EF8FD615AAB8848 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zenith/Pods-Zenith-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D40C823A07F9C7D89AA4DF2B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zenith/Pods-Zenith-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6880DDCA1EDC299F00FD0BBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25C6C2681EEED28900FFDDAF /* ZNThankYouTableViewCell.swift in Sources */,
+				253CACF71EE01747002DACA2 /* KYEmbedDrawerControllerSegue.swift in Sources */,
+				2B75BC241EE19EDF00DA51C5 /* ZNTCViewController.swift in Sources */,
+				ADE4AFE51EEE95EC00E1F54A /* ZNUtility.swift in Sources */,
+				25FDDC431EEE92310018EBC9 /* ZNThankYou.swift in Sources */,
+				EF7FF0151EF7C5FC00B10602 /* ServiceHelper.swift in Sources */,
+				25CFE1B71EE15B26006EAAD3 /* ZNProductListVC.swift in Sources */,
+				048AA97F1EEAD126008F8DE8 /* ZNProductListTableViewCell.swift in Sources */,
+				0478049B1EE9316500E1765A /* ZNUserDeliveryAddressVC.swift in Sources */,
+				6880DE0F1EDC31F400FD0BBD /* GeneralExtensions.swift in Sources */,
+				2B87C1401EDDBB02005CF9CC /* ZNSettingTableViewCell.swift in Sources */,
+				2B7F04781EDFE82100230EBF /* ZNProductDetailTableViewCell.swift in Sources */,
+				EFF77DA11EF9325600071DE5 /* UIImage+GIF.m in Sources */,
+				6880DE051EDC2BDA00FD0BBD /* UIWindowExtension.swift in Sources */,
+				2BF1DB061EEECC7000B1072A /* ZNSpaVC.swift in Sources */,
+				E8DAE6DF1F2212FF00ED8A44 /* RateView.m in Sources */,
+				AD1A62641EEAC8C6006FC5E7 /* JBDate.swift in Sources */,
+				04609CD01EEC30C1002BC4AD /* ZNTodayOffersTableViewCell.swift in Sources */,
+				ADE4AFFC1EEEC93B00E1F54A /* OptionPickerManager.m in Sources */,
+				ADCAED001EFD2C840090BB72 /* ZNPagination.swift in Sources */,
+				049F20BC1EF04601005C28AF /* ZNRewardVC.swift in Sources */,
+				EFF77D9A1EF9325600071DE5 /* SDWebImageCompat.m in Sources */,
+				EFF77DA51EF9325600071DE5 /* UIView+WebCacheOperation.m in Sources */,
+				2BC5E5141EE2F0870078EB3F /* ZNMyCouponInfo.swift in Sources */,
+				ADE4AFE01EEE58EF00E1F54A /* ZNTodayOfferHeaderCell.swift in Sources */,
+				04183EDA1EF0E7BC008B1FE5 /* ZNSpaRewardVC.swift in Sources */,
+				253CACF81EE01747002DACA2 /* KYEmbedMainControllerSegue.swift in Sources */,
+				E8DAE6EE1F22229900ED8A44 /* NSString+Base64.m in Sources */,
+				25CFE1AD1EE15B00006EAAD3 /* ZNStoreListVC.swift in Sources */,
+				ADE4B0001EEEC9F000E1F54A /* RMActionController.m in Sources */,
+				049F20C91EF04625005C28AF /* ZNRewardStampsTableViewCell.swift in Sources */,
+				EFF77D981EF9325600071DE5 /* NSData+ImageContentType.m in Sources */,
+				6880DE001EDC2BDA00FD0BBD /* AlertController.swift in Sources */,
+				046BC4E31EEEB90A002A1B88 /* ZNCustomSharePopUpViewController.swift in Sources */,
+				0480E8311EDEF6FC00CCC2B1 /* SVSlidingPanelViewController.swift in Sources */,
+				04609CC81EEC0F4A002BC4AD /* ZNProfileVC.swift in Sources */,
+				045C66EA1EE6A05F006F9777 /* ZNUserShippingDetailTableViewCell.swift in Sources */,
+				E8DAE6ED1F22229900ED8A44 /* NSData+CommonCrypto.m in Sources */,
+				2B89750C1EEFA15E004E584A /* ZNSpaDetailVC.swift in Sources */,
+				2BF1DAF51EEE680E00B1072A /* ZNProductDetailDescTableViewCell.swift in Sources */,
+				2BDD14561EE679BF003A495F /* ZNLoginTableViewCell.swift in Sources */,
+				AD1A62671EEAC8C6006FC5E7 /* JBDatePickerDayView.swift in Sources */,
+				2B87C1561EDDBCBD005CF9CC /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				252D79881EEBD08A0094429A /* ZNOffersTableViewCell.swift in Sources */,
+				EDA9BFBD1EE0343D001CE28E /* ZNDishListCollectionViewCell.swift in Sources */,
+				254164001EE9228400C6B3CD /* ZNPointStatusTableViewCell.swift in Sources */,
+				EDA9BF9E1EDFD172001CE28E /* ZNStoreListTableViewCell.swift in Sources */,
+				E8DAE6D91F21FFDD00ED8A44 /* ZNCardOnfo.swift in Sources */,
+				25CFE1DA1EE15BC1006EAAD3 /* ZNRestaurantVC.swift in Sources */,
+				0480E8071EDE87AE00CCC2B1 /* DatePickerDialog.swift in Sources */,
+				04609CD41EEC5193002BC4AD /* ZNOffersLoyalityEarnedVC.swift in Sources */,
+				253CACF61EE01747002DACA2 /* KYDrawerController.swift in Sources */,
+				2B87C1541EDDBCBD005CF9CC /* EDKeyboardAvoidingTableView.m in Sources */,
+				25DD801C1EDF0D1C00D68240 /* ZNHomeVC.swift in Sources */,
+				E86E79281F2771B0008BF2C0 /* ZNCategoryInfo.swift in Sources */,
+				049F20C71EF04625005C28AF /* ZNRewardPointsTableViewCell.swift in Sources */,
+				AD1A626D1EEAC8C6006FC5E7 /* JBDatePickerViewDelegate.swift in Sources */,
+				2BF1DAFA1EEE7A0100B1072A /* ZNRestaurantTableViewCell.swift in Sources */,
+				2B87C13E1EDDBB02005CF9CC /* ZNSetNotificationTableViewCell.swift in Sources */,
+				EFF77D9D1EF9325600071DE5 /* SDWebImageDownloaderOperation.m in Sources */,
+				045C66F01EE6F215006F9777 /* ZNAboutUsVC.swift in Sources */,
+				AD1A62651EEAC8C6006FC5E7 /* JBDateExtension.swift in Sources */,
+				AD2A079B1F14DFE800F11C06 /* ZNPointAnnotion.swift in Sources */,
+				2B8B5A361EE000240080C053 /* ZNUserInfo.swift in Sources */,
+				25C9A6BB1EE27D0A0026C41C /* ZNStamps.swift in Sources */,
+				25C9A6BE1EE2BFD80026C41C /* ZNPointsTableViewCell.swift in Sources */,
+				6880DE041EDC2BDA00FD0BBD /* StringExtensions.swift in Sources */,
+				EFF77D9E1EF9325600071DE5 /* SDWebImageManager.m in Sources */,
+				AD1A62691EEAC8C6006FC5E7 /* JBDatePickerManager.swift in Sources */,
+				2BB3C85D1EE53F1700EFCA3E /* ZNGradientButton.swift in Sources */,
+				2B87C1301EDDBAEF005CF9CC /* ZNLoginVC.swift in Sources */,
+				25CFE1F31EE15CB9006EAAD3 /* ZNSettingVC.swift in Sources */,
+				0484C3AF1EDDC84A000ECC4C /* ZNSignUpVC.swift in Sources */,
+				2BF1DB021EEECC4500B1072A /* ZNSpaInfo.swift in Sources */,
+				2BC5E5111EE2F05C0078EB3F /* ZNMyCouponsTableViewCell.swift in Sources */,
+				0480E82B1EDEEFF800CCC2B1 /* ZNMenuTableViewCell.swift in Sources */,
+				EFF77D991EF9325600071DE5 /* SDImageCache.m in Sources */,
+				EDA9BFC01EE03A33001CE28E /* ZNDishInfo.swift in Sources */,
+				AD1A626B1EEAC8C6006FC5E7 /* JBDatePickerSelectionView.swift in Sources */,
+				EFF77DA31EF9325600071DE5 /* UIImageView+HighlightedWebCache.m in Sources */,
+				2BB3C85A1EE51DB400EFCA3E /* ZNCouponsDetailVC.swift in Sources */,
+				049F20BA1EF04601005C28AF /* ZNRestaurantRewardsVC.swift in Sources */,
+				EF7FF0121EF7C5FC00B10602 /* FNPConstants.swift in Sources */,
+				ED56E1681F21D6A2003344CD /* ZNAddressListInfo.swift in Sources */,
+				ADF180751EFBC76600DCCCB7 /* ZNDrawPolylineClass.m in Sources */,
+				04609CCC1EEC2CDE002BC4AD /* ZNTodayOffersVC.swift in Sources */,
+				ADE4AFFD1EEEC93B00E1F54A /* RMPickerViewController.m in Sources */,
+				EDC4B5A51EDEF87B00E44584 /* ZNStoreInfo.swift in Sources */,
+				ADB1C1D11EE97F9A004A4F15 /* MASliderView.swift in Sources */,
+				E8DAE6EC1F22229900ED8A44 /* NSData+Base64.m in Sources */,
+				2B87C1521EDDBCBD005CF9CC /* EDKeyboardAvoidingCollectionView.m in Sources */,
+				E8DAE6D71F21FDDA00ED8A44 /* MonthYearPickerView.swift in Sources */,
+				04609CBB1EEBBA4E002BC4AD /* ZNEditProfileVC.swift in Sources */,
+				E8466D461F26121F009E8A39 /* ZNPaymentViewController.swift in Sources */,
+				25CFE1F81EE160DD006EAAD3 /* ZNRouteMapVC.swift in Sources */,
+				EFF77DA41EF9325600071DE5 /* UIImageView+WebCache.m in Sources */,
+				25CFE1EE1EE15C74006EAAD3 /* ZNStoreDetailVC.swift in Sources */,
+				25CFE1C11EE15B52006EAAD3 /* ZNForgotPasswordVC.swift in Sources */,
+				2BDD145A1EE6C329003A495F /* ZNContactUsVC.swift in Sources */,
+				25C9A6B11EE26FB00026C41C /* ZNPointsVC.swift in Sources */,
+				04609CC41EEBD3CB002BC4AD /* ZNProfileTableViewCell.swift in Sources */,
+				EFACF9691F20A65B00753AB7 /* ZNJoinUsTableCell.swift in Sources */,
+				E8A708631F25C2E6001351B2 /* ZNAddCardViewController.swift in Sources */,
+				EFF77DA21EF9325600071DE5 /* UIImage+MultiFormat.m in Sources */,
+				EF7FF0131EF7C5FC00B10602 /* MBProgressHUD.m in Sources */,
+				AD1A62661EEAC8C6006FC5E7 /* JBDatePickerContentVC.swift in Sources */,
+				2BC5E5181EE2F0E00078EB3F /* ZNMyCouponsVC.swift in Sources */,
+				2B75BC1D1EE19E5400DA51C5 /* ZNDishListViewController.swift in Sources */,
+				ED56E1611F21C57C003344CD /* ZNAddressListViewController.swift in Sources */,
+				EFACF9711F20AA3A00753AB7 /* ZNDishItemListViewController.swift in Sources */,
+				25C6C2641EEEBE1B00FFDDAF /* ZNPlaceOrderTableViewCell.swift in Sources */,
+				2BF1DAFF1EEECC1A00B1072A /* ZNSpaTableViewCell.swift in Sources */,
+				25CFE1801EE1582F006EAAD3 /* ZNChangePassswordVC.swift in Sources */,
+				ED1D837E1EDD82B80090A8AD /* ZNLoyalityGainInfoTableViewCell.swift in Sources */,
+				2B7F04701EDFDC2B00230EBF /* ZNStoreDetailTableViewCell.swift in Sources */,
+				25C9A6B81EE27C110026C41C /* ZNStampsTableViewCell.swift in Sources */,
+				25CFE1761EE15766006EAAD3 /* ZNRetailersSettingVC.swift in Sources */,
+				25CFE1CB1EE15B71006EAAD3 /* ZNChangeRetailerVC.swift in Sources */,
+				E8DAE6EB1F22229900ED8A44 /* AESCrypt.m in Sources */,
+				6880DDD21EDC299F00FD0BBD /* AppDelegate.swift in Sources */,
+				EDA9BFA81EDFD61C001CE28E /* ZNRetailersSettingTableViewCell.swift in Sources */,
+				AD1A626C1EEAC8C6006FC5E7 /* JBDatePickerView.swift in Sources */,
+				AD1A62511EEAC7D5006FC5E7 /* ZNBookATableVC.swift in Sources */,
+				ED56E1651F21C5F6003344CD /* ZNSaveListTableViewCell.swift in Sources */,
+				AD1A626A1EEAC8C6006FC5E7 /* JBDatePickerMonthView.swift in Sources */,
+				E8DAE6D41F21E0D700ED8A44 /* ZNAddCardTableViewCell.swift in Sources */,
+				EFACF96B1F20A65B00753AB7 /* ZNStoreUserInfoTableCell.swift in Sources */,
+				EDA9BFAF1EDFE48F001CE28E /* ZNRetailersInfo.swift in Sources */,
+				EF845E811F1C9F0B0072E65A /* ZNBookTableInfo.swift in Sources */,
+				EFF77D9F1EF9325600071DE5 /* SDWebImagePrefetcher.m in Sources */,
+				ADB1C1D01EE97F9A004A4F15 /* MASliderSpringAnimator.swift in Sources */,
+				2B87C1551EDDBCBD005CF9CC /* HADropDown 4.07.07 PM.swift in Sources */,
+				2B87C15D1EDDBD7F005CF9CC /* MAPlaceholderTextView.swift in Sources */,
+				ADE4AFE71EEE9EFC00E1F54A /* RPicker.swift in Sources */,
+				ADB1C1CF1EE97F9A004A4F15 /* MASliderAnimating.swift in Sources */,
+				2BC5E5031EE2E9DA0078EB3F /* ZNBookAppointmentVC.swift in Sources */,
+				AD1A626E1EEAC8C6006FC5E7 /* JBDatePickerWeekDaysView.swift in Sources */,
+				0484C3B71EDDC896000ECC4C /* ZNSignUpTableViewCell.swift in Sources */,
+				254DD1AF1EEFA921009F4240 /* ZNThanksVC.swift in Sources */,
+				25DD80271EDF0DC800D68240 /* RContainerController.swift in Sources */,
+				AD1A62681EEAC8C6006FC5E7 /* JBDatePickerEnums.swift in Sources */,
+				256DDD4A1EE04E94007A45DE /* ZNSideTableViewCell.swift in Sources */,
+				2B87C15B1EDDBD7F005CF9CC /* BTCustomTextfield.swift in Sources */,
+				ED6954DE1EE137C200F3B6EC /* ZNOrderListTableViewCell.swift in Sources */,
+				2B75BC1F1EE19E5400DA51C5 /* ZNOrderListVC.swift in Sources */,
+				2BC5E4FE1EE2E9870078EB3F /* ZNRestaurantDetailVC.swift in Sources */,
+				049F20CC1EF0468F005C28AF /* ZNProductInfo.swift in Sources */,
+				25FDDC401EEE89A90018EBC9 /* ZNThankYouVC.swift in Sources */,
+				AD1A62701EEAC8C6006FC5E7 /* JBFont.swift in Sources */,
+				EFF77D9C1EF9325600071DE5 /* SDWebImageDownloader.m in Sources */,
+				EFACF9731F20AA3A00753AB7 /* ZNDishTableCell.swift in Sources */,
+				2B7F04741EDFDC4200230EBF /* ZNConstant.swift in Sources */,
+				25DD80201EDF0D8000D68240 /* ZNHomeTableViewCell.swift in Sources */,
+				253CAD031EE035AC002DACA2 /* ZNSideMenuVC.swift in Sources */,
+				25DD80331EDF0E7F00D68240 /* ZNHomeModelClass.swift in Sources */,
+				25C9A6AF1EE26FB00026C41C /* ZNMyPointsVC.swift in Sources */,
+				EFF77DA01EF9325600071DE5 /* UIButton+WebCache.m in Sources */,
+				AD1A626F1EEAC8C6006FC5E7 /* JBDatePickerWeekView.swift in Sources */,
+				E8DAE6E11F22138A00ED8A44 /* ZNStampsVC.swift in Sources */,
+				2B87C1511EDDBCBD005CF9CC /* FacebookManager.swift in Sources */,
+				ADB1C1D21EE97F9A004A4F15 /* MASliderViewController.swift in Sources */,
+				ED6954E11EE14F7700F3B6EC /* ZNOrderListInfo.swift in Sources */,
+				ED56E16F1F21F6D3003344CD /* ZNCardListViewController.swift in Sources */,
+				25CFE1E41EE15C19006EAAD3 /* ZNProductDetailVC.swift in Sources */,
+				2B87C1531EDDBCBD005CF9CC /* EDKeyboardAvoidingScrollView.m in Sources */,
+				25CFE1BC1EE15B37006EAAD3 /* ZNLoyalityGainInfoVC.swift in Sources */,
+				EF7FF0141EF7C5FC00B10602 /* Reachability.m in Sources */,
+				EFF77D9B1EF9325600071DE5 /* SDWebImageDecoder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6880DDDE1EDC29A000FD0BBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Mobiloitte Technologies India Private Limited";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Mobiloitte Technologies India Private Limited";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 7J2R863MG8;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "76423069-b808-4d53-80e5-b60cc0e525b4";
+				PROVISIONING_PROFILE_SPECIFIER = MobiloitteEnterprise19Nov16;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6880DDDF1EDC29A000FD0BBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Mobiloitte Technologies India Private Limited";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Mobiloitte Technologies India Private Limited";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 7J2R863MG8;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "76423069-b808-4d53-80e5-b60cc0e525b4";
+				PROVISIONING_PROFILE_SPECIFIER = MobiloitteEnterprise19Nov16;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6880DDE11EDC29A000FD0BBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03CE1ED23ACB4558B6FD3949 /* Pods-Zenith.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = Zenith/Zenith.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Mobiloitte Technologies India Private Limited";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Mobiloitte Technologies India Private Limited";
+				DEVELOPMENT_TEAM = AX4G8WBWQ8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Zenith/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobiloitte;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "76423069-b808-4d53-80e5-b60cc0e525b4";
+				PROVISIONING_PROFILE_SPECIFIER = MobiloitteEnterprise19Nov16;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/shridharagarwal/Desktop/Zenith@27July/Zenith/Zenith/BridgingHeader.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6880DDE21EDC29A000FD0BBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB1C2E6418D7460824A46AA6 /* Pods-Zenith.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = Zenith/Zenith.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Mobiloitte Technologies India Private Limited";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Mobiloitte Technologies India Private Limited";
+				DEVELOPMENT_TEAM = AX4G8WBWQ8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Zenith/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobiloitte;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "76423069-b808-4d53-80e5-b60cc0e525b4";
+				PROVISIONING_PROFILE_SPECIFIER = MobiloitteEnterprise19Nov16;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/shridharagarwal/Desktop/Zenith@27July/Zenith/Zenith/BridgingHeader.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6880DDC91EDC299F00FD0BBD /* Build configuration list for PBXProject "Zenith" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6880DDDE1EDC29A000FD0BBD /* Debug */,
+				6880DDDF1EDC29A000FD0BBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6880DDE01EDC29A000FD0BBD /* Build configuration list for PBXNativeTarget "Zenith" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6880DDE11EDC29A000FD0BBD /* Debug */,
+				6880DDE21EDC29A000FD0BBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6880DDC61EDC299F00FD0BBD /* Project object */;
+}

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Itc kabel Std-Book.otf">
+            <string>ITCKabelStd-Book</string>
+        </array>
+        <array key="Itc kabel Std-Medium.otf">
+            <string>ITCKabelStd-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZNAboutUsVC" customModule="Zenith" customModuleProvider="target">
+            <connections>
+                <outlet property="aboutUsTextView" destination="Bsf-Id-6NW" id="R8n-JZ-UWk"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="webViewAbout" destination="Jtg-Gd-ILW" id="ArJ-qB-1XO"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p1U-mW-Ozd">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="178"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G4o-8U-KVl">
+                            <rect key="frame" x="15" y="20" width="60" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="60" id="Y0R-gf-vob"/>
+                                <constraint firstAttribute="height" constant="44" id="nAc-gU-osV"/>
+                            </constraints>
+                            <state key="normal" image="backIcon"/>
+                            <connections>
+                                <action selector="backButtonAction:" destination="-1" eventType="touchUpInside" id="Lmg-0n-NEC"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Us" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="omI-yr-sMw">
+                            <rect key="frame" x="147.5" y="32" width="81.5" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="72" id="VOx-5y-bGT"/>
+                                <constraint firstAttribute="height" constant="21" id="e3T-l5-2YQ"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="ITCKabelStd-Medium" family="ITC Kabel Std" pointSize="20"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.71372549019999998" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="omI-yr-sMw" firstAttribute="centerX" secondItem="p1U-mW-Ozd" secondAttribute="centerX" id="1KR-Ix-ZK5"/>
+                        <constraint firstItem="G4o-8U-KVl" firstAttribute="top" secondItem="p1U-mW-Ozd" secondAttribute="top" constant="20" id="5JK-n8-lqJ"/>
+                        <constraint firstItem="omI-yr-sMw" firstAttribute="top" secondItem="p1U-mW-Ozd" secondAttribute="top" constant="32" id="9mN-nc-9OD"/>
+                        <constraint firstAttribute="height" constant="178" id="B9x-5N-Yk0"/>
+                        <constraint firstItem="G4o-8U-KVl" firstAttribute="leading" secondItem="p1U-mW-Ozd" secondAttribute="leading" constant="15" id="Yma-zo-Z85"/>
+                    </constraints>
+                </view>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bsf-Id-6NW">
+                    <rect key="frame" x="13" y="80" width="349" height="574"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="textColor" red="0.30196078431372547" green="0.30196078431372547" blue="0.30196078431372547" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" name="ITCKabelStd-Book" family="ITC Kabel Std" pointSize="17"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jtg-Gd-ILW">
+                    <rect key="frame" x="13" y="80" width="349" height="574"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="T0J-qr-tC5"/>
+                    </connections>
+                </webView>
+            </subviews>
+            <color key="backgroundColor" red="0.9137254901960784" green="0.91764705882352937" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Bsf-Id-6NW" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="13" id="50Y-OA-Mch"/>
+                <constraint firstItem="Jtg-Gd-ILW" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="80" id="E0U-aZ-ScF"/>
+                <constraint firstItem="Jtg-Gd-ILW" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="13" id="GWK-S6-whb"/>
+                <constraint firstItem="p1U-mW-Ozd" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="LCl-1X-Tvg"/>
+                <constraint firstAttribute="bottom" secondItem="Bsf-Id-6NW" secondAttribute="bottom" constant="13" id="X1J-bA-IuV"/>
+                <constraint firstItem="Bsf-Id-6NW" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="80" id="X7f-LN-UZk"/>
+                <constraint firstItem="p1U-mW-Ozd" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="a7o-Cv-tRH"/>
+                <constraint firstAttribute="trailing" secondItem="p1U-mW-Ozd" secondAttribute="trailing" id="eO2-Qk-gZR"/>
+                <constraint firstAttribute="bottom" secondItem="Jtg-Gd-ILW" secondAttribute="bottom" constant="13" id="hcb-wU-HkL"/>
+                <constraint firstAttribute="trailing" secondItem="Jtg-Gd-ILW" secondAttribute="trailing" constant="13" id="ii4-z9-BYE"/>
+                <constraint firstAttribute="trailing" secondItem="Bsf-Id-6NW" secondAttribute="trailing" constant="13" id="yfF-jQ-C0o"/>
+            </constraints>
+            <point key="canvasLocation" x="31" y="-24"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="backIcon" width="25" height="25"/>
+    </resources>
+</document>

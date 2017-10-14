@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Itc kabel Std-Book.otf">
+            <string>ITCKabelStd-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ZNAddCardTableViewCell" id="KGk-i7-Jjw" customClass="ZNAddCardTableViewCell" customModule="Zenith" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="104"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="103.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="V72-aQ-vM0">
+                        <rect key="frame" x="20" y="38" width="280" height="50"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="96u-Dx-KSC"/>
+                        </constraints>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" name="ITCKabelStd-Book" family="ITC Kabel Std" pointSize="16"/>
+                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
+                    </textField>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y3m-Xp-FLq">
+                        <rect key="frame" x="20" y="90" width="280" height="1"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="dnV-El-Pgp"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Card Number" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fYU-nU-tUp">
+                        <rect key="frame" x="20" y="11" width="280" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="9zO-6U-E5O"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="ITCKabelStd-Book" family="ITC Kabel Std" pointSize="16"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="USD-Ic-9ZV">
+                        <rect key="frame" x="20" y="38" width="280" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="b8i-oZ-Hc1"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="ITCKabelStd-Book" family="ITC Kabel Std" pointSize="16"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="fYU-nU-tUp" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="0Ec-Ln-jtS"/>
+                    <constraint firstItem="fYU-nU-tUp" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="7M5-dE-CHV"/>
+                    <constraint firstItem="V72-aQ-vM0" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="EdD-4n-5xe"/>
+                    <constraint firstItem="V72-aQ-vM0" firstAttribute="top" secondItem="fYU-nU-tUp" secondAttribute="bottom" constant="3" id="KfK-mG-Xge"/>
+                    <constraint firstAttribute="trailing" secondItem="USD-Ic-9ZV" secondAttribute="trailing" constant="20" id="ML0-sB-QPW"/>
+                    <constraint firstAttribute="trailing" secondItem="fYU-nU-tUp" secondAttribute="trailing" constant="20" id="QpY-6e-d7J"/>
+                    <constraint firstItem="USD-Ic-9ZV" firstAttribute="top" secondItem="fYU-nU-tUp" secondAttribute="bottom" constant="3" id="eDM-rJ-8N6"/>
+                    <constraint firstItem="USD-Ic-9ZV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="j3z-fo-jLo"/>
+                    <constraint firstItem="y3m-Xp-FLq" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="kBQ-B8-SDR"/>
+                    <constraint firstAttribute="trailing" secondItem="V72-aQ-vM0" secondAttribute="trailing" constant="20" id="pLY-Hw-SXq"/>
+                    <constraint firstAttribute="trailing" secondItem="y3m-Xp-FLq" secondAttribute="trailing" constant="20" id="pt8-6i-QeN"/>
+                    <constraint firstItem="y3m-Xp-FLq" firstAttribute="top" secondItem="USD-Ic-9ZV" secondAttribute="bottom" constant="2" id="t3T-aq-Cb1"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="cardDetailButton" destination="USD-Ic-9ZV" id="z3C-Qq-ObM"/>
+                <outlet property="cardDetailTextField" destination="V72-aQ-vM0" id="kd3-Bi-kFS"/>
+                <outlet property="cardDetailTitleLabel" destination="fYU-nU-tUp" id="Mok-tn-5Ha"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

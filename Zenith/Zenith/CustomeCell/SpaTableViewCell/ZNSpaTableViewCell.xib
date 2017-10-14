@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Itc kabel Std-Book.otf">
+            <string>ITCKabelStd-Book</string>
+        </array>
+        <array key="Itc kabel Std-Medium.otf">
+            <string>ITCKabelStd-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="ZNSpaTableViewCell" customModule="Zenith" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="349" height="115"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="349" height="114.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="S8j-d9-ygO">
+                        <rect key="frame" x="15" y="9" width="90" height="90"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="90" id="Vpm-oQ-ifB"/>
+                            <constraint firstAttribute="width" constant="90" id="jcX-5G-Pgs"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="54F-nP-wp4">
+                        <rect key="frame" x="120" y="18" width="47" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="2nQ-Y4-B3V"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="47" id="4kY-fb-RUI"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="ITCKabelStd-Medium" family="ITC Kabel Std" pointSize="20"/>
+                        <color key="textColor" red="0.30196078431372547" green="0.30196078431372547" blue="0.30196078431372547" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jab-an-y4Q">
+                        <rect key="frame" x="120" y="51" width="37" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="Ons-8w-V7p"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="37" id="aIb-ve-M8f"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="ITCKabelStd-Book" family="ITC Kabel Std" pointSize="17"/>
+                        <color key="textColor" red="0.30196078431372547" green="0.30196078431372547" blue="0.30196078431372547" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z2K-Lg-LCP">
+                        <rect key="frame" x="120" y="76" width="37" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="37" id="2R9-fF-pcX"/>
+                            <constraint firstAttribute="height" constant="21" id="dWN-at-lac"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="ITCKabelStd-Book" family="ITC Kabel Std" pointSize="17"/>
+                        <color key="textColor" red="0.30196078431372547" green="0.30196078431372547" blue="0.30196078431372547" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow1" translatesAutoresizingMaskIntoConstraints="NO" id="DHA-wl-6S7">
+                        <rect key="frame" x="315" y="47" width="10" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="10" id="I4R-Md-r2k"/>
+                            <constraint firstAttribute="height" constant="20" id="K2M-4K-bf0"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="54F-nP-wp4" firstAttribute="leading" secondItem="S8j-d9-ygO" secondAttribute="trailing" constant="15" id="6C1-2U-sZ6"/>
+                    <constraint firstAttribute="trailing" secondItem="DHA-wl-6S7" secondAttribute="trailing" constant="24" id="78b-mX-gXb"/>
+                    <constraint firstItem="z2K-Lg-LCP" firstAttribute="leading" secondItem="S8j-d9-ygO" secondAttribute="trailing" constant="15" id="CvD-9K-yxE"/>
+                    <constraint firstItem="54F-nP-wp4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="18" id="Wma-EY-hat"/>
+                    <constraint firstItem="z2K-Lg-LCP" firstAttribute="top" secondItem="Jab-an-y4Q" secondAttribute="bottom" constant="4" id="bV9-br-n7k"/>
+                    <constraint firstItem="DHA-wl-6S7" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="47" id="dBV-eu-8I8"/>
+                    <constraint firstItem="S8j-d9-ygO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="s2L-bT-oUi"/>
+                    <constraint firstItem="Jab-an-y4Q" firstAttribute="leading" secondItem="S8j-d9-ygO" secondAttribute="trailing" constant="15" id="vJ3-ty-Dzz"/>
+                    <constraint firstItem="S8j-d9-ygO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="9" id="vci-R2-yps"/>
+                    <constraint firstItem="Jab-an-y4Q" firstAttribute="top" secondItem="54F-nP-wp4" secondAttribute="bottom" constant="12" id="yc2-Ah-OyN"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="arrowTrailingConstraint" destination="78b-mX-gXb" id="gdt-L1-RWO"/>
+                <outlet property="spaAddressLabel" destination="Jab-an-y4Q" id="1QP-lL-Cl1"/>
+                <outlet property="spaDistanceLabel" destination="z2K-Lg-LCP" id="SH4-x7-HLO"/>
+                <outlet property="spaImage" destination="S8j-d9-ygO" id="U06-o0-7bg"/>
+                <outlet property="spaNameLabel" destination="54F-nP-wp4" id="blw-QJ-Yuo"/>
+            </connections>
+            <point key="canvasLocation" x="25.5" y="52.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="arrow1" width="10" height="17"/>
+    </resources>
+</document>

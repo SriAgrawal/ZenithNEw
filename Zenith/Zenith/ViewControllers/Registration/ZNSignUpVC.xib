@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Itc kabel Std-Book.otf">
+            <string>ITCKabelStd-Book</string>
+        </array>
+        <array key="Itc kabel Std-Medium.otf">
+            <string>ITCKabelStd-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZNSignUpVC" customModule="Zenith" customModuleProvider="target">
+            <connections>
+                <outlet property="signUpImage" destination="ofH-ad-ywQ" id="dE1-Er-a8c"/>
+                <outlet property="signUpTableView" destination="FXa-1u-8hw" id="TPw-tQ-0Oe"/>
+                <outlet property="tickButton" destination="Fcv-bq-bKq" id="nqS-nf-f91"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="XjT-2i-za3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" restorationIdentifier="ZNSignUpTableViewCell" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qaW-C5-T0M">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="170"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IAp-L4-RhY">
+                            <rect key="frame" x="15" y="24" width="60" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="60" id="d1b-u0-iLh"/>
+                                <constraint firstAttribute="height" constant="44" id="fg7-sg-VWa"/>
+                            </constraints>
+                            <state key="normal" image="backIcon">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="backButtonClick:" destination="-1" eventType="touchUpInside" id="mp8-Id-RR3"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign Up" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UaR-sm-yiF">
+                            <rect key="frame" x="119" y="35" width="137" height="22"/>
+                            <constraints>
+                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="137" id="3jA-vm-DI9"/>
+                                <constraint firstAttribute="height" constant="22" id="6X3-4B-GbX"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="ITCKabelStd-Medium" family="ITC Kabel Std" pointSize="20"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.71372549019607845" blue="0.98431372549019602" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="170" id="NMk-i5-zDS"/>
+                        <constraint firstItem="UaR-sm-yiF" firstAttribute="centerX" secondItem="qaW-C5-T0M" secondAttribute="centerX" id="SHq-yf-jDM"/>
+                        <constraint firstItem="IAp-L4-RhY" firstAttribute="top" secondItem="qaW-C5-T0M" secondAttribute="top" constant="24" id="X2d-zk-gko"/>
+                        <constraint firstItem="IAp-L4-RhY" firstAttribute="leading" secondItem="qaW-C5-T0M" secondAttribute="leading" constant="15" id="jHO-Hw-rtE"/>
+                        <constraint firstItem="UaR-sm-yiF" firstAttribute="top" secondItem="qaW-C5-T0M" secondAttribute="top" constant="35" id="noy-4s-Uvb"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tDN-2U-YvY">
+                    <rect key="frame" x="13" y="121" width="350" height="375"/>
+                    <subviews>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" canCancelContentTouches="NO" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="FXa-1u-8hw" customClass="EDKeyboardAvoidingTableView">
+                            <rect key="frame" x="0.0" y="32" width="344" height="340"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="yaZ-8i-xof"/>
+                                <outlet property="delegate" destination="-1" id="dGN-fQ-Gpr"/>
+                            </connections>
+                        </tableView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="FXa-1u-8hw" secondAttribute="trailing" constant="6" id="Dhs-Yc-2IN"/>
+                        <constraint firstItem="FXa-1u-8hw" firstAttribute="leading" secondItem="tDN-2U-YvY" secondAttribute="leading" id="PVJ-bz-4fG"/>
+                        <constraint firstItem="FXa-1u-8hw" firstAttribute="top" secondItem="tDN-2U-YvY" secondAttribute="top" constant="32" id="tZC-cD-GfF"/>
+                        <constraint firstAttribute="bottom" secondItem="FXa-1u-8hw" secondAttribute="bottom" constant="3" id="ubv-fQ-DZc"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ofH-ad-ywQ">
+                    <rect key="frame" x="132.5" y="73" width="110" height="110"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="110" id="7dy-vE-eMj"/>
+                        <constraint firstAttribute="width" constant="110" id="Nly-TW-G6m"/>
+                    </constraints>
+                    <state key="normal" image="user"/>
+                    <connections>
+                        <action selector="onSignUpImageClick:" destination="-1" eventType="touchUpInside" id="s3p-0v-y9V"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fcv-bq-bKq">
+                    <rect key="frame" x="76.5" y="632" width="100" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="ZeB-QA-9Yt"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="ITCKabelStd-Book" family="ITC Kabel Std" pointSize="14"/>
+                    <inset key="titleEdgeInsets" minX="10" minY="5" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="I accept the " image="uncheckSquare_Signup">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected" image="checkSquare_SignUp"/>
+                    <connections>
+                        <action selector="tickButtonAction:" destination="-1" eventType="touchUpInside" id="LDd-bE-IbN"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="signup_bg" translatesAutoresizingMaskIntoConstraints="NO" id="eS5-5M-ogw">
+                    <rect key="frame" x="13" y="496" width="350" height="98"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="98" id="mSZ-d0-yB0"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9rI-Yt-AJC">
+                    <rect key="frame" x="151" y="538" width="74" height="74"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="74" id="OLa-1h-dQM"/>
+                        <constraint firstAttribute="width" constant="74" id="cXq-tW-Kxu"/>
+                    </constraints>
+                    <state key="normal" image="signupButton"/>
+                    <connections>
+                        <action selector="onSignUPClick:" destination="-1" eventType="touchUpInside" id="c3w-ho-ubp"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4fL-qe-s2k">
+                    <rect key="frame" x="179" y="624.5" width="134" height="28.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="134" id="WXT-5o-Ws9"/>
+                    </constraints>
+                    <color key="tintColor" red="0.019607843137254902" green="0.6588235294117647" blue="0.85490196078431369" alpha="1" colorSpace="calibratedRGB"/>
+                    <inset key="titleEdgeInsets" minX="0.0" minY="5" maxX="0.0" maxY="0.0"/>
+                    <state key="normal">
+                        <attributedString key="attributedTitle">
+                            <fragment content="Terms &amp; Conditions">
+                                <attributes>
+                                    <color key="NSColor" red="0.0" green="0.71372549019999998" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <font key="NSFont" size="14" name=".SFNSText"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                    <integer key="NSUnderline" value="1"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                    </state>
+                    <connections>
+                        <action selector="tcBtnAction:" destination="-1" eventType="touchUpInside" id="tah-iQ-MtO"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lZa-22-mvx">
+                    <rect key="frame" x="25" y="494" width="324" height="1"/>
+                    <color key="backgroundColor" red="0.89803921568627454" green="0.89803921568627454" blue="0.89803921568627454" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="Vye-AD-wp6"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.9137254901960784" green="0.9137254901960784" blue="0.9137254901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <accessibility key="accessibilityConfiguration" identifier="ZNSignUpTableViewCell"/>
+            <constraints>
+                <constraint firstItem="Fcv-bq-bKq" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="-61" id="31m-n8-d7B"/>
+                <constraint firstAttribute="trailing" secondItem="lZa-22-mvx" secondAttribute="trailing" constant="26" id="7ef-Kx-D19"/>
+                <constraint firstItem="tDN-2U-YvY" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="121" id="9MH-kg-XB3"/>
+                <constraint firstItem="ofH-ad-ywQ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="73" id="9hl-PU-e8k"/>
+                <constraint firstItem="eS5-5M-ogw" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="13" id="Aez-G8-lfg"/>
+                <constraint firstItem="eS5-5M-ogw" firstAttribute="top" secondItem="lZa-22-mvx" secondAttribute="bottom" constant="1" id="BKj-uq-iDG"/>
+                <constraint firstAttribute="trailing" secondItem="eS5-5M-ogw" secondAttribute="trailing" constant="12" id="CQI-a3-38a"/>
+                <constraint firstItem="lZa-22-mvx" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="25" id="E8D-5k-fVJ"/>
+                <constraint firstItem="qaW-C5-T0M" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="S7Y-eN-qsu"/>
+                <constraint firstItem="4fL-qe-s2k" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="58.5" id="UYd-oe-a7y"/>
+                <constraint firstAttribute="bottom" secondItem="4fL-qe-s2k" secondAttribute="bottom" constant="14" id="WA5-97-rkE"/>
+                <constraint firstAttribute="bottom" secondItem="9rI-Yt-AJC" secondAttribute="bottom" constant="55" id="WSu-Hd-13u"/>
+                <constraint firstAttribute="trailing" secondItem="tDN-2U-YvY" secondAttribute="trailing" constant="12" id="Xcg-DZ-nd5"/>
+                <constraint firstItem="tDN-2U-YvY" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="13" id="bAC-Ld-0HY"/>
+                <constraint firstItem="4fL-qe-s2k" firstAttribute="leading" secondItem="Fcv-bq-bKq" secondAttribute="trailing" constant="2" id="hrk-m9-F3I"/>
+                <constraint firstAttribute="bottom" secondItem="eS5-5M-ogw" secondAttribute="bottom" constant="73" id="lOD-ov-mo9"/>
+                <constraint firstItem="4fL-qe-s2k" firstAttribute="leading" secondItem="Fcv-bq-bKq" secondAttribute="trailing" constant="2" id="oaw-Qn-Lbt"/>
+                <constraint firstItem="qaW-C5-T0M" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="pA1-Wd-akP"/>
+                <constraint firstAttribute="bottom" secondItem="Fcv-bq-bKq" secondAttribute="bottom" constant="17" id="qhQ-Ml-7sl"/>
+                <constraint firstItem="eS5-5M-ogw" firstAttribute="top" secondItem="tDN-2U-YvY" secondAttribute="bottom" id="vpG-Da-RK0"/>
+                <constraint firstItem="ofH-ad-ywQ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="-0.5" id="vsB-pt-9oG"/>
+                <constraint firstAttribute="trailing" secondItem="qaW-C5-T0M" secondAttribute="trailing" id="xbU-oR-qaM"/>
+                <constraint firstItem="9rI-Yt-AJC" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="0.5" id="zV4-gI-GYl"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-19.5" y="-28.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="backIcon" width="25" height="25"/>
+        <image name="checkSquare_SignUp" width="17" height="18"/>
+        <image name="signupButton" width="78" height="76"/>
+        <image name="signup_bg" width="300" height="76"/>
+        <image name="uncheckSquare_Signup" width="17" height="18"/>
+        <image name="user" width="115" height="115"/>
+    </resources>
+</document>
